@@ -80,97 +80,150 @@ where
         }
     }
 }
-pub const __MINGW64_VERSION_MAJOR: u32 = 10;
-pub const __MINGW64_VERSION_MINOR: u32 = 0;
-pub const __MINGW64_VERSION_BUGFIX: u32 = 0;
-pub const __MINGW64_VERSION_RC: u32 = 0;
-pub const __MINGW64_VERSION_STATE: &[u8; 6usize] = b"alpha\0";
-pub const __MINGW32_MAJOR_VERSION: u32 = 3;
-pub const __MINGW32_MINOR_VERSION: u32 = 11;
-pub const _M_AMD64: u32 = 100;
-pub const _M_X64: u32 = 100;
-pub const __: u32 = 1;
-pub const __MINGW_USE_UNDERSCORE_PREFIX: u32 = 0;
-pub const __MINGW_HAVE_ANSI_C99_PRINTF: u32 = 1;
-pub const __MINGW_HAVE_WIDE_C99_PRINTF: u32 = 1;
-pub const __MINGW_HAVE_ANSI_C99_SCANF: u32 = 1;
-pub const __MINGW_HAVE_WIDE_C99_SCANF: u32 = 1;
-pub const __MINGW_SEC_WARN_STR : & [u8 ; 92usize] = b"This function or variable may be unsafe, use _CRT_SECURE_NO_WARNINGS to disable deprecation\0" ;
-pub const __MINGW_MSVC2005_DEPREC_STR : & [u8 ; 117usize] = b"This POSIX function is deprecated beginning in Visual C++ 2005, use _CRT_NONSTDC_NO_DEPRECATE to disable deprecation\0" ;
-pub const __MINGW_FORTIFY_LEVEL: u32 = 0;
-pub const __MINGW_FORTIFY_VA_ARG: u32 = 0;
-pub const _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES: u32 = 1;
-pub const _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES_MEMORY: u32 = 0;
-pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES: u32 = 0;
-pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT: u32 = 0;
-pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY: u32 = 0;
-pub const __USE_CRTIMP: u32 = 1;
-pub const USE___UUIDOF: u32 = 0;
-pub const __CRT__NO_INLINE: u32 = 1;
-pub const __MSVCRT_VERSION__: u32 = 1792;
-pub const _WIN32_WINNT: u32 = 2560;
-pub const MINGW_HAS_SECURE_API: u32 = 1;
+pub const _VCRT_COMPILER_PREPROCESSOR: u32 = 1;
+pub const _SAL_VERSION: u32 = 20;
+pub const __SAL_H_VERSION: u32 = 180000000;
+pub const _USE_DECLSPECS_FOR_SAL: u32 = 0;
+pub const _USE_ATTRIBUTES_FOR_SAL: u32 = 0;
+pub const _CRT_PACKING: u32 = 8;
+pub const _HAS_EXCEPTIONS: u32 = 1;
+pub const NULL: u32 = 0;
+pub const _HAS_CXX17: u32 = 0;
+pub const _HAS_CXX20: u32 = 0;
+pub const _HAS_CXX23: u32 = 0;
+pub const _HAS_NODISCARD: u32 = 1;
+pub const _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE: u32 = 1;
+pub const _CRT_BUILD_DESKTOP_APP: u32 = 1;
+pub const _ARGMAX: u32 = 100;
+pub const _CRT_INT_MAX: u32 = 2147483647;
+pub const _CRT_FUNCTIONS_REQUIRED: u32 = 1;
+pub const _CRT_HAS_CXX17: u32 = 0;
+pub const _CRT_HAS_C11: u32 = 0;
+pub const _CRT_INTERNAL_NONSTDC_NAMES: u32 = 1;
 pub const __STDC_SECURE_LIB__: u32 = 200411;
 pub const __GOT_SECURE_LIB__: u32 = 200411;
-pub const MINGW_HAS_DDK_H: u32 = 1;
-pub const _CRT_PACKING: u32 = 8;
-pub const _SECURECRT_FILL_BUFFER_PATTERN: u32 = 253;
-pub const _ARGMAX: u32 = 100;
-pub const __USE_MINGW_ANSI_STDIO: u32 = 1;
+pub const __STDC_WANT_SECURE_LIB__: u32 = 1;
+pub const _SECURECRT_FILL_BUFFER_PATTERN: u32 = 254;
+pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES: u32 = 0;
+pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT: u32 = 0;
+pub const _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES: u32 = 1;
+pub const _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY: u32 = 0;
+pub const _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES_MEMORY: u32 = 0;
+pub const EPERM: u32 = 1;
+pub const ENOENT: u32 = 2;
+pub const ESRCH: u32 = 3;
+pub const EINTR: u32 = 4;
+pub const EIO: u32 = 5;
+pub const ENXIO: u32 = 6;
+pub const E2BIG: u32 = 7;
+pub const ENOEXEC: u32 = 8;
+pub const EBADF: u32 = 9;
+pub const ECHILD: u32 = 10;
+pub const EAGAIN: u32 = 11;
+pub const ENOMEM: u32 = 12;
+pub const EACCES: u32 = 13;
+pub const EFAULT: u32 = 14;
+pub const EBUSY: u32 = 16;
+pub const EEXIST: u32 = 17;
+pub const EXDEV: u32 = 18;
+pub const ENODEV: u32 = 19;
+pub const ENOTDIR: u32 = 20;
+pub const EISDIR: u32 = 21;
+pub const ENFILE: u32 = 23;
+pub const EMFILE: u32 = 24;
+pub const ENOTTY: u32 = 25;
+pub const EFBIG: u32 = 27;
+pub const ENOSPC: u32 = 28;
+pub const ESPIPE: u32 = 29;
+pub const EROFS: u32 = 30;
+pub const EMLINK: u32 = 31;
+pub const EPIPE: u32 = 32;
+pub const EDOM: u32 = 33;
+pub const EDEADLK: u32 = 36;
+pub const ENAMETOOLONG: u32 = 38;
+pub const ENOLCK: u32 = 39;
+pub const ENOSYS: u32 = 40;
+pub const ENOTEMPTY: u32 = 41;
+pub const EINVAL: u32 = 22;
+pub const ERANGE: u32 = 34;
+pub const EILSEQ: u32 = 42;
+pub const STRUNCATE: u32 = 80;
+pub const EDEADLOCK: u32 = 36;
+pub const EADDRINUSE: u32 = 100;
+pub const EADDRNOTAVAIL: u32 = 101;
+pub const EAFNOSUPPORT: u32 = 102;
+pub const EALREADY: u32 = 103;
+pub const EBADMSG: u32 = 104;
+pub const ECANCELED: u32 = 105;
+pub const ECONNABORTED: u32 = 106;
+pub const ECONNREFUSED: u32 = 107;
+pub const ECONNRESET: u32 = 108;
+pub const EDESTADDRREQ: u32 = 109;
+pub const EHOSTUNREACH: u32 = 110;
+pub const EIDRM: u32 = 111;
+pub const EINPROGRESS: u32 = 112;
+pub const EISCONN: u32 = 113;
+pub const ELOOP: u32 = 114;
+pub const EMSGSIZE: u32 = 115;
+pub const ENETDOWN: u32 = 116;
+pub const ENETRESET: u32 = 117;
+pub const ENETUNREACH: u32 = 118;
+pub const ENOBUFS: u32 = 119;
+pub const ENODATA: u32 = 120;
+pub const ENOLINK: u32 = 121;
+pub const ENOMSG: u32 = 122;
+pub const ENOPROTOOPT: u32 = 123;
+pub const ENOSR: u32 = 124;
+pub const ENOSTR: u32 = 125;
+pub const ENOTCONN: u32 = 126;
+pub const ENOTRECOVERABLE: u32 = 127;
+pub const ENOTSOCK: u32 = 128;
+pub const ENOTSUP: u32 = 129;
+pub const EOPNOTSUPP: u32 = 130;
+pub const EOTHER: u32 = 131;
+pub const EOVERFLOW: u32 = 132;
+pub const EOWNERDEAD: u32 = 133;
+pub const EPROTO: u32 = 134;
+pub const EPROTONOSUPPORT: u32 = 135;
+pub const EPROTOTYPE: u32 = 136;
+pub const ETIME: u32 = 137;
+pub const ETIMEDOUT: u32 = 138;
+pub const ETXTBSY: u32 = 139;
+pub const EWOULDBLOCK: u32 = 140;
 pub const _NLSCMPERROR: u32 = 2147483647;
-pub const NULL: u32 = 0;
 pub const STEAMCLIENT_INTERFACE_VERSION: &[u8; 15usize] = b"SteamClient020\0";
 pub const STEAMUSER_INTERFACE_VERSION: &[u8; 13usize] = b"SteamUser021\0";
 pub const STEAMFRIENDS_INTERFACE_VERSION: &[u8; 16usize] = b"SteamFriends017\0";
 pub const STEAMUTILS_INTERFACE_VERSION: &[u8; 14usize] = b"SteamUtils010\0";
+pub const _CRT_INTERNAL_STDIO_SYMBOL_PREFIX: &[u8; 1usize] = b"\0";
 pub const _CRT_INTERNAL_PRINTF_LEGACY_VSPRINTF_NULL_TERMINATION: u32 = 1;
 pub const _CRT_INTERNAL_PRINTF_STANDARD_SNPRINTF_BEHAVIOR: u32 = 2;
 pub const _CRT_INTERNAL_PRINTF_LEGACY_WIDE_SPECIFIERS: u32 = 4;
 pub const _CRT_INTERNAL_PRINTF_LEGACY_MSVCRT_COMPATIBILITY: u32 = 8;
 pub const _CRT_INTERNAL_PRINTF_LEGACY_THREE_DIGIT_EXPONENTS: u32 = 16;
+pub const _CRT_INTERNAL_PRINTF_STANDARD_ROUNDING: u32 = 32;
 pub const _CRT_INTERNAL_SCANF_SECURECRT: u32 = 1;
 pub const _CRT_INTERNAL_SCANF_LEGACY_WIDE_SPECIFIERS: u32 = 2;
 pub const _CRT_INTERNAL_SCANF_LEGACY_MSVCRT_COMPATIBILITY: u32 = 4;
-pub const _CRT_INTERNAL_LOCAL_PRINTF_OPTIONS: u32 = 4;
-pub const _CRT_INTERNAL_LOCAL_SCANF_OPTIONS: u32 = 2;
 pub const BUFSIZ: u32 = 512;
 pub const _NSTREAM_: u32 = 512;
-pub const _IOB_ENTRIES: u32 = 20;
+pub const _IOB_ENTRIES: u32 = 3;
 pub const EOF: i32 = -1;
-pub const _P_tmpdir: &[u8; 2usize] = b"\\\0";
-pub const _wP_tmpdir: &[u8; 2usize] = b"\\\0";
-pub const SEEK_CUR: u32 = 1;
-pub const SEEK_END: u32 = 2;
-pub const SEEK_SET: u32 = 0;
-pub const STDIN_FILENO: u32 = 0;
-pub const STDOUT_FILENO: u32 = 1;
-pub const STDERR_FILENO: u32 = 2;
-pub const FILENAME_MAX: u32 = 260;
-pub const FOPEN_MAX: u32 = 20;
-pub const _SYS_OPEN: u32 = 20;
-pub const TMP_MAX: u32 = 32767;
 pub const _IOFBF: u32 = 0;
 pub const _IOLBF: u32 = 64;
 pub const _IONBF: u32 = 4;
-pub const _IOREAD: u32 = 1;
-pub const _IOWRT: u32 = 2;
-pub const _IOMYBUF: u32 = 8;
-pub const _IOEOF: u32 = 16;
-pub const _IOERR: u32 = 32;
-pub const _IOSTRG: u32 = 64;
-pub const _IORW: u32 = 128;
-pub const _TWO_DIGIT_EXPONENT: u32 = 1;
-pub const P_tmpdir: &[u8; 2usize] = b"\\\0";
+pub const L_tmpnam: u32 = 260;
+pub const L_tmpnam_s: u32 = 260;
+pub const SEEK_CUR: u32 = 1;
+pub const SEEK_END: u32 = 2;
+pub const SEEK_SET: u32 = 0;
+pub const FILENAME_MAX: u32 = 260;
+pub const FOPEN_MAX: u32 = 20;
+pub const _SYS_OPEN: u32 = 20;
+pub const TMP_MAX: u32 = 2147483647;
+pub const TMP_MAX_S: u32 = 2147483647;
+pub const _TMP_MAX_S: u32 = 2147483647;
 pub const SYS_OPEN: u32 = 20;
-pub const _P_WAIT: u32 = 0;
-pub const _P_NOWAIT: u32 = 1;
-pub const _OLD_P_OVERLAY: u32 = 2;
-pub const _P_NOWAITO: u32 = 3;
-pub const _P_DETACH: u32 = 4;
-pub const _P_OVERLAY: u32 = 2;
-pub const _WAIT_CHILD: u32 = 0;
-pub const _WAIT_GRANDCHILD: u32 = 1;
-pub const TMP_MAX_S: u32 = 32767;
 pub const k_nMaxLobbyKeyLength: u32 = 255;
 pub const STEAMMATCHMAKING_INTERFACE_VERSION: &[u8; 20usize] = b"SteamMatchMaking009\0";
 pub const STEAMMATCHMAKINGSERVERS_INTERFACE_VERSION: &[u8; 27usize] =
@@ -220,53 +273,6 @@ pub const STEAMPARENTALSETTINGS_INTERFACE_VERSION: &[u8; 43usize] =
     b"STEAMPARENTALSETTINGS_INTERFACE_VERSION001\0";
 pub const STEAMREMOTEPLAY_INTERFACE_VERSION: &[u8; 37usize] =
     b"STEAMREMOTEPLAY_INTERFACE_VERSION001\0";
-pub const INT8_MIN: i32 = -128;
-pub const INT16_MIN: i32 = -32768;
-pub const INT32_MIN: i32 = -2147483648;
-pub const INT64_MIN: i64 = -9223372036854775808;
-pub const INT8_MAX: u32 = 127;
-pub const INT16_MAX: u32 = 32767;
-pub const INT32_MAX: u32 = 2147483647;
-pub const INT64_MAX: u64 = 9223372036854775807;
-pub const UINT8_MAX: u32 = 255;
-pub const UINT16_MAX: u32 = 65535;
-pub const UINT32_MAX: u32 = 4294967295;
-pub const UINT64_MAX: i32 = -1;
-pub const INT_LEAST8_MIN: i32 = -128;
-pub const INT_LEAST16_MIN: i32 = -32768;
-pub const INT_LEAST32_MIN: i32 = -2147483648;
-pub const INT_LEAST64_MIN: i64 = -9223372036854775808;
-pub const INT_LEAST8_MAX: u32 = 127;
-pub const INT_LEAST16_MAX: u32 = 32767;
-pub const INT_LEAST32_MAX: u32 = 2147483647;
-pub const INT_LEAST64_MAX: u64 = 9223372036854775807;
-pub const UINT_LEAST8_MAX: u32 = 255;
-pub const UINT_LEAST16_MAX: u32 = 65535;
-pub const UINT_LEAST32_MAX: u32 = 4294967295;
-pub const UINT_LEAST64_MAX: i32 = -1;
-pub const INT_FAST8_MIN: i32 = -128;
-pub const INT_FAST16_MIN: i32 = -32768;
-pub const INT_FAST32_MIN: i32 = -2147483648;
-pub const INT_FAST64_MIN: i64 = -9223372036854775808;
-pub const INT_FAST8_MAX: u32 = 127;
-pub const INT_FAST16_MAX: u32 = 32767;
-pub const INT_FAST32_MAX: u32 = 2147483647;
-pub const INT_FAST64_MAX: u64 = 9223372036854775807;
-pub const UINT_FAST8_MAX: u32 = 255;
-pub const UINT_FAST16_MAX: u32 = 65535;
-pub const UINT_FAST32_MAX: u32 = 4294967295;
-pub const UINT_FAST64_MAX: i32 = -1;
-pub const INTPTR_MIN: i64 = -9223372036854775808;
-pub const INTPTR_MAX: u64 = 9223372036854775807;
-pub const UINTPTR_MAX: i32 = -1;
-pub const INTMAX_MIN: i64 = -9223372036854775808;
-pub const INTMAX_MAX: u64 = 9223372036854775807;
-pub const UINTMAX_MAX: i32 = -1;
-pub const PTRDIFF_MIN: i64 = -9223372036854775808;
-pub const PTRDIFF_MAX: u64 = 9223372036854775807;
-pub const SIG_ATOMIC_MIN: i32 = -2147483648;
-pub const SIG_ATOMIC_MAX: u32 = 2147483647;
-pub const SIZE_MAX: i32 = -1;
 pub const WCHAR_MIN: u32 = 0;
 pub const WCHAR_MAX: u32 = 65535;
 pub const WINT_MIN: u32 = 0;
@@ -285,8 +291,8 @@ pub type int32 = ::std::os::raw::c_int;
 pub type uint32 = ::std::os::raw::c_uint;
 pub type int64 = ::std::os::raw::c_longlong;
 pub type uint64 = ::std::os::raw::c_ulonglong;
-pub type lint64 = ::std::os::raw::c_long;
-pub type ulint64 = ::std::os::raw::c_ulong;
+pub type lint64 = int64;
+pub type ulint64 = uint64;
 pub type intp = ::std::os::raw::c_longlong;
 pub type uintp = ::std::os::raw::c_ulonglong;
 pub type AppId_t = uint32;
@@ -299,7 +305,7 @@ pub const k_uAPICallInvalid: SteamAPICall_t = 0;
 pub type AccountID_t = uint32;
 pub type PartyBeaconID_t = uint64;
 pub const k_ulPartyBeaconIdInvalid: PartyBeaconID_t = 0;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamIPType {
@@ -393,7 +399,7 @@ fn bindgen_test_layout_SteamIPAddress_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUniverse {
@@ -404,7 +410,7 @@ pub enum EUniverse {
     k_EUniverseDev = 4,
     k_EUniverseMax = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EResult {
@@ -534,8 +540,9 @@ pub enum EResult {
     k_EResultInsufficientBattery = 124,
     k_EResultChargerRequired = 125,
     k_EResultCachedCredentialInvalid = 126,
+    K_EResultPhoneNumberIsVOIP = 127,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EVoiceResult {
@@ -550,7 +557,7 @@ pub enum EVoiceResult {
     k_EVoiceResultReceiverOutOfDate = 8,
     k_EVoiceResultReceiverDidNotAnswer = 9,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EDenyReason {
@@ -573,7 +580,7 @@ pub enum EDenyReason {
 }
 pub type HAuthTicket = uint32;
 pub const k_HAuthTicketInvalid: HAuthTicket = 0;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EBeginAuthSessionResult {
@@ -584,7 +591,7 @@ pub enum EBeginAuthSessionResult {
     k_EBeginAuthSessionResultGameMismatch = 4,
     k_EBeginAuthSessionResultExpiredTicket = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EAuthSessionResponse {
@@ -599,7 +606,7 @@ pub enum EAuthSessionResponse {
     k_EAuthSessionResponseAuthTicketInvalid = 8,
     k_EAuthSessionResponsePublisherIssuedBan = 9,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUserHasLicenseForAppResult {
@@ -607,7 +614,7 @@ pub enum EUserHasLicenseForAppResult {
     k_EUserHasLicenseResultDoesNotHaveLicense = 1,
     k_EUserHasLicenseResultNoAuth = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EAccountType {
@@ -624,7 +631,7 @@ pub enum EAccountType {
     k_EAccountTypeAnonUser = 10,
     k_EAccountTypeMax = 11,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EChatEntryType {
@@ -641,7 +648,7 @@ pub enum EChatEntryType {
     k_EChatEntryTypeHistoricalChat = 11,
     k_EChatEntryTypeLinkBlocked = 14,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EChatRoomEnterResponse {
@@ -661,7 +668,7 @@ pub enum EChatRoomEnterResponse {
 pub const k_unSteamAccountIDMask: ::std::os::raw::c_uint = 4294967295;
 pub const k_unSteamAccountInstanceMask: ::std::os::raw::c_uint = 1048575;
 pub const k_unSteamUserDefaultInstance: ::std::os::raw::c_uint = 1;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EChatSteamIDInstanceFlags {
@@ -670,7 +677,7 @@ pub enum EChatSteamIDInstanceFlags {
     k_EChatInstanceFlagLobby = 262144,
     k_EChatInstanceFlagMMSLobby = 131072,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ENotificationPosition {
@@ -679,7 +686,7 @@ pub enum ENotificationPosition {
     k_EPositionBottomLeft = 2,
     k_EPositionBottomRight = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EBroadcastUploadResult {
@@ -708,7 +715,7 @@ pub enum EBroadcastUploadResult {
     k_EBroadcastUploadResultVideoInitFailed = 22,
     k_EBroadcastUploadResultAudioInitFailed = 23,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EMarketNotAllowedReasonFlags {
@@ -730,7 +737,7 @@ pub enum EMarketNotAllowedReasonFlags {
     k_EMarketNotAllowedReason_NoRecentPurchases = 16384,
     k_EMarketNotAllowedReason_AcceptedWalletGift = 32768,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EDurationControlProgress {
@@ -741,7 +748,7 @@ pub enum EDurationControlProgress {
     k_EDurationControl_ExitSoon_5h = 4,
     k_EDurationControl_ExitSoon_Night = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EDurationControlNotification {
@@ -754,7 +761,7 @@ pub enum EDurationControlNotification {
     k_EDurationControlNotification_ExitSoon_5h = 6,
     k_EDurationControlNotification_ExitSoon_Night = 7,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EDurationControlOnlineState {
@@ -930,19 +937,19 @@ fn bindgen_test_layout_CSteamID() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK8CSteamID7IsValidEv"]
+    #[link_name = "\u{1}?IsValid@CSteamID@@QEBA_NXZ"]
     pub fn CSteamID_IsValid(this: *const CSteamID) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK8CSteamID6RenderEv"]
+    #[link_name = "\u{1}?Render@CSteamID@@QEBAPEBDXZ"]
     pub fn CSteamID_Render(this: *const CSteamID) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN8CSteamID6RenderEy"]
+    #[link_name = "\u{1}?Render@CSteamID@@SAPEBD_K@Z"]
     pub fn CSteamID_Render1(ulSteamID: uint64) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN8CSteamID13SetFromStringEPKc9EUniverse"]
+    #[link_name = "\u{1}?SetFromString@CSteamID@@QEAAXPEBDW4EUniverse@@@Z"]
     pub fn CSteamID_SetFromString(
         this: *mut CSteamID,
         pchSteamID: *const ::std::os::raw::c_char,
@@ -950,7 +957,7 @@ extern "C" {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN8CSteamID19SetFromStringStrictEPKc9EUniverse"]
+    #[link_name = "\u{1}?SetFromStringStrict@CSteamID@@QEAA_NPEBDW4EUniverse@@@Z"]
     pub fn CSteamID_SetFromStringStrict(
         this: *mut CSteamID,
         pchSteamID: *const ::std::os::raw::c_char,
@@ -958,11 +965,11 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK8CSteamID21BValidExternalSteamIDEv"]
+    #[link_name = "\u{1}?BValidExternalSteamID@CSteamID@@QEBA_NXZ"]
     pub fn CSteamID_BValidExternalSteamID(this: *const CSteamID) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN8CSteamIDC1EPKc9EUniverse"]
+    #[link_name = "\u{1}??0CSteamID@@QEAA@PEBDW4EUniverse@@@Z"]
     pub fn CSteamID_CSteamID(
         this: *mut CSteamID,
         pchSteamID: *const ::std::os::raw::c_char,
@@ -1017,7 +1024,7 @@ impl CSteamID {
 pub struct CGameID {
     pub __bindgen_anon_1: CGameID__bindgen_ty_1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum CGameID_EGameIDType {
@@ -1156,15 +1163,15 @@ fn bindgen_test_layout_CGameID() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK7CGameID6RenderEv"]
+    #[link_name = "\u{1}?Render@CGameID@@QEBAPEBDXZ"]
     pub fn CGameID_Render(this: *const CGameID) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN7CGameID6RenderEy"]
+    #[link_name = "\u{1}?Render@CGameID@@SAPEBD_K@Z"]
     pub fn CGameID_Render1(ulGameID: uint64) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN7CGameIDC1EPKc"]
+    #[link_name = "\u{1}??0CGameID@@QEAA@PEBD@Z"]
     pub fn CGameID_CGameID(this: *mut CGameID, pchGameID: *const ::std::os::raw::c_char);
 }
 impl CGameID {
@@ -1186,7 +1193,7 @@ impl CGameID {
 pub const k_cchGameExtraInfoMax: ::std::os::raw::c_int = 64;
 pub type PFNPreMinidumpCallback =
     ::std::option::Option<unsafe extern "C" fn(context: *mut ::std::os::raw::c_void)>;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EGameSearchErrorCode_t {
@@ -1200,7 +1207,7 @@ pub enum EGameSearchErrorCode_t {
     k_EGameSearchErrorCode_Failed_NotAuthorized = 8,
     k_EGameSearchErrorCode_Failed_Unknown_Error = 9,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EPlayerResult_t {
@@ -1210,7 +1217,7 @@ pub enum EPlayerResult_t {
     k_EPlayerResultIncomplete = 4,
     k_EPlayerResultCompleted = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamIPv6ConnectivityProtocol {
@@ -1218,7 +1225,7 @@ pub enum ESteamIPv6ConnectivityProtocol {
     k_ESteamIPv6ConnectivityProtocol_HTTP = 1,
     k_ESteamIPv6ConnectivityProtocol_UDP = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamIPv6ConnectivityState {
@@ -1314,7 +1321,7 @@ pub const CCallbackBase_k_ECallbackFlagsRegistered: CCallbackBase__bindgen_ty_1 
     CCallbackBase__bindgen_ty_1::k_ECallbackFlagsRegistered;
 pub const CCallbackBase_k_ECallbackFlagsGameServer: CCallbackBase__bindgen_ty_1 =
     CCallbackBase__bindgen_ty_1::k_ECallbackFlagsGameServer;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum CCallbackBase__bindgen_ty_1 {
@@ -1367,460 +1374,293 @@ pub struct CCallResult<T, P> {
 pub type CCallResult_func_t<P> =
     ::std::option::Option<unsafe extern "C" fn(arg1: *mut P, arg2: bool)>;
 pub type CCallback_func_t<P> = ::std::option::Option<unsafe extern "C" fn(arg1: *mut P)>;
-pub type __gnuc_va_list = __builtin_va_list;
-pub type va_list = __gnuc_va_list;
+pub type va_list = *mut ::std::os::raw::c_char;
 extern "C" {
-    pub fn __debugbreak();
+    pub fn __va_start(arg1: *mut va_list, ...);
 }
-extern "C" {
-    pub fn __mingw_get_crt_info() -> *const ::std::os::raw::c_char;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __vcrt_va_list_is_reference {
+    pub _address: u8,
+}
+pub const __vcrt_va_list_is_reference___the_value: __vcrt_va_list_is_reference__bindgen_ty_1 =
+    __vcrt_va_list_is_reference__bindgen_ty_1::__the_value;
+#[repr(u8)]
+#[non_exhaustive]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub enum __vcrt_va_list_is_reference__bindgen_ty_1 {
+    __the_value = 0,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __vcrt_assert_va_start_is_not_reference {
+    pub _address: u8,
 }
 pub type size_t = ::std::os::raw::c_ulonglong;
-pub type ssize_t = ::std::os::raw::c_longlong;
-pub type rsize_t = size_t;
+pub type __vcrt_bool = bool;
+extern "C" {
+    pub fn __security_init_cookie();
+}
+extern "C" {
+    pub fn __security_check_cookie(_StackCookie: usize);
+}
+extern "C" {
+    pub fn __report_gsfailure(_StackCookie: usize);
+}
+extern "C" {
+    pub static mut __security_cookie: usize;
+}
+pub type __crt_bool = bool;
+extern "C" {
+    pub fn _invalid_parameter_noinfo();
+}
+extern "C" {
+    pub fn _invalid_parameter_noinfo_noreturn();
+}
+extern "C" {
+    pub fn _invoke_watson(
+        _Expression: *const u16,
+        _FunctionName: *const u16,
+        _FileName: *const u16,
+        _LineNo: ::std::os::raw::c_uint,
+        _Reserved: usize,
+    );
+}
+pub type errno_t = ::std::os::raw::c_int;
 pub type wint_t = ::std::os::raw::c_ushort;
 pub type wctype_t = ::std::os::raw::c_ushort;
-pub type errno_t = ::std::os::raw::c_int;
 pub type __time32_t = ::std::os::raw::c_long;
 pub type __time64_t = ::std::os::raw::c_longlong;
-pub type time_t = __time64_t;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct threadmbcinfostruct {
-    _unused: [u8; 0],
-}
-pub type pthreadlocinfo = *mut threadlocaleinfostruct;
-pub type pthreadmbcinfo = *mut threadmbcinfostruct;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __lc_time_data {
-    _unused: [u8; 0],
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct localeinfo_struct {
-    pub locinfo: pthreadlocinfo,
-    pub mbcinfo: pthreadmbcinfo,
+pub struct __crt_locale_data_public {
+    pub _locale_pctype: *const ::std::os::raw::c_ushort,
+    pub _locale_mb_cur_max: ::std::os::raw::c_int,
+    pub _locale_lc_codepage: ::std::os::raw::c_uint,
 }
 #[test]
-fn bindgen_test_layout_localeinfo_struct() {
+fn bindgen_test_layout___crt_locale_data_public() {
     assert_eq!(
-        ::std::mem::size_of::<localeinfo_struct>(),
+        ::std::mem::size_of::<__crt_locale_data_public>(),
         16usize,
-        concat!("Size of: ", stringify!(localeinfo_struct))
+        concat!("Size of: ", stringify!(__crt_locale_data_public))
     );
     assert_eq!(
-        ::std::mem::align_of::<localeinfo_struct>(),
+        ::std::mem::align_of::<__crt_locale_data_public>(),
         8usize,
-        concat!("Alignment of ", stringify!(localeinfo_struct))
+        concat!("Alignment of ", stringify!(__crt_locale_data_public))
     );
     assert_eq!(
-        unsafe { &(*(::std::ptr::null::<localeinfo_struct>())).locinfo as *const _ as usize },
+        unsafe {
+            &(*(::std::ptr::null::<__crt_locale_data_public>()))._locale_pctype as *const _ as usize
+        },
         0usize,
         concat!(
             "Offset of field: ",
-            stringify!(localeinfo_struct),
+            stringify!(__crt_locale_data_public),
+            "::",
+            stringify!(_locale_pctype)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__crt_locale_data_public>()))._locale_mb_cur_max as *const _
+                as usize
+        },
+        8usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__crt_locale_data_public),
+            "::",
+            stringify!(_locale_mb_cur_max)
+        )
+    );
+    assert_eq!(
+        unsafe {
+            &(*(::std::ptr::null::<__crt_locale_data_public>()))._locale_lc_codepage as *const _
+                as usize
+        },
+        12usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__crt_locale_data_public),
+            "::",
+            stringify!(_locale_lc_codepage)
+        )
+    );
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __crt_locale_pointers {
+    pub locinfo: *mut __crt_locale_data,
+    pub mbcinfo: *mut __crt_multibyte_data,
+}
+#[test]
+fn bindgen_test_layout___crt_locale_pointers() {
+    assert_eq!(
+        ::std::mem::size_of::<__crt_locale_pointers>(),
+        16usize,
+        concat!("Size of: ", stringify!(__crt_locale_pointers))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__crt_locale_pointers>(),
+        8usize,
+        concat!("Alignment of ", stringify!(__crt_locale_pointers))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__crt_locale_pointers>())).locinfo as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__crt_locale_pointers),
             "::",
             stringify!(locinfo)
         )
     );
     assert_eq!(
-        unsafe { &(*(::std::ptr::null::<localeinfo_struct>())).mbcinfo as *const _ as usize },
+        unsafe { &(*(::std::ptr::null::<__crt_locale_pointers>())).mbcinfo as *const _ as usize },
         8usize,
         concat!(
             "Offset of field: ",
-            stringify!(localeinfo_struct),
+            stringify!(__crt_locale_pointers),
             "::",
             stringify!(mbcinfo)
         )
     );
 }
-pub type _locale_tstruct = localeinfo_struct;
-pub type _locale_t = *mut localeinfo_struct;
+pub type _locale_t = *mut __crt_locale_pointers;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct tagLC_ID {
-    pub wLanguage: ::std::os::raw::c_ushort,
-    pub wCountry: ::std::os::raw::c_ushort,
-    pub wCodePage: ::std::os::raw::c_ushort,
+pub struct _Mbstatet {
+    pub _Wchar: ::std::os::raw::c_ulong,
+    pub _Byte: ::std::os::raw::c_ushort,
+    pub _State: ::std::os::raw::c_ushort,
 }
 #[test]
-fn bindgen_test_layout_tagLC_ID() {
+fn bindgen_test_layout__Mbstatet() {
     assert_eq!(
-        ::std::mem::size_of::<tagLC_ID>(),
+        ::std::mem::size_of::<_Mbstatet>(),
+        8usize,
+        concat!("Size of: ", stringify!(_Mbstatet))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<_Mbstatet>(),
+        4usize,
+        concat!("Alignment of ", stringify!(_Mbstatet))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_Mbstatet>()))._Wchar as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_Mbstatet),
+            "::",
+            stringify!(_Wchar)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_Mbstatet>()))._Byte as *const _ as usize },
+        4usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(_Mbstatet),
+            "::",
+            stringify!(_Byte)
+        )
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<_Mbstatet>()))._State as *const _ as usize },
         6usize,
-        concat!("Size of: ", stringify!(tagLC_ID))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<tagLC_ID>(),
-        2usize,
-        concat!("Alignment of ", stringify!(tagLC_ID))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<tagLC_ID>())).wLanguage as *const _ as usize },
-        0usize,
         concat!(
             "Offset of field: ",
-            stringify!(tagLC_ID),
+            stringify!(_Mbstatet),
             "::",
-            stringify!(wLanguage)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<tagLC_ID>())).wCountry as *const _ as usize },
-        2usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(tagLC_ID),
-            "::",
-            stringify!(wCountry)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<tagLC_ID>())).wCodePage as *const _ as usize },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(tagLC_ID),
-            "::",
-            stringify!(wCodePage)
+            stringify!(_State)
         )
     );
 }
-pub type LC_ID = tagLC_ID;
-pub type LPLC_ID = *mut tagLC_ID;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct threadlocaleinfostruct {
-    pub refcount: ::std::os::raw::c_int,
-    pub lc_codepage: ::std::os::raw::c_uint,
-    pub lc_collate_cp: ::std::os::raw::c_uint,
-    pub lc_handle: [::std::os::raw::c_ulong; 6usize],
-    pub lc_id: [LC_ID; 6usize],
-    pub lc_category: [threadlocaleinfostruct__bindgen_ty_1; 6usize],
-    pub lc_clike: ::std::os::raw::c_int,
-    pub mb_cur_max: ::std::os::raw::c_int,
-    pub lconv_intl_refcount: *mut ::std::os::raw::c_int,
-    pub lconv_num_refcount: *mut ::std::os::raw::c_int,
-    pub lconv_mon_refcount: *mut ::std::os::raw::c_int,
-    pub lconv: *mut lconv,
-    pub ctype1_refcount: *mut ::std::os::raw::c_int,
-    pub ctype1: *mut ::std::os::raw::c_ushort,
-    pub pctype: *const ::std::os::raw::c_ushort,
-    pub pclmap: *const ::std::os::raw::c_uchar,
-    pub pcumap: *const ::std::os::raw::c_uchar,
-    pub lc_time_curr: *mut __lc_time_data,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct threadlocaleinfostruct__bindgen_ty_1 {
-    pub locale: *mut ::std::os::raw::c_char,
-    pub wlocale: *mut u16,
-    pub refcount: *mut ::std::os::raw::c_int,
-    pub wrefcount: *mut ::std::os::raw::c_int,
-}
-#[test]
-fn bindgen_test_layout_threadlocaleinfostruct__bindgen_ty_1() {
-    assert_eq!(
-        ::std::mem::size_of::<threadlocaleinfostruct__bindgen_ty_1>(),
-        32usize,
-        concat!(
-            "Size of: ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        ::std::mem::align_of::<threadlocaleinfostruct__bindgen_ty_1>(),
-        8usize,
-        concat!(
-            "Alignment of ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct__bindgen_ty_1>())).locale as *const _
-                as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1),
-            "::",
-            stringify!(locale)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct__bindgen_ty_1>())).wlocale as *const _
-                as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1),
-            "::",
-            stringify!(wlocale)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct__bindgen_ty_1>())).refcount as *const _
-                as usize
-        },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1),
-            "::",
-            stringify!(refcount)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct__bindgen_ty_1>())).wrefcount as *const _
-                as usize
-        },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct__bindgen_ty_1),
-            "::",
-            stringify!(wrefcount)
-        )
-    );
-}
-#[test]
-fn bindgen_test_layout_threadlocaleinfostruct() {
-    assert_eq!(
-        ::std::mem::size_of::<threadlocaleinfostruct>(),
-        352usize,
-        concat!("Size of: ", stringify!(threadlocaleinfostruct))
-    );
-    assert_eq!(
-        ::std::mem::align_of::<threadlocaleinfostruct>(),
-        8usize,
-        concat!("Alignment of ", stringify!(threadlocaleinfostruct))
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).refcount as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(refcount)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_codepage as *const _ as usize
-        },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_codepage)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_collate_cp as *const _ as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_collate_cp)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_handle as *const _ as usize
-        },
-        12usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_handle)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_id as *const _ as usize },
-        36usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_id)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_category as *const _ as usize
-        },
-        72usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_category)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_clike as *const _ as usize },
-        264usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_clike)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).mb_cur_max as *const _ as usize
-        },
-        268usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(mb_cur_max)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lconv_intl_refcount as *const _
-                as usize
-        },
-        272usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lconv_intl_refcount)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lconv_num_refcount as *const _
-                as usize
-        },
-        280usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lconv_num_refcount)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lconv_mon_refcount as *const _
-                as usize
-        },
-        288usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lconv_mon_refcount)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).lconv as *const _ as usize },
-        296usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lconv)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).ctype1_refcount as *const _ as usize
-        },
-        304usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(ctype1_refcount)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).ctype1 as *const _ as usize },
-        312usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(ctype1)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).pctype as *const _ as usize },
-        320usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(pctype)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).pclmap as *const _ as usize },
-        328usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(pclmap)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<threadlocaleinfostruct>())).pcumap as *const _ as usize },
-        336usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(pcumap)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::std::ptr::null::<threadlocaleinfostruct>())).lc_time_curr as *const _ as usize
-        },
-        344usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(threadlocaleinfostruct),
-            "::",
-            stringify!(lc_time_curr)
-        )
-    );
-}
-pub type threadlocinfo = threadlocaleinfostruct;
+pub type mbstate_t = _Mbstatet;
+pub type time_t = __time64_t;
+pub type rsize_t = size_t;
 extern "C" {
-    pub fn _memccpy(
-        _Dst: *mut ::std::os::raw::c_void,
-        _Src: *const ::std::os::raw::c_void,
-        _Val: ::std::os::raw::c_int,
-        _MaxCount: size_t,
-    ) -> *mut ::std::os::raw::c_void;
+    pub fn _errno() -> *mut ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _set_errno(_Value: ::std::os::raw::c_int) -> errno_t;
+}
+extern "C" {
+    pub fn _get_errno(_Value: *mut ::std::os::raw::c_int) -> errno_t;
+}
+extern "C" {
+    pub fn __doserrno() -> *mut ::std::os::raw::c_ulong;
+}
+extern "C" {
+    pub fn _set_doserrno(_Value: ::std::os::raw::c_ulong) -> errno_t;
+}
+extern "C" {
+    pub fn _get_doserrno(_Value: *mut ::std::os::raw::c_ulong) -> errno_t;
 }
 extern "C" {
     pub fn memchr(
         _Buf: *const ::std::os::raw::c_void,
         _Val: ::std::os::raw::c_int,
         _MaxCount: size_t,
+    ) -> *const ::std::os::raw::c_void;
+}
+extern "C" {
+    pub fn memcmp(
+        _Buf1: *const ::std::os::raw::c_void,
+        _Buf2: *const ::std::os::raw::c_void,
+        _Size: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn memcpy(
+        _Dst: *mut ::std::os::raw::c_void,
+        _Src: *const ::std::os::raw::c_void,
+        _Size: size_t,
     ) -> *mut ::std::os::raw::c_void;
+}
+extern "C" {
+    pub fn memmove(
+        _Dst: *mut ::std::os::raw::c_void,
+        _Src: *const ::std::os::raw::c_void,
+        _Size: size_t,
+    ) -> *mut ::std::os::raw::c_void;
+}
+extern "C" {
+    pub fn memset(
+        _Dst: *mut ::std::os::raw::c_void,
+        _Val: ::std::os::raw::c_int,
+        _Size: size_t,
+    ) -> *mut ::std::os::raw::c_void;
+}
+extern "C" {
+    pub fn strchr(
+        _Str: *const ::std::os::raw::c_char,
+        _Val: ::std::os::raw::c_int,
+    ) -> *const ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn strrchr(
+        _Str: *const ::std::os::raw::c_char,
+        _Ch: ::std::os::raw::c_int,
+    ) -> *const ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn strstr(
+        _Str: *const ::std::os::raw::c_char,
+        _SubStr: *const ::std::os::raw::c_char,
+    ) -> *const ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn wcschr(_Str: *const u16, _Ch: u16) -> *const u16;
+}
+extern "C" {
+    pub fn wcsrchr(_Str: *const u16, _Ch: u16) -> *const u16;
+}
+extern "C" {
+    pub fn wcsstr(_Str: *const u16, _SubStr: *const u16) -> *const u16;
 }
 extern "C" {
     pub fn _memicmp(
@@ -1838,42 +1678,6 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn memcmp(
-        _Buf1: *const ::std::os::raw::c_void,
-        _Buf2: *const ::std::os::raw::c_void,
-        _Size: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn memcpy(
-        _Dst: *mut ::std::os::raw::c_void,
-        _Src: *const ::std::os::raw::c_void,
-        _Size: size_t,
-    ) -> *mut ::std::os::raw::c_void;
-}
-extern "C" {
-    pub fn memcpy_s(
-        _dest: *mut ::std::os::raw::c_void,
-        _numberOfElements: size_t,
-        _src: *const ::std::os::raw::c_void,
-        _count: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn mempcpy(
-        _Dst: *mut ::std::os::raw::c_void,
-        _Src: *const ::std::os::raw::c_void,
-        _Size: size_t,
-    ) -> *mut ::std::os::raw::c_void;
-}
-extern "C" {
-    pub fn memset(
-        _Dst: *mut ::std::os::raw::c_void,
-        _Val: ::std::os::raw::c_int,
-        _Size: size_t,
-    ) -> *mut ::std::os::raw::c_void;
-}
-extern "C" {
     pub fn memccpy(
         _Dst: *mut ::std::os::raw::c_void,
         _Src: *const ::std::os::raw::c_void,
@@ -1889,27 +1693,310 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _strset(
-        _Str: *mut ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
-    ) -> *mut ::std::os::raw::c_char;
+    pub fn wcscat_s(_Destination: *mut u16, _SizeInWords: rsize_t, _Source: *const u16) -> errno_t;
 }
 extern "C" {
-    pub fn _strset_l(
-        _Str: *mut ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
+    pub fn wcscpy_s(_Destination: *mut u16, _SizeInWords: rsize_t, _Source: *const u16) -> errno_t;
+}
+extern "C" {
+    pub fn wcsncat_s(
+        _Destination: *mut u16,
+        _SizeInWords: rsize_t,
+        _Source: *const u16,
+        _MaxCount: rsize_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn wcsncpy_s(
+        _Destination: *mut u16,
+        _SizeInWords: rsize_t,
+        _Source: *const u16,
+        _MaxCount: rsize_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn wcstok_s(_String: *mut u16, _Delimiter: *const u16, _Context: *mut *mut u16)
+        -> *mut u16;
+}
+extern "C" {
+    pub fn _wcsdup(_String: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcscat(_Destination: *mut u16, _Source: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcscmp(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn wcscpy(_Destination: *mut u16, _Source: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcscspn(_String: *const u16, _Control: *const u16) -> size_t;
+}
+extern "C" {
+    pub fn wcslen(_String: *const u16) -> size_t;
+}
+extern "C" {
+    pub fn wcsnlen(_Source: *const u16, _MaxCount: size_t) -> size_t;
+}
+extern "C" {
+    pub fn wcsncat(_Destination: *mut u16, _Source: *const u16, _Count: size_t) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsncmp(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn wcsncpy(_Destination: *mut u16, _Source: *const u16, _Count: size_t) -> *mut u16;
+}
+extern "C" {
+    pub fn wcspbrk(_String: *const u16, _Control: *const u16) -> *const u16;
+}
+extern "C" {
+    pub fn wcsspn(_String: *const u16, _Control: *const u16) -> size_t;
+}
+extern "C" {
+    pub fn wcstok(_String: *mut u16, _Delimiter: *const u16, _Context: *mut *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcserror(_ErrorNumber: ::std::os::raw::c_int) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcserror_s(
+        _Buffer: *mut u16,
+        _SizeInWords: size_t,
+        _ErrorNumber: ::std::os::raw::c_int,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn __wcserror(_String: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn __wcserror_s(
+        _Buffer: *mut u16,
+        _SizeInWords: size_t,
+        _ErrorMessage: *const u16,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn _wcsicmp(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsicmp_l(
+        _String1: *const u16,
+        _String2: *const u16,
         _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsnicmp(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsnicmp_l(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsnset_s(
+        _Destination: *mut u16,
+        _SizeInWords: size_t,
+        _Value: u16,
+        _MaxCount: size_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn _wcsnset(_String: *mut u16, _Value: u16, _MaxCount: size_t) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcsrev(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcsset_s(_Destination: *mut u16, _SizeInWords: size_t, _Value: u16) -> errno_t;
+}
+extern "C" {
+    pub fn _wcsset(_String: *mut u16, _Value: u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcslwr_s(_String: *mut u16, _SizeInWords: size_t) -> errno_t;
+}
+extern "C" {
+    pub fn _wcslwr(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcslwr_s_l(_String: *mut u16, _SizeInWords: size_t, _Locale: _locale_t) -> errno_t;
+}
+extern "C" {
+    pub fn _wcslwr_l(_String: *mut u16, _Locale: _locale_t) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcsupr_s(_String: *mut u16, _Size: size_t) -> errno_t;
+}
+extern "C" {
+    pub fn _wcsupr(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wcsupr_s_l(_String: *mut u16, _Size: size_t, _Locale: _locale_t) -> errno_t;
+}
+extern "C" {
+    pub fn _wcsupr_l(_String: *mut u16, _Locale: _locale_t) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsxfrm(_Destination: *mut u16, _Source: *const u16, _MaxCount: size_t) -> size_t;
+}
+extern "C" {
+    pub fn _wcsxfrm_l(
+        _Destination: *mut u16,
+        _Source: *const u16,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn wcscoll(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcscoll_l(
+        _String1: *const u16,
+        _String2: *const u16,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsicoll(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsicoll_l(
+        _String1: *const u16,
+        _String2: *const u16,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsncoll(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsncoll_l(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsnicoll(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wcsnicoll_l(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn wcsdup(_String: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsicmp(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn wcsnicmp(
+        _String1: *const u16,
+        _String2: *const u16,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn wcsnset(_String: *mut u16, _Value: u16, _MaxCount: size_t) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsrev(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsset(_String: *mut u16, _Value: u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcslwr(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsupr(_String: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn wcsicoll(_String1: *const u16, _String2: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn strcpy_s(
+        _Destination: *mut ::std::os::raw::c_char,
+        _SizeInBytes: rsize_t,
+        _Source: *const ::std::os::raw::c_char,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strcat_s(
+        _Destination: *mut ::std::os::raw::c_char,
+        _SizeInBytes: rsize_t,
+        _Source: *const ::std::os::raw::c_char,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strerror_s(
+        _Buffer: *mut ::std::os::raw::c_char,
+        _SizeInBytes: size_t,
+        _ErrorNumber: ::std::os::raw::c_int,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strncat_s(
+        _Destination: *mut ::std::os::raw::c_char,
+        _SizeInBytes: rsize_t,
+        _Source: *const ::std::os::raw::c_char,
+        _MaxCount: rsize_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strncpy_s(
+        _Destination: *mut ::std::os::raw::c_char,
+        _SizeInBytes: rsize_t,
+        _Source: *const ::std::os::raw::c_char,
+        _MaxCount: rsize_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strtok_s(
+        _String: *mut ::std::os::raw::c_char,
+        _Delimiter: *const ::std::os::raw::c_char,
+        _Context: *mut *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strcpy(
-        _Dest: *mut ::std::os::raw::c_char,
-        _Source: *const ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+    pub fn _memccpy(
+        _Dst: *mut ::std::os::raw::c_void,
+        _Src: *const ::std::os::raw::c_void,
+        _Val: ::std::os::raw::c_int,
+        _MaxCount: size_t,
+    ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn strcat(
-        _Dest: *mut ::std::os::raw::c_char,
+        _Destination: *mut ::std::os::raw::c_char,
         _Source: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
@@ -1920,101 +2007,29 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn strlen(_Str: *const ::std::os::raw::c_char) -> size_t;
-}
-extern "C" {
-    pub fn strnlen(_Str: *const ::std::os::raw::c_char, _MaxCount: size_t) -> size_t;
-}
-extern "C" {
-    pub fn memmove(
-        _Dst: *mut ::std::os::raw::c_void,
-        _Src: *const ::std::os::raw::c_void,
-        _Size: size_t,
-    ) -> *mut ::std::os::raw::c_void;
-}
-extern "C" {
-    pub fn _strdup(_Src: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn strchr(
-        _Str: *const ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn _stricmp(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
     pub fn _strcmpi(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _stricmp_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strcoll(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _strcoll_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
         _Locale: _locale_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _stricoll(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _stricoll_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _strncoll(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _strncoll_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _strnicoll(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _strnicoll_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
+    pub fn strcpy(
+        _Destination: *mut ::std::os::raw::c_char,
+        _Source: *const ::std::os::raw::c_char,
+    ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strcspn(
@@ -2023,23 +2038,72 @@ extern "C" {
     ) -> size_t;
 }
 extern "C" {
-    pub fn _strerror(_ErrMsg: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn _strdup(_Source: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strerror(arg1: ::std::os::raw::c_int) -> *mut ::std::os::raw::c_char;
+    pub fn _strerror(_ErrorMessage: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn _strerror_s(
+        _Buffer: *mut ::std::os::raw::c_char,
+        _SizeInBytes: size_t,
+        _ErrorMessage: *const ::std::os::raw::c_char,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn strerror(_ErrorMessage: ::std::os::raw::c_int) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn _stricmp(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _stricoll(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _stricoll_l(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _stricmp_l(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn strlen(_Str: *const ::std::os::raw::c_char) -> size_t;
+}
+extern "C" {
+    pub fn _strlwr_s(_String: *mut ::std::os::raw::c_char, _Size: size_t) -> errno_t;
 }
 extern "C" {
     pub fn _strlwr(_String: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strlwr_l(
+    pub fn _strlwr_s_l(
+        _String: *mut ::std::os::raw::c_char,
+        _Size: size_t,
+        _Locale: _locale_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn _strlwr_l(
         _String: *mut ::std::os::raw::c_char,
         _Locale: _locale_t,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strncat(
-        _Dest: *mut ::std::os::raw::c_char,
+        _Destination: *mut ::std::os::raw::c_char,
         _Source: *const ::std::os::raw::c_char,
         _Count: size_t,
     ) -> *mut ::std::os::raw::c_char;
@@ -2053,55 +2117,98 @@ extern "C" {
 }
 extern "C" {
     pub fn _strnicmp(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
         _MaxCount: size_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _strnicmp_l(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
         _MaxCount: size_t,
         _Locale: _locale_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
+    pub fn _strnicoll(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _strnicoll_l(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _strncoll(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _MaxCount: size_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _strncoll_l(
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
+        _MaxCount: size_t,
+        _Locale: _locale_t,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __strncnt(_String: *const ::std::os::raw::c_char, _Count: size_t) -> size_t;
+}
+extern "C" {
     pub fn strncpy(
-        _Dest: *mut ::std::os::raw::c_char,
+        _Destination: *mut ::std::os::raw::c_char,
         _Source: *const ::std::os::raw::c_char,
         _Count: size_t,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn _strnset(
-        _Str: *mut ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
-        _MaxCount: size_t,
-    ) -> *mut ::std::os::raw::c_char;
+    pub fn strnlen(_String: *const ::std::os::raw::c_char, _MaxCount: size_t) -> size_t;
 }
 extern "C" {
-    pub fn _strnset_l(
-        str_: *mut ::std::os::raw::c_char,
-        c: ::std::os::raw::c_int,
-        count: size_t,
-        _Locale: _locale_t,
+    pub fn _strnset_s(
+        _String: *mut ::std::os::raw::c_char,
+        _SizeInBytes: size_t,
+        _Value: ::std::os::raw::c_int,
+        _MaxCount: size_t,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn _strnset(
+        _Destination: *mut ::std::os::raw::c_char,
+        _Value: ::std::os::raw::c_int,
+        _Count: size_t,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strpbrk(
         _Str: *const ::std::os::raw::c_char,
         _Control: *const ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn strrchr(
-        _Str: *const ::std::os::raw::c_char,
-        _Ch: ::std::os::raw::c_int,
-    ) -> *mut ::std::os::raw::c_char;
+    ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn _strrev(_Str: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn _strset_s(
+        _Destination: *mut ::std::os::raw::c_char,
+        _DestinationSize: size_t,
+        _Value: ::std::os::raw::c_int,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn _strset(
+        _Destination: *mut ::std::os::raw::c_char,
+        _Value: ::std::os::raw::c_int,
+    ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strspn(
@@ -2110,26 +2217,23 @@ extern "C" {
     ) -> size_t;
 }
 extern "C" {
-    pub fn strstr(
-        _Str: *const ::std::os::raw::c_char,
-        _SubStr: *const ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
     pub fn strtok(
-        _Str: *mut ::std::os::raw::c_char,
-        _Delim: *const ::std::os::raw::c_char,
+        _String: *mut ::std::os::raw::c_char,
+        _Delimiter: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strtok_r(
-        _Str: *mut ::std::os::raw::c_char,
-        _Delim: *const ::std::os::raw::c_char,
-        __last: *mut *mut ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+    pub fn _strupr_s(_String: *mut ::std::os::raw::c_char, _Size: size_t) -> errno_t;
 }
 extern "C" {
     pub fn _strupr(_String: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn _strupr_s_l(
+        _String: *mut ::std::os::raw::c_char,
+        _Size: size_t,
+        _Locale: _locale_t,
+    ) -> errno_t;
 }
 extern "C" {
     pub fn _strupr_l(
@@ -2139,500 +2243,62 @@ extern "C" {
 }
 extern "C" {
     pub fn strxfrm(
-        _Dst: *mut ::std::os::raw::c_char,
-        _Src: *const ::std::os::raw::c_char,
+        _Destination: *mut ::std::os::raw::c_char,
+        _Source: *const ::std::os::raw::c_char,
         _MaxCount: size_t,
     ) -> size_t;
 }
 extern "C" {
     pub fn _strxfrm_l(
-        _Dst: *mut ::std::os::raw::c_char,
-        _Src: *const ::std::os::raw::c_char,
+        _Destination: *mut ::std::os::raw::c_char,
+        _Source: *const ::std::os::raw::c_char,
         _MaxCount: size_t,
         _Locale: _locale_t,
     ) -> size_t;
 }
 extern "C" {
-    pub fn strdup(_Src: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn strdup(_String: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strcmpi(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn stricmp(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str2: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn strlwr(_Str: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn strlwr(_String: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strnicmp(
-        _Str1: *const ::std::os::raw::c_char,
-        _Str: *const ::std::os::raw::c_char,
+        _String1: *const ::std::os::raw::c_char,
+        _String2: *const ::std::os::raw::c_char,
         _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn strncasecmp(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn strcasecmp(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strnset(
-        _Str: *mut ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
+        _String: *mut ::std::os::raw::c_char,
+        _Value: ::std::os::raw::c_int,
         _MaxCount: size_t,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strrev(_Str: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn strrev(_String: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strset(
-        _Str: *mut ::std::os::raw::c_char,
-        _Val: ::std::os::raw::c_int,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn strupr(_Str: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn _wcsdup(_Str: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcscat(_Dest: *mut u16, _Source: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcschr(_Str: *const u16, _Ch: u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcscmp(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wcscpy(_Dest: *mut u16, _Source: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcscspn(_Str: *const u16, _Control: *const u16) -> size_t;
-}
-extern "C" {
-    pub fn wcslen(_Str: *const u16) -> size_t;
-}
-extern "C" {
-    pub fn wcsnlen(_Src: *const u16, _MaxCount: size_t) -> size_t;
-}
-extern "C" {
-    pub fn wcsncat(_Dest: *mut u16, _Source: *const u16, _Count: size_t) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsncmp(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wcsncpy(_Dest: *mut u16, _Source: *const u16, _Count: size_t) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsncpy_l(
-        _Dest: *mut u16,
-        _Source: *const u16,
-        _Count: size_t,
-        _Locale: _locale_t,
-    ) -> *mut u16;
-}
-extern "C" {
-    pub fn wcspbrk(_Str: *const u16, _Control: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsrchr(_Str: *const u16, _Ch: u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsspn(_Str: *const u16, _Control: *const u16) -> size_t;
-}
-extern "C" {
-    pub fn wcsstr(_Str: *const u16, _SubStr: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcstok(_Str: *mut u16, _Delim: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcserror(_ErrNum: ::std::os::raw::c_int) -> *mut u16;
-}
-extern "C" {
-    pub fn __wcserror(_Str: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsicmp(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsicmp_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsnicmp(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsnicmp_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsnset(_Str: *mut u16, _Val: u16, _MaxCount: size_t) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsrev(_Str: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsset(_Str: *mut u16, _Val: u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcslwr(_String: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcslwr_l(_String: *mut u16, _Locale: _locale_t) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsupr(_String: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsupr_l(_String: *mut u16, _Locale: _locale_t) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsxfrm(_Dst: *mut u16, _Src: *const u16, _MaxCount: size_t) -> size_t;
-}
-extern "C" {
-    pub fn _wcsxfrm_l(
-        _Dst: *mut u16,
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> size_t;
-}
-extern "C" {
-    pub fn wcscoll(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcscoll_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsicoll(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsicoll_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsncoll(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsncoll_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsnicoll(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wcsnicoll_l(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wcsdup(_Str: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsicmp(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wcsnicmp(
-        _Str1: *const u16,
-        _Str2: *const u16,
-        _MaxCount: size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wcsnset(_Str: *mut u16, _Val: u16, _MaxCount: size_t) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsrev(_Str: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsset(_Str: *mut u16, _Val: u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcslwr(_Str: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsupr(_Str: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn wcsicoll(_Str1: *const u16, _Str2: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _strset_s(
-        _Dst: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
+        _String: *mut ::std::os::raw::c_char,
         _Value: ::std::os::raw::c_int,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strerror_s(
-        _Buf: *mut ::std::os::raw::c_char,
-        _SizeInBytes: size_t,
-        _ErrMsg: *const ::std::os::raw::c_char,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn strerror_s(
-        _Buf: *mut ::std::os::raw::c_char,
-        _SizeInBytes: size_t,
-        _ErrNum: ::std::os::raw::c_int,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strlwr_s(_Str: *mut ::std::os::raw::c_char, _Size: size_t) -> errno_t;
-}
-extern "C" {
-    pub fn _strlwr_s_l(
-        _Str: *mut ::std::os::raw::c_char,
-        _Size: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strnset_s(
-        _Str: *mut ::std::os::raw::c_char,
-        _Size: size_t,
-        _Val: ::std::os::raw::c_int,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strupr_s(_Str: *mut ::std::os::raw::c_char, _Size: size_t) -> errno_t;
-}
-extern "C" {
-    pub fn _strupr_s_l(
-        _Str: *mut ::std::os::raw::c_char,
-        _Size: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn strncat_s(
-        _Dst: *mut ::std::os::raw::c_char,
-        _DstSizeInChars: size_t,
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strncat_s_l(
-        _Dst: *mut ::std::os::raw::c_char,
-        _DstSizeInChars: size_t,
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn strcpy_s(
-        _Dst: *mut ::std::os::raw::c_char,
-        _SizeInBytes: rsize_t,
-        _Src: *const ::std::os::raw::c_char,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn strncpy_s(
-        _Dst: *mut ::std::os::raw::c_char,
-        _DstSizeInChars: size_t,
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _strncpy_s_l(
-        _Dst: *mut ::std::os::raw::c_char,
-        _DstSizeInChars: size_t,
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn strtok_s(
-        _Str: *mut ::std::os::raw::c_char,
-        _Delim: *const ::std::os::raw::c_char,
-        _Context: *mut *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn _strtok_s_l(
-        _Str: *mut ::std::os::raw::c_char,
-        _Delim: *const ::std::os::raw::c_char,
-        _Context: *mut *mut ::std::os::raw::c_char,
-        _Locale: _locale_t,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn strcat_s(
-        _Dst: *mut ::std::os::raw::c_char,
-        _SizeInBytes: rsize_t,
-        _Src: *const ::std::os::raw::c_char,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn memmove_s(
-        _dest: *mut ::std::os::raw::c_void,
-        _numberOfElements: size_t,
-        _src: *const ::std::os::raw::c_void,
-        _count: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn wcstok_s(_Str: *mut u16, _Delim: *const u16, _Context: *mut *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcserror_s(
-        _Buf: *mut u16,
-        _SizeInWords: size_t,
-        _ErrNum: ::std::os::raw::c_int,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn __wcserror_s(_Buffer: *mut u16, _SizeInWords: size_t, _ErrMsg: *const u16) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsnset_s(
-        _Dst: *mut u16,
-        _DstSizeInWords: size_t,
-        _Val: u16,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsset_s(_Str: *mut u16, _SizeInWords: size_t, _Val: u16) -> errno_t;
-}
-extern "C" {
-    pub fn _wcslwr_s(_Str: *mut u16, _SizeInWords: size_t) -> errno_t;
-}
-extern "C" {
-    pub fn _wcslwr_s_l(_Str: *mut u16, _SizeInWords: size_t, _Locale: _locale_t) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsupr_s(_Str: *mut u16, _Size: size_t) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsupr_s_l(_Str: *mut u16, _Size: size_t, _Locale: _locale_t) -> errno_t;
-}
-extern "C" {
-    pub fn wcscpy_s(_Dst: *mut u16, _SizeInWords: rsize_t, _Src: *const u16) -> errno_t;
-}
-extern "C" {
-    pub fn wcscat_s(_Dst: *mut u16, _SizeInWords: rsize_t, _Src: *const u16) -> errno_t;
-}
-extern "C" {
-    pub fn wcsncat_s(
-        _Dst: *mut u16,
-        _DstSizeInChars: size_t,
-        _Src: *const u16,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsncat_s_l(
-        _Dst: *mut u16,
-        _DstSizeInChars: size_t,
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn wcsncpy_s(
-        _Dst: *mut u16,
-        _DstSizeInChars: size_t,
-        _Src: *const u16,
-        _MaxCount: size_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsncpy_s_l(
-        _Dst: *mut u16,
-        _DstSizeInChars: size_t,
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wcstok_s_l(
-        _Str: *mut u16,
-        _Delim: *const u16,
-        _Context: *mut *mut u16,
-        _Locale: _locale_t,
-    ) -> *mut u16;
-}
-extern "C" {
-    pub fn _wcsset_s_l(
-        _Str: *mut u16,
-        _SizeInChars: size_t,
-        _Val: ::std::os::raw::c_uint,
-        _Locale: _locale_t,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wcsnset_s_l(
-        _Str: *mut u16,
-        _SizeInChars: size_t,
-        _Val: ::std::os::raw::c_uint,
-        _Count: size_t,
-        _Locale: _locale_t,
-    ) -> errno_t;
+    pub fn strupr(_String: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn SteamAPI_GetHSteamPipe() -> HSteamPipe;
@@ -2756,35 +2422,35 @@ pub struct ISteamPS3OverlayRender {
     _unused: [u8; 0],
 }
 pub const k_iSteamUserCallbacks: _bindgen_ty_1 = _bindgen_ty_1::k_iSteamUserCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_1 {
     k_iSteamUserCallbacks = 100,
 }
 pub const k_iSteamGameServerCallbacks: _bindgen_ty_2 = _bindgen_ty_2::k_iSteamGameServerCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_2 {
     k_iSteamGameServerCallbacks = 200,
 }
 pub const k_iSteamFriendsCallbacks: _bindgen_ty_3 = _bindgen_ty_3::k_iSteamFriendsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_3 {
     k_iSteamFriendsCallbacks = 300,
 }
 pub const k_iSteamBillingCallbacks: _bindgen_ty_4 = _bindgen_ty_4::k_iSteamBillingCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_4 {
     k_iSteamBillingCallbacks = 400,
 }
 pub const k_iSteamMatchmakingCallbacks: _bindgen_ty_5 = _bindgen_ty_5::k_iSteamMatchmakingCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_5 {
@@ -2792,35 +2458,35 @@ pub enum _bindgen_ty_5 {
 }
 pub const k_iSteamContentServerCallbacks: _bindgen_ty_6 =
     _bindgen_ty_6::k_iSteamContentServerCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_6 {
     k_iSteamContentServerCallbacks = 600,
 }
 pub const k_iSteamUtilsCallbacks: _bindgen_ty_7 = _bindgen_ty_7::k_iSteamUtilsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_7 {
     k_iSteamUtilsCallbacks = 700,
 }
 pub const k_iSteamAppsCallbacks: _bindgen_ty_8 = _bindgen_ty_8::k_iSteamAppsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_8 {
     k_iSteamAppsCallbacks = 1000,
 }
 pub const k_iSteamUserStatsCallbacks: _bindgen_ty_9 = _bindgen_ty_9::k_iSteamUserStatsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_9 {
     k_iSteamUserStatsCallbacks = 1100,
 }
 pub const k_iSteamNetworkingCallbacks: _bindgen_ty_10 = _bindgen_ty_10::k_iSteamNetworkingCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_10 {
@@ -2828,7 +2494,7 @@ pub enum _bindgen_ty_10 {
 }
 pub const k_iSteamNetworkingSocketsCallbacks: _bindgen_ty_11 =
     _bindgen_ty_11::k_iSteamNetworkingSocketsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_11 {
@@ -2836,7 +2502,7 @@ pub enum _bindgen_ty_11 {
 }
 pub const k_iSteamNetworkingMessagesCallbacks: _bindgen_ty_12 =
     _bindgen_ty_12::k_iSteamNetworkingMessagesCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_12 {
@@ -2844,7 +2510,7 @@ pub enum _bindgen_ty_12 {
 }
 pub const k_iSteamNetworkingUtilsCallbacks: _bindgen_ty_13 =
     _bindgen_ty_13::k_iSteamNetworkingUtilsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_13 {
@@ -2852,7 +2518,7 @@ pub enum _bindgen_ty_13 {
 }
 pub const k_iSteamRemoteStorageCallbacks: _bindgen_ty_14 =
     _bindgen_ty_14::k_iSteamRemoteStorageCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_14 {
@@ -2860,7 +2526,7 @@ pub enum _bindgen_ty_14 {
 }
 pub const k_iSteamGameServerItemsCallbacks: _bindgen_ty_15 =
     _bindgen_ty_15::k_iSteamGameServerItemsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_15 {
@@ -2868,7 +2534,7 @@ pub enum _bindgen_ty_15 {
 }
 pub const k_iSteamGameCoordinatorCallbacks: _bindgen_ty_16 =
     _bindgen_ty_16::k_iSteamGameCoordinatorCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_16 {
@@ -2876,28 +2542,28 @@ pub enum _bindgen_ty_16 {
 }
 pub const k_iSteamGameServerStatsCallbacks: _bindgen_ty_17 =
     _bindgen_ty_17::k_iSteamGameServerStatsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_17 {
     k_iSteamGameServerStatsCallbacks = 1800,
 }
 pub const k_iSteam2AsyncCallbacks: _bindgen_ty_18 = _bindgen_ty_18::k_iSteam2AsyncCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_18 {
     k_iSteam2AsyncCallbacks = 1900,
 }
 pub const k_iSteamGameStatsCallbacks: _bindgen_ty_19 = _bindgen_ty_19::k_iSteamGameStatsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_19 {
     k_iSteamGameStatsCallbacks = 2000,
 }
 pub const k_iSteamHTTPCallbacks: _bindgen_ty_20 = _bindgen_ty_20::k_iSteamHTTPCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_20 {
@@ -2905,7 +2571,7 @@ pub enum _bindgen_ty_20 {
 }
 pub const k_iSteamScreenshotsCallbacks: _bindgen_ty_21 =
     _bindgen_ty_21::k_iSteamScreenshotsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_21 {
@@ -2913,21 +2579,21 @@ pub enum _bindgen_ty_21 {
 }
 pub const k_iSteamStreamLauncherCallbacks: _bindgen_ty_22 =
     _bindgen_ty_22::k_iSteamStreamLauncherCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_22 {
     k_iSteamStreamLauncherCallbacks = 2600,
 }
 pub const k_iSteamControllerCallbacks: _bindgen_ty_23 = _bindgen_ty_23::k_iSteamControllerCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_23 {
     k_iSteamControllerCallbacks = 2800,
 }
 pub const k_iSteamUGCCallbacks: _bindgen_ty_24 = _bindgen_ty_24::k_iSteamUGCCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_24 {
@@ -2935,21 +2601,21 @@ pub enum _bindgen_ty_24 {
 }
 pub const k_iSteamStreamClientCallbacks: _bindgen_ty_25 =
     _bindgen_ty_25::k_iSteamStreamClientCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_25 {
     k_iSteamStreamClientCallbacks = 3500,
 }
 pub const k_iSteamAppListCallbacks: _bindgen_ty_26 = _bindgen_ty_26::k_iSteamAppListCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_26 {
     k_iSteamAppListCallbacks = 3900,
 }
 pub const k_iSteamMusicCallbacks: _bindgen_ty_27 = _bindgen_ty_27::k_iSteamMusicCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_27 {
@@ -2957,7 +2623,7 @@ pub enum _bindgen_ty_27 {
 }
 pub const k_iSteamMusicRemoteCallbacks: _bindgen_ty_28 =
     _bindgen_ty_28::k_iSteamMusicRemoteCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_28 {
@@ -2965,7 +2631,7 @@ pub enum _bindgen_ty_28 {
 }
 pub const k_iSteamGameNotificationCallbacks: _bindgen_ty_29 =
     _bindgen_ty_29::k_iSteamGameNotificationCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_29 {
@@ -2973,21 +2639,21 @@ pub enum _bindgen_ty_29 {
 }
 pub const k_iSteamHTMLSurfaceCallbacks: _bindgen_ty_30 =
     _bindgen_ty_30::k_iSteamHTMLSurfaceCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_30 {
     k_iSteamHTMLSurfaceCallbacks = 4500,
 }
 pub const k_iSteamVideoCallbacks: _bindgen_ty_31 = _bindgen_ty_31::k_iSteamVideoCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_31 {
     k_iSteamVideoCallbacks = 4600,
 }
 pub const k_iSteamInventoryCallbacks: _bindgen_ty_32 = _bindgen_ty_32::k_iSteamInventoryCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_32 {
@@ -2995,42 +2661,42 @@ pub enum _bindgen_ty_32 {
 }
 pub const k_ISteamParentalSettingsCallbacks: _bindgen_ty_33 =
     _bindgen_ty_33::k_ISteamParentalSettingsCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_33 {
     k_ISteamParentalSettingsCallbacks = 5000,
 }
 pub const k_iSteamGameSearchCallbacks: _bindgen_ty_34 = _bindgen_ty_34::k_iSteamGameSearchCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_34 {
     k_iSteamGameSearchCallbacks = 5200,
 }
 pub const k_iSteamPartiesCallbacks: _bindgen_ty_35 = _bindgen_ty_35::k_iSteamPartiesCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_35 {
     k_iSteamPartiesCallbacks = 5300,
 }
 pub const k_iSteamSTARCallbacks: _bindgen_ty_36 = _bindgen_ty_36::k_iSteamSTARCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_36 {
     k_iSteamSTARCallbacks = 5500,
 }
 pub const k_iSteamRemotePlayCallbacks: _bindgen_ty_37 = _bindgen_ty_37::k_iSteamRemotePlayCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_37 {
     k_iSteamRemotePlayCallbacks = 5700,
 }
 pub const k_iSteamChatCallbacks: _bindgen_ty_38 = _bindgen_ty_38::k_iSteamChatCallbacks;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_38 {
@@ -3508,7 +3174,7 @@ pub struct SteamServersConnected_t {
 }
 pub const SteamServersConnected_t_k_iCallback: SteamServersConnected_t__bindgen_ty_1 =
     SteamServersConnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamServersConnected_t__bindgen_ty_1 {
@@ -3535,7 +3201,7 @@ pub struct SteamServerConnectFailure_t {
 }
 pub const SteamServerConnectFailure_t_k_iCallback: SteamServerConnectFailure_t__bindgen_ty_1 =
     SteamServerConnectFailure_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamServerConnectFailure_t__bindgen_ty_1 {
@@ -3586,7 +3252,7 @@ pub struct SteamServersDisconnected_t {
 }
 pub const SteamServersDisconnected_t_k_iCallback: SteamServersDisconnected_t__bindgen_ty_1 =
     SteamServersDisconnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamServersDisconnected_t__bindgen_ty_1 {
@@ -3628,7 +3294,7 @@ pub struct ClientGameServerDeny_t {
 }
 pub const ClientGameServerDeny_t_k_iCallback: ClientGameServerDeny_t__bindgen_ty_1 =
     ClientGameServerDeny_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ClientGameServerDeny_t__bindgen_ty_1 {
@@ -3713,13 +3379,13 @@ pub struct IPCFailure_t {
 }
 pub const IPCFailure_t_k_iCallback: IPCFailure_t__bindgen_ty_1 =
     IPCFailure_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum IPCFailure_t__bindgen_ty_1 {
     k_iCallback = 117,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum IPCFailure_t_EFailureType {
@@ -3756,7 +3422,7 @@ pub struct LicensesUpdated_t {
 }
 pub const LicensesUpdated_t_k_iCallback: LicensesUpdated_t__bindgen_ty_1 =
     LicensesUpdated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LicensesUpdated_t__bindgen_ty_1 {
@@ -3784,7 +3450,7 @@ pub struct ValidateAuthTicketResponse_t {
 }
 pub const ValidateAuthTicketResponse_t_k_iCallback: ValidateAuthTicketResponse_t__bindgen_ty_1 =
     ValidateAuthTicketResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ValidateAuthTicketResponse_t__bindgen_ty_1 {
@@ -3851,7 +3517,7 @@ pub struct MicroTxnAuthorizationResponse_t {
 pub const MicroTxnAuthorizationResponse_t_k_iCallback:
     MicroTxnAuthorizationResponse_t__bindgen_ty_1 =
     MicroTxnAuthorizationResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MicroTxnAuthorizationResponse_t__bindgen_ty_1 {
@@ -3916,7 +3582,7 @@ pub struct EncryptedAppTicketResponse_t {
 }
 pub const EncryptedAppTicketResponse_t_k_iCallback: EncryptedAppTicketResponse_t__bindgen_ty_1 =
     EncryptedAppTicketResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EncryptedAppTicketResponse_t__bindgen_ty_1 {
@@ -3955,7 +3621,7 @@ pub struct GetAuthSessionTicketResponse_t {
 }
 pub const GetAuthSessionTicketResponse_t_k_iCallback: GetAuthSessionTicketResponse_t__bindgen_ty_1 =
     GetAuthSessionTicketResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GetAuthSessionTicketResponse_t__bindgen_ty_1 {
@@ -4007,7 +3673,7 @@ pub struct GameWebCallback_t {
 }
 pub const GameWebCallback_t_k_iCallback: GameWebCallback_t__bindgen_ty_1 =
     GameWebCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameWebCallback_t__bindgen_ty_1 {
@@ -4043,7 +3709,7 @@ pub struct StoreAuthURLResponse_t {
 }
 pub const StoreAuthURLResponse_t_k_iCallback: StoreAuthURLResponse_t__bindgen_ty_1 =
     StoreAuthURLResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum StoreAuthURLResponse_t__bindgen_ty_1 {
@@ -4083,7 +3749,7 @@ pub struct MarketEligibilityResponse_t {
 }
 pub const MarketEligibilityResponse_t_k_iCallback: MarketEligibilityResponse_t__bindgen_ty_1 =
     MarketEligibilityResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MarketEligibilityResponse_t__bindgen_ty_1 {
@@ -4180,7 +3846,7 @@ pub struct DurationControl_t {
 }
 pub const DurationControl_t_k_iCallback: DurationControl_t__bindgen_ty_1 =
     DurationControl_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum DurationControl_t__bindgen_ty_1 {
@@ -4283,7 +3949,7 @@ fn bindgen_test_layout_DurationControl_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EFriendRelationship {
@@ -4302,7 +3968,7 @@ pub const k_cFriendsGroupLimit: ::std::os::raw::c_int = 100;
 pub type FriendsGroupID_t = int16;
 pub const k_FriendsGroupID_Invalid: FriendsGroupID_t = -1;
 pub const k_cEnumerateFollowersMax: ::std::os::raw::c_int = 50;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EPersonaState {
@@ -4316,7 +3982,7 @@ pub enum EPersonaState {
     k_EPersonaStateInvisible = 7,
     k_EPersonaStateMax = 8,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EFriendFlags {
@@ -4407,14 +4073,14 @@ fn bindgen_test_layout_FriendGameInfo_t() {
 }
 pub const k_cchPersonaNameMax: _bindgen_ty_39 = _bindgen_ty_39::k_cchPersonaNameMax;
 pub const k_cwchPersonaNameMax: _bindgen_ty_39 = _bindgen_ty_39::k_cwchPersonaNameMax;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_39 {
     k_cchPersonaNameMax = 128,
     k_cwchPersonaNameMax = 32,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUserRestriction {
@@ -4429,7 +4095,7 @@ pub enum EUserRestriction {
 }
 pub const k_cubChatMetadataMax: uint32 = 8192;
 pub const k_cchMaxRichPresenceKeys: _bindgen_ty_40 = _bindgen_ty_40::k_cchMaxRichPresenceKeys;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_40 {
@@ -4437,7 +4103,7 @@ pub enum _bindgen_ty_40 {
 }
 pub const k_cchMaxRichPresenceKeyLength: _bindgen_ty_41 =
     _bindgen_ty_41::k_cchMaxRichPresenceKeyLength;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_41 {
@@ -4445,13 +4111,13 @@ pub enum _bindgen_ty_41 {
 }
 pub const k_cchMaxRichPresenceValueLength: _bindgen_ty_42 =
     _bindgen_ty_42::k_cchMaxRichPresenceValueLength;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_42 {
     k_cchMaxRichPresenceValueLength = 256,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EOverlayToStoreFlag {
@@ -4459,14 +4125,14 @@ pub enum EOverlayToStoreFlag {
     k_EOverlayToStoreFlag_AddToCart = 1,
     k_EOverlayToStoreFlag_AddToCartAndShow = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EActivateGameOverlayToWebPageMode {
     k_EActivateGameOverlayToWebPageMode_Default = 0,
     k_EActivateGameOverlayToWebPageMode_Modal = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ECommunityProfileItemType {
@@ -4476,7 +4142,7 @@ pub enum ECommunityProfileItemType {
     k_ECommunityProfileItemType_ProfileBackground = 3,
     k_ECommunityProfileItemType_MiniProfileBackground = 4,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ECommunityProfileItemProperty {
@@ -4521,7 +4187,7 @@ pub struct PersonaStateChange_t {
 }
 pub const PersonaStateChange_t_k_iCallback: PersonaStateChange_t__bindgen_ty_1 =
     PersonaStateChange_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum PersonaStateChange_t__bindgen_ty_1 {
@@ -4564,7 +4230,7 @@ fn bindgen_test_layout_PersonaStateChange_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EPersonaChange {
@@ -4591,7 +4257,7 @@ pub struct GameOverlayActivated_t {
 }
 pub const GameOverlayActivated_t_k_iCallback: GameOverlayActivated_t__bindgen_ty_1 =
     GameOverlayActivated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameOverlayActivated_t__bindgen_ty_1 {
@@ -4630,7 +4296,7 @@ pub struct GameServerChangeRequested_t {
 }
 pub const GameServerChangeRequested_t_k_iCallback: GameServerChangeRequested_t__bindgen_ty_1 =
     GameServerChangeRequested_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameServerChangeRequested_t__bindgen_ty_1 {
@@ -4683,7 +4349,7 @@ pub struct GameLobbyJoinRequested_t {
 }
 pub const GameLobbyJoinRequested_t_k_iCallback: GameLobbyJoinRequested_t__bindgen_ty_1 =
     GameLobbyJoinRequested_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameLobbyJoinRequested_t__bindgen_ty_1 {
@@ -4737,7 +4403,7 @@ pub struct AvatarImageLoaded_t {
 }
 pub const AvatarImageLoaded_t_k_iCallback: AvatarImageLoaded_t__bindgen_ty_1 =
     AvatarImageLoaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AvatarImageLoaded_t__bindgen_ty_1 {
@@ -4805,7 +4471,7 @@ pub struct ClanOfficerListResponse_t {
 }
 pub const ClanOfficerListResponse_t_k_iCallback: ClanOfficerListResponse_t__bindgen_ty_1 =
     ClanOfficerListResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ClanOfficerListResponse_t__bindgen_ty_1 {
@@ -4868,7 +4534,7 @@ pub struct FriendRichPresenceUpdate_t {
 }
 pub const FriendRichPresenceUpdate_t_k_iCallback: FriendRichPresenceUpdate_t__bindgen_ty_1 =
     FriendRichPresenceUpdate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FriendRichPresenceUpdate_t__bindgen_ty_1 {
@@ -4921,7 +4587,7 @@ pub struct GameRichPresenceJoinRequested_t {
 pub const GameRichPresenceJoinRequested_t_k_iCallback:
     GameRichPresenceJoinRequested_t__bindgen_ty_1 =
     GameRichPresenceJoinRequested_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameRichPresenceJoinRequested_t__bindgen_ty_1 {
@@ -4975,7 +4641,7 @@ pub struct GameConnectedClanChatMsg_t {
 }
 pub const GameConnectedClanChatMsg_t_k_iCallback: GameConnectedClanChatMsg_t__bindgen_ty_1 =
     GameConnectedClanChatMsg_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameConnectedClanChatMsg_t__bindgen_ty_1 {
@@ -5040,7 +4706,7 @@ pub struct GameConnectedChatJoin_t {
 }
 pub const GameConnectedChatJoin_t_k_iCallback: GameConnectedChatJoin_t__bindgen_ty_1 =
     GameConnectedChatJoin_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameConnectedChatJoin_t__bindgen_ty_1 {
@@ -5094,7 +4760,7 @@ pub struct GameConnectedChatLeave_t {
 }
 pub const GameConnectedChatLeave_t_k_iCallback: GameConnectedChatLeave_t__bindgen_ty_1 =
     GameConnectedChatLeave_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameConnectedChatLeave_t__bindgen_ty_1 {
@@ -5170,7 +4836,7 @@ pub struct DownloadClanActivityCountsResult_t {
 pub const DownloadClanActivityCountsResult_t_k_iCallback:
     DownloadClanActivityCountsResult_t__bindgen_ty_1 =
     DownloadClanActivityCountsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum DownloadClanActivityCountsResult_t__bindgen_ty_1 {
@@ -5214,7 +4880,7 @@ pub struct JoinClanChatRoomCompletionResult_t {
 pub const JoinClanChatRoomCompletionResult_t_k_iCallback:
     JoinClanChatRoomCompletionResult_t__bindgen_ty_1 =
     JoinClanChatRoomCompletionResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum JoinClanChatRoomCompletionResult_t__bindgen_ty_1 {
@@ -5270,7 +4936,7 @@ pub struct GameConnectedFriendChatMsg_t {
 }
 pub const GameConnectedFriendChatMsg_t_k_iCallback: GameConnectedFriendChatMsg_t__bindgen_ty_1 =
     GameConnectedFriendChatMsg_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GameConnectedFriendChatMsg_t__bindgen_ty_1 {
@@ -5324,7 +4990,7 @@ pub struct FriendsGetFollowerCount_t {
 }
 pub const FriendsGetFollowerCount_t_k_iCallback: FriendsGetFollowerCount_t__bindgen_ty_1 =
     FriendsGetFollowerCount_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FriendsGetFollowerCount_t__bindgen_ty_1 {
@@ -5388,7 +5054,7 @@ pub struct FriendsIsFollowing_t {
 }
 pub const FriendsIsFollowing_t_k_iCallback: FriendsIsFollowing_t__bindgen_ty_1 =
     FriendsIsFollowing_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FriendsIsFollowing_t__bindgen_ty_1 {
@@ -5450,7 +5116,7 @@ pub struct FriendsEnumerateFollowingList_t {
 pub const FriendsEnumerateFollowingList_t_k_iCallback:
     FriendsEnumerateFollowingList_t__bindgen_ty_1 =
     FriendsEnumerateFollowingList_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FriendsEnumerateFollowingList_t__bindgen_ty_1 {
@@ -5530,7 +5196,7 @@ pub struct SetPersonaNameResponse_t {
 }
 pub const SetPersonaNameResponse_t_k_iCallback: SetPersonaNameResponse_t__bindgen_ty_1 =
     SetPersonaNameResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SetPersonaNameResponse_t__bindgen_ty_1 {
@@ -5593,7 +5259,7 @@ pub struct UnreadChatMessagesChanged_t {
 }
 pub const UnreadChatMessagesChanged_t_k_iCallback: UnreadChatMessagesChanged_t__bindgen_ty_1 =
     UnreadChatMessagesChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UnreadChatMessagesChanged_t__bindgen_ty_1 {
@@ -5620,7 +5286,7 @@ pub struct OverlayBrowserProtocolNavigation_t {
 pub const OverlayBrowserProtocolNavigation_t_k_iCallback:
     OverlayBrowserProtocolNavigation_t__bindgen_ty_1 =
     OverlayBrowserProtocolNavigation_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum OverlayBrowserProtocolNavigation_t__bindgen_ty_1 {
@@ -5662,7 +5328,7 @@ pub struct EquippedProfileItemsChanged_t {
 }
 pub const EquippedProfileItemsChanged_t_k_iCallback: EquippedProfileItemsChanged_t__bindgen_ty_1 =
     EquippedProfileItemsChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EquippedProfileItemsChanged_t__bindgen_ty_1 {
@@ -5706,7 +5372,7 @@ pub struct EquippedProfileItems_t {
 }
 pub const EquippedProfileItems_t_k_iCallback: EquippedProfileItems_t__bindgen_ty_1 =
     EquippedProfileItems_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EquippedProfileItems_t__bindgen_ty_1 {
@@ -5824,21 +5490,21 @@ pub enum ESteamAPICallFailure {
     k_ESteamAPICallFailureInvalidHandle = 2,
     k_ESteamAPICallFailureMismatchedCallback = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EGamepadTextInputMode {
     k_EGamepadTextInputModeNormal = 0,
     k_EGamepadTextInputModePassword = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EGamepadTextInputLineMode {
     k_EGamepadTextInputLineModeSingleLine = 0,
     k_EGamepadTextInputLineModeMultipleLines = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EFloatingGamepadTextInputMode {
@@ -5847,7 +5513,7 @@ pub enum EFloatingGamepadTextInputMode {
     k_EFloatingGamepadTextInputModeModeEmail = 2,
     k_EFloatingGamepadTextInputModeModeNumeric = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ETextFilteringContext {
@@ -5883,7 +5549,7 @@ pub struct IPCountry_t {
 }
 pub const IPCountry_t_k_iCallback: IPCountry_t__bindgen_ty_1 =
     IPCountry_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum IPCountry_t__bindgen_ty_1 {
@@ -5909,7 +5575,7 @@ pub struct LowBatteryPower_t {
 }
 pub const LowBatteryPower_t_k_iCallback: LowBatteryPower_t__bindgen_ty_1 =
     LowBatteryPower_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LowBatteryPower_t__bindgen_ty_1 {
@@ -5949,7 +5615,7 @@ pub struct SteamAPICallCompleted_t {
 }
 pub const SteamAPICallCompleted_t_k_iCallback: SteamAPICallCompleted_t__bindgen_ty_1 =
     SteamAPICallCompleted_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamAPICallCompleted_t__bindgen_ty_1 {
@@ -6011,7 +5677,7 @@ pub struct SteamShutdown_t {
 }
 pub const SteamShutdown_t_k_iCallback: SteamShutdown_t__bindgen_ty_1 =
     SteamShutdown_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamShutdown_t__bindgen_ty_1 {
@@ -6030,7 +5696,7 @@ fn bindgen_test_layout_SteamShutdown_t() {
         concat!("Alignment of ", stringify!(SteamShutdown_t))
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ECheckFileSignature {
@@ -6047,7 +5713,7 @@ pub struct CheckFileSignature_t {
 }
 pub const CheckFileSignature_t_k_iCallback: CheckFileSignature_t__bindgen_ty_1 =
     CheckFileSignature_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum CheckFileSignature_t__bindgen_ty_1 {
@@ -6087,7 +5753,7 @@ pub struct GamepadTextInputDismissed_t {
 }
 pub const GamepadTextInputDismissed_t_k_iCallback: GamepadTextInputDismissed_t__bindgen_ty_1 =
     GamepadTextInputDismissed_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GamepadTextInputDismissed_t__bindgen_ty_1 {
@@ -6139,7 +5805,7 @@ pub struct AppResumingFromSuspend_t {
 }
 pub const AppResumingFromSuspend_t_k_iCallback: AppResumingFromSuspend_t__bindgen_ty_1 =
     AppResumingFromSuspend_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AppResumingFromSuspend_t__bindgen_ty_1 {
@@ -6166,7 +5832,7 @@ pub struct FloatingGamepadTextInputDismissed_t {
 pub const FloatingGamepadTextInputDismissed_t_k_iCallback:
     FloatingGamepadTextInputDismissed_t__bindgen_ty_1 =
     FloatingGamepadTextInputDismissed_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FloatingGamepadTextInputDismissed_t__bindgen_ty_1 {
@@ -6191,20 +5857,13 @@ fn bindgen_test_layout_FloatingGamepadTextInputDismissed_t() {
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct _iobuf {
-    pub _ptr: *mut ::std::os::raw::c_char,
-    pub _cnt: ::std::os::raw::c_int,
-    pub _base: *mut ::std::os::raw::c_char,
-    pub _flag: ::std::os::raw::c_int,
-    pub _file: ::std::os::raw::c_int,
-    pub _charbuf: ::std::os::raw::c_int,
-    pub _bufsiz: ::std::os::raw::c_int,
-    pub _tmpfname: *mut ::std::os::raw::c_char,
+    pub _Placeholder: *mut ::std::os::raw::c_void,
 }
 #[test]
 fn bindgen_test_layout__iobuf() {
     assert_eq!(
         ::std::mem::size_of::<_iobuf>(),
-        48usize,
+        8usize,
         concat!("Size of: ", stringify!(_iobuf))
     );
     assert_eq!(
@@ -6213,275 +5872,263 @@ fn bindgen_test_layout__iobuf() {
         concat!("Alignment of ", stringify!(_iobuf))
     );
     assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._ptr as *const _ as usize },
+        unsafe { &(*(::std::ptr::null::<_iobuf>()))._Placeholder as *const _ as usize },
         0usize,
         concat!(
             "Offset of field: ",
             stringify!(_iobuf),
             "::",
-            stringify!(_ptr)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._cnt as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_cnt)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._base as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_base)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._flag as *const _ as usize },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_flag)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._file as *const _ as usize },
-        28usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_file)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._charbuf as *const _ as usize },
-        32usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_charbuf)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._bufsiz as *const _ as usize },
-        36usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_bufsiz)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::std::ptr::null::<_iobuf>()))._tmpfname as *const _ as usize },
-        40usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_iobuf),
-            "::",
-            stringify!(_tmpfname)
+            stringify!(_Placeholder)
         )
     );
 }
 pub type FILE = _iobuf;
-pub type _off_t = ::std::os::raw::c_long;
-pub type off32_t = ::std::os::raw::c_long;
-pub type _off64_t = ::std::os::raw::c_longlong;
-pub type off64_t = ::std::os::raw::c_longlong;
-pub type off_t = off32_t;
 extern "C" {
-    pub fn __acrt_iob_func(index: ::std::os::raw::c_uint) -> *mut FILE;
+    pub fn __acrt_iob_func(_Ix: ::std::os::raw::c_uint) -> *mut FILE;
 }
 extern "C" {
-    pub fn __iob_func() -> *mut FILE;
-}
-pub type fpos_t = ::std::os::raw::c_longlong;
-extern "C" {
-    pub fn __mingw_sscanf(
-        _Src: *const ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn fgetwc(_Stream: *mut FILE) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vsscanf(
-        _Str: *const ::std::os::raw::c_char,
-        Format: *const ::std::os::raw::c_char,
-        argp: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _fgetwchar() -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_scanf(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn fputwc(_Character: u16, _Stream: *mut FILE) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vscanf(
-        Format: *const ::std::os::raw::c_char,
-        argp: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _fputwchar(_Character: u16) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_fscanf(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn getwc(_Stream: *mut FILE) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vfscanf(
-        fp: *mut FILE,
-        Format: *const ::std::os::raw::c_char,
-        argp: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn getwchar() -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vsnprintf(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn fgetws(
+        _Buffer: *mut u16,
+        _BufferCount: ::std::os::raw::c_int,
+        _Stream: *mut FILE,
+    ) -> *mut u16;
 }
 extern "C" {
-    pub fn __mingw_snprintf(
-        s: *mut ::std::os::raw::c_char,
-        n: size_t,
-        format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn fputws(_Buffer: *const u16, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __mingw_printf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn _getws_s(_Buffer: *mut u16, _BufferCount: size_t) -> *mut u16;
 }
 extern "C" {
-    pub fn __mingw_vprintf(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn putwc(_Character: u16, _Stream: *mut FILE) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_fprintf(
-        arg1: *mut FILE,
-        arg2: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn putwchar(_Character: u16) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vfprintf(
-        arg1: *mut FILE,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _putws(_Buffer: *const u16) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __mingw_sprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn ungetwc(_Character: wint_t, _Stream: *mut FILE) -> wint_t;
 }
 extern "C" {
-    pub fn __mingw_vsprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _wfdopen(_FileHandle: ::std::os::raw::c_int, _Mode: *const u16) -> *mut FILE;
 }
 extern "C" {
-    pub fn __mingw_asprintf(
-        arg1: *mut *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn _wfopen(_FileName: *const u16, _Mode: *const u16) -> *mut FILE;
 }
 extern "C" {
-    pub fn __mingw_vasprintf(
-        arg1: *mut *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _wfopen_s(_Stream: *mut *mut FILE, _FileName: *const u16, _Mode: *const u16) -> errno_t;
 }
 extern "C" {
-    pub fn __ms_sscanf(
-        _Src: *const ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
+    pub fn _wfreopen(_FileName: *const u16, _Mode: *const u16, _OldStream: *mut FILE) -> *mut FILE;
 }
 extern "C" {
-    pub fn __ms_scanf(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn _wfreopen_s(
+        _Stream: *mut *mut FILE,
+        _FileName: *const u16,
+        _Mode: *const u16,
+        _OldStream: *mut FILE,
+    ) -> errno_t;
 }
 extern "C" {
-    pub fn __ms_fscanf(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_printf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_vprintf(
-        arg1: *const ::std::os::raw::c_char,
-        arg2: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_fprintf(
-        arg1: *mut FILE,
-        arg2: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_vfprintf(
-        arg1: *mut FILE,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_sprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_vsprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *const ::std::os::raw::c_char,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _filbuf(_File: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _flsbuf(_Ch: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fsopen(
-        _Filename: *const ::std::os::raw::c_char,
-        _Mode: *const ::std::os::raw::c_char,
+    pub fn _wfsopen(
+        _FileName: *const u16,
+        _Mode: *const u16,
         _ShFlag: ::std::os::raw::c_int,
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn clearerr(_File: *mut FILE);
+    pub fn _wperror(_ErrorMessage: *const u16);
 }
 extern "C" {
-    pub fn fclose(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn _wpopen(_Command: *const u16, _Mode: *const u16) -> *mut FILE;
+}
+extern "C" {
+    pub fn _wremove(_FileName: *const u16) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _wtempnam(_Directory: *const u16, _FilePrefix: *const u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _wtmpnam_s(_Buffer: *mut u16, _BufferCount: size_t) -> errno_t;
+}
+extern "C" {
+    pub fn _wtmpnam(_Buffer: *mut u16) -> *mut u16;
+}
+extern "C" {
+    pub fn _fgetwc_nolock(_Stream: *mut FILE) -> wint_t;
+}
+extern "C" {
+    pub fn _fputwc_nolock(_Character: u16, _Stream: *mut FILE) -> wint_t;
+}
+extern "C" {
+    pub fn _getwc_nolock(_Stream: *mut FILE) -> wint_t;
+}
+extern "C" {
+    pub fn _putwc_nolock(_Character: u16, _Stream: *mut FILE) -> wint_t;
+}
+extern "C" {
+    pub fn _ungetwc_nolock(_Character: wint_t, _Stream: *mut FILE) -> wint_t;
+}
+extern "C" {
+    pub fn __stdio_common_vfwprintf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfwprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfwprintf_p(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfwscanf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vswprintf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut u16,
+        _BufferCount: size_t,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vswprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut u16,
+        _BufferCount: size_t,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vsnwprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut u16,
+        _BufferCount: size_t,
+        _MaxCount: size_t,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vswprintf_p(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut u16,
+        _BufferCount: size_t,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vswscanf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *const u16,
+        _BufferCount: size_t,
+        _Format: *const u16,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+pub type fpos_t = ::std::os::raw::c_longlong;
+extern "C" {
+    pub fn _get_stream_buffer_pointers(
+        _Stream: *mut FILE,
+        _Base: *mut *mut *mut ::std::os::raw::c_char,
+        _Pointer: *mut *mut *mut ::std::os::raw::c_char,
+        _Count: *mut *mut ::std::os::raw::c_int,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn clearerr_s(_Stream: *mut FILE) -> errno_t;
+}
+extern "C" {
+    pub fn fopen_s(
+        _Stream: *mut *mut FILE,
+        _FileName: *const ::std::os::raw::c_char,
+        _Mode: *const ::std::os::raw::c_char,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn fread_s(
+        _Buffer: *mut ::std::os::raw::c_void,
+        _BufferSize: size_t,
+        _ElementSize: size_t,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn freopen_s(
+        _Stream: *mut *mut FILE,
+        _FileName: *const ::std::os::raw::c_char,
+        _Mode: *const ::std::os::raw::c_char,
+        _OldStream: *mut FILE,
+    ) -> errno_t;
+}
+extern "C" {
+    pub fn gets_s(
+        _Buffer: *mut ::std::os::raw::c_char,
+        _Size: rsize_t,
+    ) -> *mut ::std::os::raw::c_char;
+}
+extern "C" {
+    pub fn tmpfile_s(_Stream: *mut *mut FILE) -> errno_t;
+}
+extern "C" {
+    pub fn tmpnam_s(_Buffer: *mut ::std::os::raw::c_char, _Size: rsize_t) -> errno_t;
+}
+extern "C" {
+    pub fn clearerr(_Stream: *mut FILE);
+}
+extern "C" {
+    pub fn fclose(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _fcloseall() -> ::std::os::raw::c_int;
@@ -6493,137 +6140,109 @@ extern "C" {
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn feof(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn feof(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn ferror(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn ferror(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fflush(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn fflush(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fgetc(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn fgetc(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _fgetchar() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fgetpos(_File: *mut FILE, _Pos: *mut fpos_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fgetpos64(_File: *mut FILE, _Pos: *mut fpos_t) -> ::std::os::raw::c_int;
+    pub fn fgetpos(_Stream: *mut FILE, _Position: *mut fpos_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fgets(
-        _Buf: *mut ::std::os::raw::c_char,
+        _Buffer: *mut ::std::os::raw::c_char,
         _MaxCount: ::std::os::raw::c_int,
-        _File: *mut FILE,
+        _Stream: *mut FILE,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn _fileno(_File: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _tempnam(
-        _DirName: *const ::std::os::raw::c_char,
-        _FilePrefix: *const ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+    pub fn _fileno(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _flushall() -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fopen(
-        _Filename: *const ::std::os::raw::c_char,
+        _FileName: *const ::std::os::raw::c_char,
         _Mode: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn fopen64(
-        filename: *const ::std::os::raw::c_char,
-        mode: *const ::std::os::raw::c_char,
-    ) -> *mut FILE;
+    pub fn fputc(_Character: ::std::os::raw::c_int, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fputc(_Ch: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn _fputchar(_Character: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _fputchar(_Ch: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fputs(_Str: *const ::std::os::raw::c_char, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn fputs(
+        _Buffer: *const ::std::os::raw::c_char,
+        _Stream: *mut FILE,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fread(
-        _DstBuf: *mut ::std::os::raw::c_void,
+        _Buffer: *mut ::std::os::raw::c_void,
         _ElementSize: size_t,
-        _Count: size_t,
-        _File: *mut FILE,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
     ) -> size_t;
 }
 extern "C" {
     pub fn freopen(
-        _Filename: *const ::std::os::raw::c_char,
+        _FileName: *const ::std::os::raw::c_char,
         _Mode: *const ::std::os::raw::c_char,
-        _File: *mut FILE,
+        _Stream: *mut FILE,
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn fsetpos(_File: *mut FILE, _Pos: *const fpos_t) -> ::std::os::raw::c_int;
+    pub fn _fsopen(
+        _FileName: *const ::std::os::raw::c_char,
+        _Mode: *const ::std::os::raw::c_char,
+        _ShFlag: ::std::os::raw::c_int,
+    ) -> *mut FILE;
 }
 extern "C" {
-    pub fn fsetpos64(_File: *mut FILE, _Pos: *const fpos_t) -> ::std::os::raw::c_int;
+    pub fn fsetpos(_Stream: *mut FILE, _Position: *const fpos_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fseek(
-        _File: *mut FILE,
+        _Stream: *mut FILE,
         _Offset: ::std::os::raw::c_long,
         _Origin: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn ftell(_File: *mut FILE) -> ::std::os::raw::c_long;
-}
-extern "C" {
     pub fn _fseeki64(
-        _File: *mut FILE,
+        _Stream: *mut FILE,
         _Offset: ::std::os::raw::c_longlong,
         _Origin: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _ftelli64(_File: *mut FILE) -> ::std::os::raw::c_longlong;
+    pub fn ftell(_Stream: *mut FILE) -> ::std::os::raw::c_long;
 }
 extern "C" {
-    pub fn fseeko64(
-        stream: *mut FILE,
-        offset: _off64_t,
-        whence: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fseeko(
-        stream: *mut FILE,
-        offset: _off_t,
-        whence: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ftello(stream: *mut FILE) -> _off_t;
-}
-extern "C" {
-    pub fn ftello64(stream: *mut FILE) -> _off64_t;
+    pub fn _ftelli64(_Stream: *mut FILE) -> ::std::os::raw::c_longlong;
 }
 extern "C" {
     pub fn fwrite(
-        _Str: *const ::std::os::raw::c_void,
-        _Size: size_t,
-        _Count: size_t,
-        _File: *mut FILE,
+        _Buffer: *const ::std::os::raw::c_void,
+        _ElementSize: size_t,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
     ) -> size_t;
 }
 extern "C" {
-    pub fn getc(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn getc(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn getchar() -> ::std::os::raw::c_int;
@@ -6632,16 +6251,13 @@ extern "C" {
     pub fn _getmaxstdio() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn gets(_Buffer: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn _getw(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _getw(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn perror(_ErrorMessage: *const ::std::os::raw::c_char);
 }
 extern "C" {
-    pub fn perror(_ErrMsg: *const ::std::os::raw::c_char);
-}
-extern "C" {
-    pub fn _pclose(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn _pclose(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _popen(
@@ -6650,74 +6266,57 @@ extern "C" {
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn putc(_Ch: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn putc(_Character: ::std::os::raw::c_int, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn putchar(_Ch: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+    pub fn putchar(_Character: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn puts(_Str: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn puts(_Buffer: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _putw(_Word: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn _putw(_Word: ::std::os::raw::c_int, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn remove(_Filename: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn remove(_FileName: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn rename(
-        _OldFilename: *const ::std::os::raw::c_char,
-        _NewFilename: *const ::std::os::raw::c_char,
+        _OldFileName: *const ::std::os::raw::c_char,
+        _NewFileName: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _unlink(_Filename: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn _unlink(_FileName: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn unlink(_Filename: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn unlink(_FileName: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn rewind(_File: *mut FILE);
+    pub fn rewind(_Stream: *mut FILE);
 }
 extern "C" {
     pub fn _rmtmp() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn setbuf(_File: *mut FILE, _Buffer: *mut ::std::os::raw::c_char);
+    pub fn setbuf(_Stream: *mut FILE, _Buffer: *mut ::std::os::raw::c_char);
 }
 extern "C" {
-    pub fn _setmaxstdio(_Max: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _set_output_format(_Format: ::std::os::raw::c_uint) -> ::std::os::raw::c_uint;
-}
-extern "C" {
-    pub fn _get_output_format() -> ::std::os::raw::c_uint;
+    pub fn _setmaxstdio(_Maximum: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn setvbuf(
-        _File: *mut FILE,
-        _Buf: *mut ::std::os::raw::c_char,
+        _Stream: *mut FILE,
+        _Buffer: *mut ::std::os::raw::c_char,
         _Mode: ::std::os::raw::c_int,
         _Size: size_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _scprintf(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snscanf(
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscprintf(
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
+    pub fn _tempnam(
+        _DirectoryName: *const ::std::os::raw::c_char,
+        _FilePrefix: *const ::std::os::raw::c_char,
+    ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn tmpfile() -> *mut FILE;
@@ -6726,22 +6325,117 @@ extern "C" {
     pub fn tmpnam(_Buffer: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn ungetc(_Ch: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn ungetc(_Character: ::std::os::raw::c_int, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _snprintf(
-        _Dest: *mut ::std::os::raw::c_char,
-        _Count: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
+    pub fn _lock_file(_Stream: *mut FILE);
+}
+extern "C" {
+    pub fn _unlock_file(_Stream: *mut FILE);
+}
+extern "C" {
+    pub fn _fclose_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _fflush_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _fgetc_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _fputc_nolock(
+        _Character: ::std::os::raw::c_int,
+        _Stream: *mut FILE,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _vsnprintf(
-        _Dest: *mut ::std::os::raw::c_char,
-        _Count: size_t,
+    pub fn _fread_nolock(
+        _Buffer: *mut ::std::os::raw::c_void,
+        _ElementSize: size_t,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn _fread_nolock_s(
+        _Buffer: *mut ::std::os::raw::c_void,
+        _BufferSize: size_t,
+        _ElementSize: size_t,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn _fseek_nolock(
+        _Stream: *mut FILE,
+        _Offset: ::std::os::raw::c_long,
+        _Origin: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _fseeki64_nolock(
+        _Stream: *mut FILE,
+        _Offset: ::std::os::raw::c_longlong,
+        _Origin: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _ftell_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_long;
+}
+extern "C" {
+    pub fn _ftelli64_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_longlong;
+}
+extern "C" {
+    pub fn _fwrite_nolock(
+        _Buffer: *const ::std::os::raw::c_void,
+        _ElementSize: size_t,
+        _ElementCount: size_t,
+        _Stream: *mut FILE,
+    ) -> size_t;
+}
+extern "C" {
+    pub fn _getc_nolock(_Stream: *mut FILE) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _putc_nolock(
+        _Character: ::std::os::raw::c_int,
+        _Stream: *mut FILE,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn _ungetc_nolock(
+        _Character: ::std::os::raw::c_int,
+        _Stream: *mut FILE,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __p__commode() -> *mut ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfprintf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
         _Format: *const ::std::os::raw::c_char,
-        _Args: va_list,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn __stdio_common_vfprintf_p(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _ArgList: va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -6751,240 +6445,64 @@ extern "C" {
     pub fn _get_printf_count_output() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __mingw_swscanf(_Src: *const u16, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vswscanf(
-        _Str: *const u16,
-        Format: *const u16,
-        argp: va_list,
+    pub fn __stdio_common_vfscanf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Stream: *mut FILE,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _Arglist: va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __mingw_wscanf(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vwscanf(Format: *const u16, argp: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_fwscanf(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vfwscanf(
-        fp: *mut FILE,
-        Format: *const u16,
-        argp: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_fwprintf(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_wprintf(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vfwprintf(
-        _File: *mut FILE,
-        _Format: *const u16,
+    pub fn __stdio_common_vsprintf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut ::std::os::raw::c_char,
+        _BufferCount: size_t,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
         _ArgList: va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __mingw_vwprintf(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_snwprintf(
-        s: *mut u16,
-        n: size_t,
-        format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vsnwprintf(
-        arg1: *mut u16,
-        arg2: size_t,
-        arg3: *const u16,
-        arg4: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_swprintf(arg1: *mut u16, arg2: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_vswprintf(
-        arg1: *mut u16,
-        arg2: *const u16,
-        arg3: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_swscanf(_Src: *const u16, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_wscanf(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_fwscanf(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_fwprintf(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_wprintf(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_vfwprintf(
-        _File: *mut FILE,
-        _Format: *const u16,
+    pub fn __stdio_common_vsprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut ::std::os::raw::c_char,
+        _BufferCount: size_t,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
         _ArgList: va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn __ms_vwprintf(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_swprintf(arg1: *mut u16, arg2: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __ms_vswprintf(arg1: *mut u16, arg2: *const u16, arg3: va_list)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wfsopen(
-        _Filename: *const u16,
-        _Mode: *const u16,
-        _ShFlag: ::std::os::raw::c_int,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn fgetwc(_File: *mut FILE) -> wint_t;
-}
-extern "C" {
-    pub fn _fgetwchar() -> wint_t;
-}
-extern "C" {
-    pub fn fputwc(_Ch: u16, _File: *mut FILE) -> wint_t;
-}
-extern "C" {
-    pub fn _fputwchar(_Ch: u16) -> wint_t;
-}
-extern "C" {
-    pub fn getwc(_File: *mut FILE) -> wint_t;
-}
-extern "C" {
-    pub fn getwchar() -> wint_t;
-}
-extern "C" {
-    pub fn putwc(_Ch: u16, _File: *mut FILE) -> wint_t;
-}
-extern "C" {
-    pub fn putwchar(_Ch: u16) -> wint_t;
-}
-extern "C" {
-    pub fn ungetwc(_Ch: wint_t, _File: *mut FILE) -> wint_t;
-}
-extern "C" {
-    pub fn fgetws(
-        _Dst: *mut u16,
-        _SizeInWords: ::std::os::raw::c_int,
-        _File: *mut FILE,
-    ) -> *mut u16;
-}
-extern "C" {
-    pub fn fputws(_Str: *const u16, _File: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _getws(_String: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _putws(_Str: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scwprintf(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf_c(
-        _DstBuf: *mut u16,
-        _SizeInWords: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf_c(
-        _DstBuf: *mut u16,
-        _SizeInWords: size_t,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwprintf(
-        _Dest: *mut u16,
-        _Count: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnwprintf(
-        _Dest: *mut u16,
-        _Count: size_t,
-        _Format: *const u16,
-        _Args: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscwprintf(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf(_Dest: *mut u16, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf(
-        _Dest: *mut u16,
-        _Format: *const u16,
-        _Args: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wtempnam(_Directory: *const u16, _FilePrefix: *const u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _snwscanf(
-        _Src: *const u16,
+    pub fn __stdio_common_vsnprintf_s(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut ::std::os::raw::c_char,
+        _BufferCount: size_t,
         _MaxCount: size_t,
-        _Format: *const u16,
-        ...
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _ArgList: va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _wfdopen(_FileHandle: ::std::os::raw::c_int, _Mode: *const u16) -> *mut FILE;
+    pub fn __stdio_common_vsprintf_p(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *mut ::std::os::raw::c_char,
+        _BufferCount: size_t,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _wfopen(_Filename: *const u16, _Mode: *const u16) -> *mut FILE;
-}
-extern "C" {
-    pub fn _wfreopen(_Filename: *const u16, _Mode: *const u16, _OldFile: *mut FILE) -> *mut FILE;
-}
-extern "C" {
-    pub fn _wperror(_ErrMsg: *const u16);
-}
-extern "C" {
-    pub fn _wpopen(_Command: *const u16, _Mode: *const u16) -> *mut FILE;
-}
-extern "C" {
-    pub fn _wremove(_Filename: *const u16) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wtmpnam(_Buffer: *mut u16) -> *mut u16;
-}
-extern "C" {
-    pub fn _lock_file(_File: *mut FILE);
-}
-extern "C" {
-    pub fn _unlock_file(_File: *mut FILE);
+    pub fn __stdio_common_vsscanf(
+        _Options: ::std::os::raw::c_ulonglong,
+        _Buffer: *const ::std::os::raw::c_char,
+        _BufferCount: size_t,
+        _Format: *const ::std::os::raw::c_char,
+        _Locale: _locale_t,
+        _ArgList: va_list,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn tempnam(
@@ -7005,7 +6523,7 @@ extern "C" {
     pub fn fgetchar() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fileno(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn fileno(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn flushall() -> ::std::os::raw::c_int;
@@ -7014,984 +6532,13 @@ extern "C" {
     pub fn fputchar(_Ch: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn getw(_File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn getw(_Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn putw(_Ch: ::std::os::raw::c_int, _File: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn putw(_Ch: ::std::os::raw::c_int, _Stream: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn rmtmp() -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_str_wide_utf8(
-        wptr: *const u16,
-        mbptr: *mut *mut ::std::os::raw::c_char,
-        buflen: *mut size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_str_utf8_wide(
-        mbptr: *const ::std::os::raw::c_char,
-        wptr: *mut *mut u16,
-        buflen: *mut size_t,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __mingw_str_free(ptr: *mut ::std::os::raw::c_void);
-}
-extern "C" {
-    pub fn _wspawnl(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const u16,
-        ...
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnle(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const u16,
-        ...
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnlp(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const u16,
-        ...
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnlpe(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const u16,
-        ...
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnv(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const *const u16,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnve(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const *const u16,
-        _Env: *const *const u16,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnvp(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const *const u16,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _wspawnvpe(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const u16,
-        _ArgList: *const *const u16,
-        _Env: *const *const u16,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _spawnv(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const ::std::os::raw::c_char,
-        _ArgList: *const *const ::std::os::raw::c_char,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _spawnve(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const ::std::os::raw::c_char,
-        _ArgList: *const *const ::std::os::raw::c_char,
-        _Env: *const *const ::std::os::raw::c_char,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _spawnvp(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const ::std::os::raw::c_char,
-        _ArgList: *const *const ::std::os::raw::c_char,
-    ) -> isize;
-}
-extern "C" {
-    pub fn _spawnvpe(
-        _Mode: ::std::os::raw::c_int,
-        _Filename: *const ::std::os::raw::c_char,
-        _ArgList: *const *const ::std::os::raw::c_char,
-        _Env: *const *const ::std::os::raw::c_char,
-    ) -> isize;
-}
-extern "C" {
-    pub fn clearerr_s(_File: *mut FILE) -> errno_t;
-}
-extern "C" {
-    pub fn fread_s(
-        _DstBuf: *mut ::std::os::raw::c_void,
-        _DstSize: size_t,
-        _ElementSize: size_t,
-        _Count: size_t,
-        _File: *mut FILE,
-    ) -> size_t;
-}
-extern "C" {
-    pub fn fprintf_s(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fscanf_s_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fscanf_s(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn printf_s(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scanf_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scanf_s_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn scanf_s(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snprintf_c(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnprintf_c(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fscanf_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sscanf_l(
-        _Src: *const ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sscanf_s_l(
-        _Src: *const ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn sscanf_s(
-        _Src: *const ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snscanf_s(
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snscanf_l(
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snscanf_s_l(
-        _Src: *const ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vfprintf_s(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vprintf_s(
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vsnprintf_s(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnprintf_s(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vsprintf_s(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _Size: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn sprintf_s(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snprintf_s(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fprintf_p(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _printf_p(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sprintf_p(
-        _Dst: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfprintf_p(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vprintf_p(
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsprintf_p(
-        _Dst: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scprintf_p(_Format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscprintf_p(
-        _Format: *const ::std::os::raw::c_char,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _printf_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _printf_p_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vprintf_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vprintf_p_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fprintf_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fprintf_p_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfprintf_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfprintf_p_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sprintf_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sprintf_p_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsprintf_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _Format: *const ::std::os::raw::c_char,
-        arg1: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsprintf_p_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scprintf_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scprintf_p_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscprintf_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscprintf_p_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _printf_s_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vprintf_s_l(
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fprintf_s_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfprintf_s_l(
-        _File: *mut FILE,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _sprintf_s_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsprintf_s_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snprintf_s_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnprintf_s_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snprintf_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snprintf_c_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnprintf_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        _Format: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnprintf_c_l(
-        _DstBuf: *mut ::std::os::raw::c_char,
-        _MaxCount: size_t,
-        arg1: *const ::std::os::raw::c_char,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fopen_s(
-        _File: *mut *mut FILE,
-        _Filename: *const ::std::os::raw::c_char,
-        _Mode: *const ::std::os::raw::c_char,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn freopen_s(
-        _File: *mut *mut FILE,
-        _Filename: *const ::std::os::raw::c_char,
-        _Mode: *const ::std::os::raw::c_char,
-        _Stream: *mut FILE,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn gets_s(arg1: *mut ::std::os::raw::c_char, arg2: rsize_t) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn tmpnam_s(arg1: *mut ::std::os::raw::c_char, arg2: rsize_t) -> errno_t;
-}
-extern "C" {
-    pub fn _getws_s(_Str: *mut u16, _SizeInWords: size_t) -> *mut u16;
-}
-extern "C" {
-    pub fn fwprintf_s(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wprintf_s(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vfwprintf_s(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vwprintf_s(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vswprintf_s(
-        _Dst: *mut u16,
-        _SizeInWords: size_t,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn swprintf_s(
-        _Dst: *mut u16,
-        _SizeInWords: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnwprintf_s(
-        _DstBuf: *mut u16,
-        _DstSizeInWords: size_t,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwprintf_s(
-        _DstBuf: *mut u16,
-        _DstSizeInWords: size_t,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wprintf_s_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vwprintf_s_l(
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fwprintf_s_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfwprintf_s_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf_s_l(
-        _DstBuf: *mut u16,
-        _DstSize: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf_s_l(
-        _DstBuf: *mut u16,
-        _DstSize: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwprintf_s_l(
-        _DstBuf: *mut u16,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnwprintf_s_l(
-        _DstBuf: *mut u16,
-        _DstSize: size_t,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fwscanf_s_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fwscanf_s(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swscanf_s_l(
-        _Src: *const u16,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn swscanf_s(_Src: *const u16, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwscanf_s(
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwscanf_s_l(
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wscanf_s_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn wscanf_s(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wfopen_s(_File: *mut *mut FILE, _Filename: *const u16, _Mode: *const u16) -> errno_t;
-}
-extern "C" {
-    pub fn _wfreopen_s(
-        _File: *mut *mut FILE,
-        _Filename: *const u16,
-        _Mode: *const u16,
-        _OldFile: *mut FILE,
-    ) -> errno_t;
-}
-extern "C" {
-    pub fn _wtmpnam_s(_DstBuf: *mut u16, _SizeInWords: size_t) -> errno_t;
-}
-extern "C" {
-    pub fn _fwprintf_p(_File: *mut FILE, _Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wprintf_p(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfwprintf_p(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vwprintf_p(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf_p(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf_p(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scwprintf_p(_Format: *const u16, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscwprintf_p(_Format: *const u16, _ArgList: va_list) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wprintf_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wprintf_p_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vwprintf_l(
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vwprintf_p_l(
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fwprintf_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fwprintf_p_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfwprintf_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vfwprintf_p_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf_c_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swprintf_p_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf_c_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vswprintf_p_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scwprintf_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _scwprintf_p_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscwprintf_p_l(
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwprintf_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vsnwprintf_l(
-        _DstBuf: *mut u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __swprintf_l(
-        _Dest: *mut u16,
-        _Format: *const u16,
-        _Plocinfo: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __vswprintf_l(
-        _Dest: *mut u16,
-        _Format: *const u16,
-        _Plocinfo: _locale_t,
-        _Args: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _vscwprintf_l(
-        _Format: *const u16,
-        _Locale: _locale_t,
-        _ArgList: va_list,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _fwscanf_l(
-        _File: *mut FILE,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _swscanf_l(
-        _Src: *const u16,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _snwscanf_l(
-        _Src: *const u16,
-        _MaxCount: size_t,
-        _Format: *const u16,
-        _Locale: _locale_t,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _wscanf_l(_Format: *const u16, _Locale: _locale_t, ...) -> ::std::os::raw::c_int;
 }
 pub const k_cbMaxGameServerGameDir: ::std::os::raw::c_int = 32;
 pub const k_cbMaxGameServerMapName: ::std::os::raw::c_int = 32;
@@ -8047,7 +6594,7 @@ fn bindgen_test_layout_MatchMakingKeyValuePair_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EMatchMakingServerResponse {
@@ -8108,7 +6655,7 @@ fn bindgen_test_layout_servernetadr_t() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN14servernetadr_t4InitEjtt"]
+    #[link_name = "\u{1}?Init@servernetadr_t@@QEAAXIGG@Z"]
     pub fn servernetadr_t_Init(
         this: *mut servernetadr_t,
         ip: ::std::os::raw::c_uint,
@@ -8117,37 +6664,37 @@ extern "C" {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK14servernetadr_t12GetQueryPortEv"]
+    #[link_name = "\u{1}?GetQueryPort@servernetadr_t@@QEBAGXZ"]
     pub fn servernetadr_t_GetQueryPort(this: *const servernetadr_t) -> uint16;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN14servernetadr_t12SetQueryPortEt"]
+    #[link_name = "\u{1}?SetQueryPort@servernetadr_t@@QEAAXG@Z"]
     pub fn servernetadr_t_SetQueryPort(this: *mut servernetadr_t, usPort: uint16);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK14servernetadr_t17GetConnectionPortEv"]
+    #[link_name = "\u{1}?GetConnectionPort@servernetadr_t@@QEBAGXZ"]
     pub fn servernetadr_t_GetConnectionPort(this: *const servernetadr_t) -> uint16;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN14servernetadr_t17SetConnectionPortEt"]
+    #[link_name = "\u{1}?SetConnectionPort@servernetadr_t@@QEAAXG@Z"]
     pub fn servernetadr_t_SetConnectionPort(this: *mut servernetadr_t, usPort: uint16);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK14servernetadr_t5GetIPEv"]
+    #[link_name = "\u{1}?GetIP@servernetadr_t@@QEBAIXZ"]
     pub fn servernetadr_t_GetIP(this: *const servernetadr_t) -> uint32;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN14servernetadr_t5SetIPEj"]
+    #[link_name = "\u{1}?SetIP@servernetadr_t@@QEAAXI@Z"]
     pub fn servernetadr_t_SetIP(this: *mut servernetadr_t, unIP: uint32);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK14servernetadr_t26GetConnectionAddressStringEv"]
+    #[link_name = "\u{1}?GetConnectionAddressString@servernetadr_t@@QEBAPEBDXZ"]
     pub fn servernetadr_t_GetConnectionAddressString(
         this: *const servernetadr_t,
     ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK14servernetadr_t21GetQueryAddressStringEv"]
+    #[link_name = "\u{1}?GetQueryAddressString@servernetadr_t@@QEBAPEBDXZ"]
     pub fn servernetadr_t_GetQueryAddressString(
         this: *const servernetadr_t,
     ) -> *const ::std::os::raw::c_char;
@@ -8440,19 +6987,19 @@ fn bindgen_test_layout_gameserveritem_t() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK16gameserveritem_t7GetNameEv"]
+    #[link_name = "\u{1}?GetName@gameserveritem_t@@QEBAPEBDXZ"]
     pub fn gameserveritem_t_GetName(this: *const gameserveritem_t)
         -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN16gameserveritem_t7SetNameEPKc"]
+    #[link_name = "\u{1}?SetName@gameserveritem_t@@QEAAXPEBD@Z"]
     pub fn gameserveritem_t_SetName(
         this: *mut gameserveritem_t,
         pName: *const ::std::os::raw::c_char,
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN16gameserveritem_tC1Ev"]
+    #[link_name = "\u{1}??0gameserveritem_t@@QEAA@XZ"]
     pub fn gameserveritem_t_gameserveritem_t(this: *mut gameserveritem_t);
 }
 impl gameserveritem_t {
@@ -8471,7 +7018,7 @@ impl gameserveritem_t {
         __bindgen_tmp.assume_init()
     }
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELobbyType {
@@ -8492,7 +7039,7 @@ pub enum ELobbyComparison {
     k_ELobbyComparisonEqualToOrGreaterThan = 2,
     k_ELobbyComparisonNotEqual = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELobbyDistanceFilter {
@@ -8633,7 +7180,7 @@ fn bindgen_test_layout_ISteamMatchmakingServers() {
 pub const k_unFavoriteFlagNone: uint32 = 0;
 pub const k_unFavoriteFlagFavorite: uint32 = 1;
 pub const k_unFavoriteFlagHistory: uint32 = 2;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EChatMemberStateChange {
@@ -8663,7 +7210,7 @@ fn bindgen_test_layout_ISteamGameSearch() {
         concat!("Alignment of ", stringify!(ISteamGameSearch))
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamPartyBeaconLocationType {
@@ -8715,7 +7262,7 @@ fn bindgen_test_layout_SteamPartyBeaconLocation_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamPartyBeaconLocationData {
@@ -8758,7 +7305,7 @@ pub struct FavoritesListChanged_t {
 }
 pub const FavoritesListChanged_t_k_iCallback: FavoritesListChanged_t__bindgen_ty_1 =
     FavoritesListChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FavoritesListChanged_t__bindgen_ty_1 {
@@ -8862,7 +7409,7 @@ pub struct LobbyInvite_t {
 }
 pub const LobbyInvite_t_k_iCallback: LobbyInvite_t__bindgen_ty_1 =
     LobbyInvite_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyInvite_t__bindgen_ty_1 {
@@ -8921,7 +7468,7 @@ pub struct LobbyEnter_t {
 }
 pub const LobbyEnter_t_k_iCallback: LobbyEnter_t__bindgen_ty_1 =
     LobbyEnter_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyEnter_t__bindgen_ty_1 {
@@ -8993,7 +7540,7 @@ pub struct LobbyDataUpdate_t {
 }
 pub const LobbyDataUpdate_t_k_iCallback: LobbyDataUpdate_t__bindgen_ty_1 =
     LobbyDataUpdate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyDataUpdate_t__bindgen_ty_1 {
@@ -9056,7 +7603,7 @@ pub struct LobbyChatUpdate_t {
 }
 pub const LobbyChatUpdate_t_k_iCallback: LobbyChatUpdate_t__bindgen_ty_1 =
     LobbyChatUpdate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyChatUpdate_t__bindgen_ty_1 {
@@ -9136,7 +7683,7 @@ pub struct LobbyChatMsg_t {
 }
 pub const LobbyChatMsg_t_k_iCallback: LobbyChatMsg_t__bindgen_ty_1 =
     LobbyChatMsg_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyChatMsg_t__bindgen_ty_1 {
@@ -9205,7 +7752,7 @@ pub struct LobbyGameCreated_t {
 }
 pub const LobbyGameCreated_t_k_iCallback: LobbyGameCreated_t__bindgen_ty_1 =
     LobbyGameCreated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyGameCreated_t__bindgen_ty_1 {
@@ -9276,7 +7823,7 @@ pub struct LobbyMatchList_t {
 }
 pub const LobbyMatchList_t_k_iCallback: LobbyMatchList_t__bindgen_ty_1 =
     LobbyMatchList_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyMatchList_t__bindgen_ty_1 {
@@ -9316,7 +7863,7 @@ pub struct LobbyKicked_t {
 }
 pub const LobbyKicked_t_k_iCallback: LobbyKicked_t__bindgen_ty_1 =
     LobbyKicked_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyKicked_t__bindgen_ty_1 {
@@ -9375,7 +7922,7 @@ pub struct LobbyCreated_t {
 }
 pub const LobbyCreated_t_k_iCallback: LobbyCreated_t__bindgen_ty_1 =
     LobbyCreated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LobbyCreated_t__bindgen_ty_1 {
@@ -9422,7 +7969,7 @@ pub struct PSNGameBootInviteResult_t {
 }
 pub const PSNGameBootInviteResult_t_k_iCallback: PSNGameBootInviteResult_t__bindgen_ty_1 =
     PSNGameBootInviteResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum PSNGameBootInviteResult_t__bindgen_ty_1 {
@@ -9474,7 +8021,7 @@ pub struct FavoritesListAccountsUpdated_t {
 }
 pub const FavoritesListAccountsUpdated_t_k_iCallback: FavoritesListAccountsUpdated_t__bindgen_ty_1 =
     FavoritesListAccountsUpdated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FavoritesListAccountsUpdated_t__bindgen_ty_1 {
@@ -9519,7 +8066,7 @@ pub struct SearchForGameProgressCallback_t {
 pub const SearchForGameProgressCallback_t_k_iCallback:
     SearchForGameProgressCallback_t__bindgen_ty_1 =
     SearchForGameProgressCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SearchForGameProgressCallback_t__bindgen_ty_1 {
@@ -9628,7 +8175,7 @@ pub struct SearchForGameResultCallback_t {
 }
 pub const SearchForGameResultCallback_t_k_iCallback: SearchForGameResultCallback_t__bindgen_ty_1 =
     SearchForGameResultCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SearchForGameResultCallback_t__bindgen_ty_1 {
@@ -9733,7 +8280,7 @@ pub struct RequestPlayersForGameProgressCallback_t {
 pub const RequestPlayersForGameProgressCallback_t_k_iCallback:
     RequestPlayersForGameProgressCallback_t__bindgen_ty_1 =
     RequestPlayersForGameProgressCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RequestPlayersForGameProgressCallback_t__bindgen_ty_1 {
@@ -9801,13 +8348,13 @@ pub struct RequestPlayersForGameResultCallback_t {
 pub const RequestPlayersForGameResultCallback_t_k_iCallback:
     RequestPlayersForGameResultCallback_t__bindgen_ty_1 =
     RequestPlayersForGameResultCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RequestPlayersForGameResultCallback_t__bindgen_ty_1 {
     k_iCallback = 5212,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RequestPlayersForGameResultCallback_t_PlayerAcceptState_t {
@@ -9974,7 +8521,7 @@ pub struct RequestPlayersForGameFinalResultCallback_t {
 pub const RequestPlayersForGameFinalResultCallback_t_k_iCallback:
     RequestPlayersForGameFinalResultCallback_t__bindgen_ty_1 =
     RequestPlayersForGameFinalResultCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RequestPlayersForGameFinalResultCallback_t__bindgen_ty_1 {
@@ -10048,7 +8595,7 @@ pub struct SubmitPlayerResultResultCallback_t {
 pub const SubmitPlayerResultResultCallback_t_k_iCallback:
     SubmitPlayerResultResultCallback_t__bindgen_ty_1 =
     SubmitPlayerResultResultCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SubmitPlayerResultResultCallback_t__bindgen_ty_1 {
@@ -10117,7 +8664,7 @@ pub struct EndGameResultCallback_t {
 }
 pub const EndGameResultCallback_t_k_iCallback: EndGameResultCallback_t__bindgen_ty_1 =
     EndGameResultCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EndGameResultCallback_t__bindgen_ty_1 {
@@ -10170,7 +8717,7 @@ pub struct JoinPartyCallback_t {
 }
 pub const JoinPartyCallback_t_k_iCallback: JoinPartyCallback_t__bindgen_ty_1 =
     JoinPartyCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum JoinPartyCallback_t__bindgen_ty_1 {
@@ -10244,7 +8791,7 @@ pub struct CreateBeaconCallback_t {
 }
 pub const CreateBeaconCallback_t_k_iCallback: CreateBeaconCallback_t__bindgen_ty_1 =
     CreateBeaconCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum CreateBeaconCallback_t__bindgen_ty_1 {
@@ -10296,7 +8843,7 @@ pub struct ReservationNotificationCallback_t {
 pub const ReservationNotificationCallback_t_k_iCallback:
     ReservationNotificationCallback_t__bindgen_ty_1 =
     ReservationNotificationCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ReservationNotificationCallback_t__bindgen_ty_1 {
@@ -10351,7 +8898,7 @@ pub struct ChangeNumOpenSlotsCallback_t {
 }
 pub const ChangeNumOpenSlotsCallback_t_k_iCallback: ChangeNumOpenSlotsCallback_t__bindgen_ty_1 =
     ChangeNumOpenSlotsCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ChangeNumOpenSlotsCallback_t__bindgen_ty_1 {
@@ -10390,7 +8937,7 @@ pub struct AvailableBeaconLocationsUpdated_t {
 pub const AvailableBeaconLocationsUpdated_t_k_iCallback:
     AvailableBeaconLocationsUpdated_t__bindgen_ty_1 =
     AvailableBeaconLocationsUpdated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AvailableBeaconLocationsUpdated_t__bindgen_ty_1 {
@@ -10419,7 +8966,7 @@ pub struct ActiveBeaconsUpdated_t {
 }
 pub const ActiveBeaconsUpdated_t_k_iCallback: ActiveBeaconsUpdated_t__bindgen_ty_1 =
     ActiveBeaconsUpdated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ActiveBeaconsUpdated_t__bindgen_ty_1 {
@@ -10497,7 +9044,7 @@ pub const k_unEnumeratePublishedFilesMaxResults: uint32 = 50;
 pub const k_cchTagListMax: uint32 = 1025;
 pub const k_cchFilenameMax: uint32 = 260;
 pub const k_cchPublishedFileURLMax: uint32 = 256;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ERemoteStoragePlatform {
@@ -10509,9 +9056,9 @@ pub enum ERemoteStoragePlatform {
     k_ERemoteStoragePlatformSwitch = 16,
     k_ERemoteStoragePlatformAndroid = 32,
     k_ERemoteStoragePlatformIOS = 64,
-    k_ERemoteStoragePlatformAll = 4294967295,
+    k_ERemoteStoragePlatformAll = -1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ERemoteStoragePublishedFileVisibility {
@@ -10524,7 +9071,7 @@ impl EWorkshopFileType {
     pub const k_EWorkshopFileTypeCommunity: EWorkshopFileType =
         EWorkshopFileType::k_EWorkshopFileTypeFirst;
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EWorkshopFileType {
@@ -10546,7 +9093,7 @@ pub enum EWorkshopFileType {
     k_EWorkshopFileTypeGameManagedItem = 15,
     k_EWorkshopFileTypeMax = 16,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EWorkshopVote {
@@ -10555,14 +9102,14 @@ pub enum EWorkshopVote {
     k_EWorkshopVoteAgainst = 2,
     k_EWorkshopVoteLater = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EWorkshopFileAction {
     k_EWorkshopFileActionPlayed = 0,
     k_EWorkshopFileActionCompleted = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EWorkshopEnumerationType {
@@ -10574,14 +9121,14 @@ pub enum EWorkshopEnumerationType {
     k_EWorkshopEnumerationTypeContentByFriends = 5,
     k_EWorkshopEnumerationTypeRecentFromFollowedUsers = 6,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EWorkshopVideoProvider {
     k_EWorkshopVideoProviderNone = 0,
     k_EWorkshopVideoProviderYoutube = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUGCReadAction {
@@ -10589,7 +9136,7 @@ pub enum EUGCReadAction {
     k_EUGCRead_ContinueReading = 1,
     k_EUGCRead_Close = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ERemoteStorageLocalFileChange {
@@ -10597,7 +9144,7 @@ pub enum ERemoteStorageLocalFileChange {
     k_ERemoteStorageLocalFileChange_FileUpdated = 1,
     k_ERemoteStorageLocalFileChange_FileDeleted = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ERemoteStorageFilePathType {
@@ -10634,7 +9181,7 @@ pub struct RemoteStorageFileShareResult_t {
 }
 pub const RemoteStorageFileShareResult_t_k_iCallback: RemoteStorageFileShareResult_t__bindgen_ty_1 =
     RemoteStorageFileShareResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageFileShareResult_t__bindgen_ty_1 {
@@ -10701,7 +9248,7 @@ pub struct RemoteStoragePublishFileResult_t {
 pub const RemoteStoragePublishFileResult_t_k_iCallback:
     RemoteStoragePublishFileResult_t__bindgen_ty_1 =
     RemoteStoragePublishFileResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishFileResult_t__bindgen_ty_1 {
@@ -10771,7 +9318,7 @@ pub struct RemoteStorageDeletePublishedFileResult_t {
 pub const RemoteStorageDeletePublishedFileResult_t_k_iCallback:
     RemoteStorageDeletePublishedFileResult_t__bindgen_ty_1 =
     RemoteStorageDeletePublishedFileResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageDeletePublishedFileResult_t__bindgen_ty_1 {
@@ -10833,7 +9380,7 @@ pub struct RemoteStorageEnumerateUserPublishedFilesResult_t {
 pub const RemoteStorageEnumerateUserPublishedFilesResult_t_k_iCallback:
     RemoteStorageEnumerateUserPublishedFilesResult_t__bindgen_ty_1 =
     RemoteStorageEnumerateUserPublishedFilesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageEnumerateUserPublishedFilesResult_t__bindgen_ty_1 {
@@ -10919,7 +9466,7 @@ pub struct RemoteStorageSubscribePublishedFileResult_t {
 pub const RemoteStorageSubscribePublishedFileResult_t_k_iCallback:
     RemoteStorageSubscribePublishedFileResult_t__bindgen_ty_1 =
     RemoteStorageSubscribePublishedFileResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageSubscribePublishedFileResult_t__bindgen_ty_1 {
@@ -10982,7 +9529,7 @@ pub struct RemoteStorageEnumerateUserSubscribedFilesResult_t {
 pub const RemoteStorageEnumerateUserSubscribedFilesResult_t_k_iCallback:
     RemoteStorageEnumerateUserSubscribedFilesResult_t__bindgen_ty_1 =
     RemoteStorageEnumerateUserSubscribedFilesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageEnumerateUserSubscribedFilesResult_t__bindgen_ty_1 {
@@ -11081,7 +9628,7 @@ pub struct RemoteStorageUnsubscribePublishedFileResult_t {
 pub const RemoteStorageUnsubscribePublishedFileResult_t_k_iCallback:
     RemoteStorageUnsubscribePublishedFileResult_t__bindgen_ty_1 =
     RemoteStorageUnsubscribePublishedFileResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageUnsubscribePublishedFileResult_t__bindgen_ty_1 {
@@ -11142,7 +9689,7 @@ pub struct RemoteStorageUpdatePublishedFileResult_t {
 pub const RemoteStorageUpdatePublishedFileResult_t_k_iCallback:
     RemoteStorageUpdatePublishedFileResult_t__bindgen_ty_1 =
     RemoteStorageUpdatePublishedFileResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageUpdatePublishedFileResult_t__bindgen_ty_1 {
@@ -11219,7 +9766,7 @@ pub struct RemoteStorageDownloadUGCResult_t {
 pub const RemoteStorageDownloadUGCResult_t_k_iCallback:
     RemoteStorageDownloadUGCResult_t__bindgen_ty_1 =
     RemoteStorageDownloadUGCResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageDownloadUGCResult_t__bindgen_ty_1 {
@@ -11347,7 +9894,7 @@ pub struct RemoteStorageGetPublishedFileDetailsResult_t {
 pub const RemoteStorageGetPublishedFileDetailsResult_t_k_iCallback:
     RemoteStorageGetPublishedFileDetailsResult_t__bindgen_ty_1 =
     RemoteStorageGetPublishedFileDetailsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageGetPublishedFileDetailsResult_t__bindgen_ty_1 {
@@ -11659,7 +10206,7 @@ pub struct RemoteStorageEnumerateWorkshopFilesResult_t {
 pub const RemoteStorageEnumerateWorkshopFilesResult_t_k_iCallback:
     RemoteStorageEnumerateWorkshopFilesResult_t__bindgen_ty_1 =
     RemoteStorageEnumerateWorkshopFilesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageEnumerateWorkshopFilesResult_t__bindgen_ty_1 {
@@ -11788,7 +10335,7 @@ pub struct RemoteStorageGetPublishedItemVoteDetailsResult_t {
 pub const RemoteStorageGetPublishedItemVoteDetailsResult_t_k_iCallback:
     RemoteStorageGetPublishedItemVoteDetailsResult_t__bindgen_ty_1 =
     RemoteStorageGetPublishedItemVoteDetailsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageGetPublishedItemVoteDetailsResult_t__bindgen_ty_1 {
@@ -11900,7 +10447,7 @@ pub struct RemoteStoragePublishedFileSubscribed_t {
 pub const RemoteStoragePublishedFileSubscribed_t_k_iCallback:
     RemoteStoragePublishedFileSubscribed_t__bindgen_ty_1 =
     RemoteStoragePublishedFileSubscribed_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishedFileSubscribed_t__bindgen_ty_1 {
@@ -11960,7 +10507,7 @@ pub struct RemoteStoragePublishedFileUnsubscribed_t {
 pub const RemoteStoragePublishedFileUnsubscribed_t_k_iCallback:
     RemoteStoragePublishedFileUnsubscribed_t__bindgen_ty_1 =
     RemoteStoragePublishedFileUnsubscribed_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishedFileUnsubscribed_t__bindgen_ty_1 {
@@ -12020,7 +10567,7 @@ pub struct RemoteStoragePublishedFileDeleted_t {
 pub const RemoteStoragePublishedFileDeleted_t_k_iCallback:
     RemoteStoragePublishedFileDeleted_t__bindgen_ty_1 =
     RemoteStoragePublishedFileDeleted_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishedFileDeleted_t__bindgen_ty_1 {
@@ -12077,7 +10624,7 @@ pub struct RemoteStorageUpdateUserPublishedItemVoteResult_t {
 pub const RemoteStorageUpdateUserPublishedItemVoteResult_t_k_iCallback:
     RemoteStorageUpdateUserPublishedItemVoteResult_t__bindgen_ty_1 =
     RemoteStorageUpdateUserPublishedItemVoteResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageUpdateUserPublishedItemVoteResult_t__bindgen_ty_1 {
@@ -12137,7 +10684,7 @@ pub struct RemoteStorageUserVoteDetails_t {
 }
 pub const RemoteStorageUserVoteDetails_t_k_iCallback: RemoteStorageUserVoteDetails_t__bindgen_ty_1 =
     RemoteStorageUserVoteDetails_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageUserVoteDetails_t__bindgen_ty_1 {
@@ -12205,7 +10752,7 @@ pub struct RemoteStorageEnumerateUserSharedWorkshopFilesResult_t {
 pub const RemoteStorageEnumerateUserSharedWorkshopFilesResult_t_k_iCallback:
     RemoteStorageEnumerateUserSharedWorkshopFilesResult_t__bindgen_ty_1 =
     RemoteStorageEnumerateUserSharedWorkshopFilesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageEnumerateUserSharedWorkshopFilesResult_t__bindgen_ty_1 {
@@ -12292,7 +10839,7 @@ pub struct RemoteStorageSetUserPublishedFileActionResult_t {
 pub const RemoteStorageSetUserPublishedFileActionResult_t_k_iCallback:
     RemoteStorageSetUserPublishedFileActionResult_t__bindgen_ty_1 =
     RemoteStorageSetUserPublishedFileActionResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageSetUserPublishedFileActionResult_t__bindgen_ty_1 {
@@ -12369,7 +10916,7 @@ pub struct RemoteStorageEnumeratePublishedFilesByUserActionResult_t {
 pub const RemoteStorageEnumeratePublishedFilesByUserActionResult_t_k_iCallback:
     RemoteStorageEnumeratePublishedFilesByUserActionResult_t__bindgen_ty_1 =
     RemoteStorageEnumeratePublishedFilesByUserActionResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageEnumeratePublishedFilesByUserActionResult_t__bindgen_ty_1 {
@@ -12481,7 +11028,7 @@ pub struct RemoteStoragePublishFileProgress_t {
 pub const RemoteStoragePublishFileProgress_t_k_iCallback:
     RemoteStoragePublishFileProgress_t__bindgen_ty_1 =
     RemoteStoragePublishFileProgress_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishFileProgress_t__bindgen_ty_1 {
@@ -12539,7 +11086,7 @@ pub struct RemoteStoragePublishedFileUpdated_t {
 pub const RemoteStoragePublishedFileUpdated_t_k_iCallback:
     RemoteStoragePublishedFileUpdated_t__bindgen_ty_1 =
     RemoteStoragePublishedFileUpdated_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStoragePublishedFileUpdated_t__bindgen_ty_1 {
@@ -12608,7 +11155,7 @@ pub struct RemoteStorageFileWriteAsyncComplete_t {
 pub const RemoteStorageFileWriteAsyncComplete_t_k_iCallback:
     RemoteStorageFileWriteAsyncComplete_t__bindgen_ty_1 =
     RemoteStorageFileWriteAsyncComplete_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageFileWriteAsyncComplete_t__bindgen_ty_1 {
@@ -12657,7 +11204,7 @@ pub struct RemoteStorageFileReadAsyncComplete_t {
 pub const RemoteStorageFileReadAsyncComplete_t_k_iCallback:
     RemoteStorageFileReadAsyncComplete_t__bindgen_ty_1 =
     RemoteStorageFileReadAsyncComplete_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageFileReadAsyncComplete_t__bindgen_ty_1 {
@@ -12741,7 +11288,7 @@ pub struct RemoteStorageLocalFileChange_t {
 }
 pub const RemoteStorageLocalFileChange_t_k_iCallback: RemoteStorageLocalFileChange_t__bindgen_ty_1 =
     RemoteStorageLocalFileChange_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoteStorageLocalFileChange_t__bindgen_ty_1 {
@@ -12761,21 +11308,21 @@ fn bindgen_test_layout_RemoteStorageLocalFileChange_t() {
     );
 }
 pub const k_cchStatNameMax: _bindgen_ty_43 = _bindgen_ty_43::k_cchStatNameMax;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_43 {
     k_cchStatNameMax = 128,
 }
 pub const k_cchLeaderboardNameMax: _bindgen_ty_44 = _bindgen_ty_44::k_cchLeaderboardNameMax;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_44 {
     k_cchLeaderboardNameMax = 128,
 }
 pub const k_cLeaderboardDetailsMax: _bindgen_ty_45 = _bindgen_ty_45::k_cLeaderboardDetailsMax;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum _bindgen_ty_45 {
@@ -12783,7 +11330,7 @@ pub enum _bindgen_ty_45 {
 }
 pub type SteamLeaderboard_t = uint64;
 pub type SteamLeaderboardEntries_t = uint64;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELeaderboardDataRequest {
@@ -12792,7 +11339,7 @@ pub enum ELeaderboardDataRequest {
     k_ELeaderboardDataRequestFriends = 2,
     k_ELeaderboardDataRequestUsers = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELeaderboardSortMethod {
@@ -12800,7 +11347,7 @@ pub enum ELeaderboardSortMethod {
     k_ELeaderboardSortMethodAscending = 1,
     k_ELeaderboardSortMethodDescending = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELeaderboardDisplayType {
@@ -12809,7 +11356,7 @@ pub enum ELeaderboardDisplayType {
     k_ELeaderboardDisplayTypeTimeSeconds = 2,
     k_ELeaderboardDisplayTypeTimeMilliSeconds = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ELeaderboardUploadScoreMethod {
@@ -12922,7 +11469,7 @@ pub struct UserStatsReceived_t {
 }
 pub const UserStatsReceived_t_k_iCallback: UserStatsReceived_t__bindgen_ty_1 =
     UserStatsReceived_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserStatsReceived_t__bindgen_ty_1 {
@@ -12981,7 +11528,7 @@ pub struct UserStatsStored_t {
 }
 pub const UserStatsStored_t_k_iCallback: UserStatsStored_t__bindgen_ty_1 =
     UserStatsStored_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserStatsStored_t__bindgen_ty_1 {
@@ -13031,7 +11578,7 @@ pub struct UserAchievementStored_t {
 }
 pub const UserAchievementStored_t_k_iCallback: UserAchievementStored_t__bindgen_ty_1 =
     UserAchievementStored_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserAchievementStored_t__bindgen_ty_1 {
@@ -13120,7 +11667,7 @@ pub struct LeaderboardFindResult_t {
 }
 pub const LeaderboardFindResult_t_k_iCallback: LeaderboardFindResult_t__bindgen_ty_1 =
     LeaderboardFindResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LeaderboardFindResult_t__bindgen_ty_1 {
@@ -13174,7 +11721,7 @@ pub struct LeaderboardScoresDownloaded_t {
 }
 pub const LeaderboardScoresDownloaded_t_k_iCallback: LeaderboardScoresDownloaded_t__bindgen_ty_1 =
     LeaderboardScoresDownloaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LeaderboardScoresDownloaded_t__bindgen_ty_1 {
@@ -13244,7 +11791,7 @@ pub struct LeaderboardScoreUploaded_t {
 }
 pub const LeaderboardScoreUploaded_t_k_iCallback: LeaderboardScoreUploaded_t__bindgen_ty_1 =
     LeaderboardScoreUploaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LeaderboardScoreUploaded_t__bindgen_ty_1 {
@@ -13347,7 +11894,7 @@ pub struct NumberOfCurrentPlayers_t {
 }
 pub const NumberOfCurrentPlayers_t_k_iCallback: NumberOfCurrentPlayers_t__bindgen_ty_1 =
     NumberOfCurrentPlayers_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum NumberOfCurrentPlayers_t__bindgen_ty_1 {
@@ -13397,7 +11944,7 @@ pub struct UserStatsUnloaded_t {
 }
 pub const UserStatsUnloaded_t_k_iCallback: UserStatsUnloaded_t__bindgen_ty_1 =
     UserStatsUnloaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserStatsUnloaded_t__bindgen_ty_1 {
@@ -13438,7 +11985,7 @@ pub struct UserAchievementIconFetched_t {
 }
 pub const UserAchievementIconFetched_t_k_iCallback: UserAchievementIconFetched_t__bindgen_ty_1 =
     UserAchievementIconFetched_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserAchievementIconFetched_t__bindgen_ty_1 {
@@ -13517,7 +12064,7 @@ pub struct GlobalAchievementPercentagesReady_t {
 pub const GlobalAchievementPercentagesReady_t_k_iCallback:
     GlobalAchievementPercentagesReady_t__bindgen_ty_1 =
     GlobalAchievementPercentagesReady_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GlobalAchievementPercentagesReady_t__bindgen_ty_1 {
@@ -13573,7 +12120,7 @@ pub struct LeaderboardUGCSet_t {
 }
 pub const LeaderboardUGCSet_t_k_iCallback: LeaderboardUGCSet_t__bindgen_ty_1 =
     LeaderboardUGCSet_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum LeaderboardUGCSet_t__bindgen_ty_1 {
@@ -13623,7 +12170,7 @@ pub struct PS3TrophiesInstalled_t {
 }
 pub const PS3TrophiesInstalled_t_k_iCallback: PS3TrophiesInstalled_t__bindgen_ty_1 =
     PS3TrophiesInstalled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum PS3TrophiesInstalled_t__bindgen_ty_1 {
@@ -13687,7 +12234,7 @@ pub struct GlobalStatsReceived_t {
 }
 pub const GlobalStatsReceived_t_k_iCallback: GlobalStatsReceived_t__bindgen_ty_1 =
     GlobalStatsReceived_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GlobalStatsReceived_t__bindgen_ty_1 {
@@ -13754,7 +12301,7 @@ pub struct DlcInstalled_t {
 }
 pub const DlcInstalled_t_k_iCallback: DlcInstalled_t__bindgen_ty_1 =
     DlcInstalled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum DlcInstalled_t__bindgen_ty_1 {
@@ -13783,7 +12330,7 @@ fn bindgen_test_layout_DlcInstalled_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ERegisterActivationCodeResult {
@@ -13802,7 +12349,7 @@ pub struct RegisterActivationCodeResponse_t {
 pub const RegisterActivationCodeResponse_t_k_iCallback:
     RegisterActivationCodeResponse_t__bindgen_ty_1 =
     RegisterActivationCodeResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RegisterActivationCodeResponse_t__bindgen_ty_1 {
@@ -13857,7 +12404,7 @@ pub struct NewUrlLaunchParameters_t {
 }
 pub const NewUrlLaunchParameters_t_k_iCallback: NewUrlLaunchParameters_t__bindgen_ty_1 =
     NewUrlLaunchParameters_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum NewUrlLaunchParameters_t__bindgen_ty_1 {
@@ -13887,7 +12434,7 @@ pub struct AppProofOfPurchaseKeyResponse_t {
 pub const AppProofOfPurchaseKeyResponse_t_k_iCallback:
     AppProofOfPurchaseKeyResponse_t__bindgen_ty_1 =
     AppProofOfPurchaseKeyResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AppProofOfPurchaseKeyResponse_t__bindgen_ty_1 {
@@ -13968,7 +12515,7 @@ pub struct FileDetailsResult_t {
 }
 pub const FileDetailsResult_t_k_iCallback: FileDetailsResult_t__bindgen_ty_1 =
     FileDetailsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum FileDetailsResult_t__bindgen_ty_1 {
@@ -14039,7 +12586,7 @@ pub struct TimedTrialStatus_t {
 }
 pub const TimedTrialStatus_t_k_iCallback: TimedTrialStatus_t__bindgen_ty_1 =
     TimedTrialStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum TimedTrialStatus_t__bindgen_ty_1 {
@@ -14102,7 +12649,7 @@ fn bindgen_test_layout_TimedTrialStatus_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EP2PSessionError {
@@ -14113,7 +12660,7 @@ pub enum EP2PSessionError {
     k_EP2PSessionErrorDestinationNotLoggedIn_DELETED = 3,
     k_EP2PSessionErrorMax = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EP2PSend {
@@ -14238,7 +12785,7 @@ fn bindgen_test_layout_P2PSessionState_t() {
 }
 pub type SNetSocket_t = uint32;
 pub type SNetListenSocket_t = uint32;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESNetSocketState {
@@ -14254,7 +12801,7 @@ pub enum ESNetSocketState {
     k_ESNetSocketStateRemoteEndDisconnected = 24,
     k_ESNetSocketStateConnectionBroken = 25,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESNetSocketConnectionType {
@@ -14291,7 +12838,7 @@ pub struct P2PSessionRequest_t {
 }
 pub const P2PSessionRequest_t_k_iCallback: P2PSessionRequest_t__bindgen_ty_1 =
     P2PSessionRequest_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum P2PSessionRequest_t__bindgen_ty_1 {
@@ -14330,7 +12877,7 @@ pub struct P2PSessionConnectFail_t {
 }
 pub const P2PSessionConnectFail_t_k_iCallback: P2PSessionConnectFail_t__bindgen_ty_1 =
     P2PSessionConnectFail_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum P2PSessionConnectFail_t__bindgen_ty_1 {
@@ -14384,7 +12931,7 @@ pub struct SocketStatusCallback_t {
 }
 pub const SocketStatusCallback_t_k_iCallback: SocketStatusCallback_t__bindgen_ty_1 =
     SocketStatusCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SocketStatusCallback_t__bindgen_ty_1 {
@@ -14458,7 +13005,7 @@ pub const k_cubUFSTagTypeMax: ::std::os::raw::c_int = 255;
 pub const k_cubUFSTagValueMax: ::std::os::raw::c_int = 255;
 pub const k_ScreenshotThumbWidth: ::std::os::raw::c_int = 200;
 pub type ScreenshotHandle = uint32;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EVRScreenshotType {
@@ -14497,7 +13044,7 @@ pub struct ScreenshotReady_t {
 }
 pub const ScreenshotReady_t_k_iCallback: ScreenshotReady_t__bindgen_ty_1 =
     ScreenshotReady_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ScreenshotReady_t__bindgen_ty_1 {
@@ -14543,7 +13090,7 @@ pub struct ScreenshotRequested_t {
 }
 pub const ScreenshotRequested_t_k_iCallback: ScreenshotRequested_t__bindgen_ty_1 =
     ScreenshotRequested_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ScreenshotRequested_t__bindgen_ty_1 {
@@ -14562,7 +13109,7 @@ fn bindgen_test_layout_ScreenshotRequested_t() {
         concat!("Alignment of ", stringify!(ScreenshotRequested_t))
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AudioPlayback_Status {
@@ -14598,7 +13145,7 @@ pub struct PlaybackStatusHasChanged_t {
 }
 pub const PlaybackStatusHasChanged_t_k_iCallback: PlaybackStatusHasChanged_t__bindgen_ty_1 =
     PlaybackStatusHasChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum PlaybackStatusHasChanged_t__bindgen_ty_1 {
@@ -14624,7 +13171,7 @@ pub struct VolumeHasChanged_t {
 }
 pub const VolumeHasChanged_t_k_iCallback: VolumeHasChanged_t__bindgen_ty_1 =
     VolumeHasChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum VolumeHasChanged_t__bindgen_ty_1 {
@@ -14683,7 +13230,7 @@ pub struct MusicPlayerRemoteWillActivate_t {
 pub const MusicPlayerRemoteWillActivate_t_k_iCallback:
     MusicPlayerRemoteWillActivate_t__bindgen_ty_1 =
     MusicPlayerRemoteWillActivate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerRemoteWillActivate_t__bindgen_ty_1 {
@@ -14710,7 +13257,7 @@ pub struct MusicPlayerRemoteWillDeactivate_t {
 pub const MusicPlayerRemoteWillDeactivate_t_k_iCallback:
     MusicPlayerRemoteWillDeactivate_t__bindgen_ty_1 =
     MusicPlayerRemoteWillDeactivate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerRemoteWillDeactivate_t__bindgen_ty_1 {
@@ -14739,7 +13286,7 @@ pub struct MusicPlayerRemoteToFront_t {
 }
 pub const MusicPlayerRemoteToFront_t_k_iCallback: MusicPlayerRemoteToFront_t__bindgen_ty_1 =
     MusicPlayerRemoteToFront_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerRemoteToFront_t__bindgen_ty_1 {
@@ -14765,7 +13312,7 @@ pub struct MusicPlayerWillQuit_t {
 }
 pub const MusicPlayerWillQuit_t_k_iCallback: MusicPlayerWillQuit_t__bindgen_ty_1 =
     MusicPlayerWillQuit_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWillQuit_t__bindgen_ty_1 {
@@ -14791,7 +13338,7 @@ pub struct MusicPlayerWantsPlay_t {
 }
 pub const MusicPlayerWantsPlay_t_k_iCallback: MusicPlayerWantsPlay_t__bindgen_ty_1 =
     MusicPlayerWantsPlay_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsPlay_t__bindgen_ty_1 {
@@ -14817,7 +13364,7 @@ pub struct MusicPlayerWantsPause_t {
 }
 pub const MusicPlayerWantsPause_t_k_iCallback: MusicPlayerWantsPause_t__bindgen_ty_1 =
     MusicPlayerWantsPause_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsPause_t__bindgen_ty_1 {
@@ -14843,7 +13390,7 @@ pub struct MusicPlayerWantsPlayPrevious_t {
 }
 pub const MusicPlayerWantsPlayPrevious_t_k_iCallback: MusicPlayerWantsPlayPrevious_t__bindgen_ty_1 =
     MusicPlayerWantsPlayPrevious_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsPlayPrevious_t__bindgen_ty_1 {
@@ -14869,7 +13416,7 @@ pub struct MusicPlayerWantsPlayNext_t {
 }
 pub const MusicPlayerWantsPlayNext_t_k_iCallback: MusicPlayerWantsPlayNext_t__bindgen_ty_1 =
     MusicPlayerWantsPlayNext_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsPlayNext_t__bindgen_ty_1 {
@@ -14895,7 +13442,7 @@ pub struct MusicPlayerWantsShuffled_t {
 }
 pub const MusicPlayerWantsShuffled_t_k_iCallback: MusicPlayerWantsShuffled_t__bindgen_ty_1 =
     MusicPlayerWantsShuffled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsShuffled_t__bindgen_ty_1 {
@@ -14933,7 +13480,7 @@ pub struct MusicPlayerWantsLooped_t {
 }
 pub const MusicPlayerWantsLooped_t_k_iCallback: MusicPlayerWantsLooped_t__bindgen_ty_1 =
     MusicPlayerWantsLooped_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsLooped_t__bindgen_ty_1 {
@@ -14971,7 +13518,7 @@ pub struct MusicPlayerWantsVolume_t {
 }
 pub const MusicPlayerWantsVolume_t_k_iCallback: MusicPlayerWantsVolume_t__bindgen_ty_1 =
     MusicPlayerWantsVolume_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsVolume_t__bindgen_ty_1 {
@@ -15009,7 +13556,7 @@ pub struct MusicPlayerSelectsQueueEntry_t {
 }
 pub const MusicPlayerSelectsQueueEntry_t_k_iCallback: MusicPlayerSelectsQueueEntry_t__bindgen_ty_1 =
     MusicPlayerSelectsQueueEntry_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerSelectsQueueEntry_t__bindgen_ty_1 {
@@ -15048,7 +13595,7 @@ pub struct MusicPlayerSelectsPlaylistEntry_t {
 pub const MusicPlayerSelectsPlaylistEntry_t_k_iCallback:
     MusicPlayerSelectsPlaylistEntry_t__bindgen_ty_1 =
     MusicPlayerSelectsPlaylistEntry_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerSelectsPlaylistEntry_t__bindgen_ty_1 {
@@ -15090,7 +13637,7 @@ pub struct MusicPlayerWantsPlayingRepeatStatus_t {
 pub const MusicPlayerWantsPlayingRepeatStatus_t_k_iCallback:
     MusicPlayerWantsPlayingRepeatStatus_t__bindgen_ty_1 =
     MusicPlayerWantsPlayingRepeatStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum MusicPlayerWantsPlayingRepeatStatus_t__bindgen_ty_1 {
@@ -15128,7 +13675,7 @@ fn bindgen_test_layout_MusicPlayerWantsPlayingRepeatStatus_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EHTTPMethod {
@@ -15141,7 +13688,7 @@ pub enum EHTTPMethod {
     k_EHTTPMethodOPTIONS = 6,
     k_EHTTPMethodPATCH = 7,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EHTTPStatusCode {
@@ -15224,7 +13771,7 @@ pub struct HTTPRequestCompleted_t {
 }
 pub const HTTPRequestCompleted_t_k_iCallback: HTTPRequestCompleted_t__bindgen_ty_1 =
     HTTPRequestCompleted_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTTPRequestCompleted_t__bindgen_ty_1 {
@@ -15312,7 +13859,7 @@ pub struct HTTPRequestHeadersReceived_t {
 }
 pub const HTTPRequestHeadersReceived_t_k_iCallback: HTTPRequestHeadersReceived_t__bindgen_ty_1 =
     HTTPRequestHeadersReceived_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTTPRequestHeadersReceived_t__bindgen_ty_1 {
@@ -15366,7 +13913,7 @@ pub struct HTTPRequestDataReceived_t {
 }
 pub const HTTPRequestDataReceived_t_k_iCallback: HTTPRequestDataReceived_t__bindgen_ty_1 =
     HTTPRequestDataReceived_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTTPRequestDataReceived_t__bindgen_ty_1 {
@@ -15435,7 +13982,7 @@ fn bindgen_test_layout_HTTPRequestDataReceived_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EInputSourceMode {
@@ -15457,7 +14004,7 @@ pub enum EInputSourceMode {
     k_EInputSourceMode_SingleButton = 15,
     k_EInputSourceMode_Switches = 16,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EInputActionOrigin {
@@ -15870,7 +14417,7 @@ pub enum EInputActionOrigin {
     k_EInputActionOrigin_Count = 406,
     k_EInputActionOrigin_MaximumPossibleValue = 32767,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EXboxOrigin {
@@ -15904,14 +14451,14 @@ pub enum EXboxOrigin {
     k_EXboxOrigin_DPad_East = 27,
     k_EXboxOrigin_Count = 28,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamControllerPad {
     k_ESteamControllerPad_Left = 0,
     k_ESteamControllerPad_Right = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EControllerHapticLocation {
@@ -15919,7 +14466,7 @@ pub enum EControllerHapticLocation {
     k_EControllerHapticLocation_Right = 2,
     k_EControllerHapticLocation_Both = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EControllerHapticType {
@@ -15927,7 +14474,7 @@ pub enum EControllerHapticType {
     k_EControllerHapticType_Tick = 1,
     k_EControllerHapticType_Click = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputType {
@@ -15949,7 +14496,7 @@ pub enum ESteamInputType {
     k_ESteamInputType_Count = 15,
     k_ESteamInputType_MaximumPossibleValue = 255,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputConfigurationEnableType {
@@ -15959,14 +14506,14 @@ pub enum ESteamInputConfigurationEnableType {
     k_ESteamInputConfigurationEnableType_Generic = 4,
     k_ESteamInputConfigurationEnableType_Switch = 8,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputLEDFlag {
     k_ESteamInputLEDFlag_SetColor = 0,
     k_ESteamInputLEDFlag_RestoreUserDefault = 1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputGlyphSize {
@@ -15975,7 +14522,7 @@ pub enum ESteamInputGlyphSize {
     k_ESteamInputGlyphSize_Large = 2,
     k_ESteamInputGlyphSize_Count = 3,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputGlyphStyle {
@@ -15985,7 +14532,7 @@ pub enum ESteamInputGlyphStyle {
     ESteamInputGlyphStyle_NeutralColorABXY = 16,
     ESteamInputGlyphStyle_SolidABXY = 32,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamInputActionEventType {
@@ -16423,6 +14970,11 @@ fn bindgen_test_layout_SteamInputActionEvent_t() {
         )
     );
 }
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct ScePadTriggerEffectParam {
+    _unused: [u8; 0],
+}
 pub type SteamInputActionEventCallbackPointer =
     ::std::option::Option<unsafe extern "C" fn(arg1: *mut SteamInputActionEvent_t)>;
 #[repr(C)]
@@ -16452,7 +15004,7 @@ pub struct SteamInputDeviceConnected_t {
 }
 pub const SteamInputDeviceConnected_t_k_iCallback: SteamInputDeviceConnected_t__bindgen_ty_1 =
     SteamInputDeviceConnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInputDeviceConnected_t__bindgen_ty_1 {
@@ -16491,7 +15043,7 @@ pub struct SteamInputDeviceDisconnected_t {
 }
 pub const SteamInputDeviceDisconnected_t_k_iCallback: SteamInputDeviceDisconnected_t__bindgen_ty_1 =
     SteamInputDeviceDisconnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInputDeviceDisconnected_t__bindgen_ty_1 {
@@ -16537,7 +15089,7 @@ pub struct SteamInputConfigurationLoaded_t {
 pub const SteamInputConfigurationLoaded_t_k_iCallback:
     SteamInputConfigurationLoaded_t__bindgen_ty_1 =
     SteamInputConfigurationLoaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInputConfigurationLoaded_t__bindgen_ty_1 {
@@ -16647,7 +15199,7 @@ fn bindgen_test_layout_SteamInputConfigurationLoaded_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EControllerActionOrigin {
@@ -17032,7 +15584,7 @@ pub enum EControllerActionOrigin {
     k_EControllerActionOrigin_Count = 378,
     k_EControllerActionOrigin_MaximumPossibleValue = 32767,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamControllerLEDFlag {
@@ -17086,7 +15638,7 @@ pub enum EUGCMatchingUGCType {
     k_EUGCMatchingUGCType_GameManagedItems = 12,
     k_EUGCMatchingUGCType_All = -1,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUserUGCList {
@@ -17100,7 +15652,7 @@ pub enum EUserUGCList {
     k_EUserUGCList_UsedOrPlayed = 7,
     k_EUserUGCList_Followed = 8,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUserUGCListSortOrder {
@@ -17112,7 +15664,7 @@ pub enum EUserUGCListSortOrder {
     k_EUserUGCListSortOrder_VoteScoreDesc = 5,
     k_EUserUGCListSortOrder_ForModeration = 6,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EUGCQuery {
@@ -17137,7 +15689,7 @@ pub enum EUGCQuery {
     k_EUGCQuery_RankedByLifetimePlaytimeSessions = 18,
     k_EUGCQuery_RankedByLastUpdatedDate = 19,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EItemUpdateStatus {
@@ -17148,7 +15700,7 @@ pub enum EItemUpdateStatus {
     k_EItemUpdateStatusUploadingPreviewFile = 4,
     k_EItemUpdateStatusCommittingChanges = 5,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EItemState {
@@ -17160,7 +15712,7 @@ pub enum EItemState {
     k_EItemStateDownloading = 16,
     k_EItemStateDownloadPending = 32,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EItemStatistic {
@@ -17178,7 +15730,7 @@ pub enum EItemStatistic {
     k_EItemStatistic_NumSecondsPlayedDuringTimePeriod = 11,
     k_EItemStatistic_NumPlaytimeSessionsDuringTimePeriod = 12,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EItemPreviewType {
@@ -17553,7 +16105,7 @@ pub struct SteamUGCQueryCompleted_t {
 }
 pub const SteamUGCQueryCompleted_t_k_iCallback: SteamUGCQueryCompleted_t__bindgen_ty_1 =
     SteamUGCQueryCompleted_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamUGCQueryCompleted_t__bindgen_ty_1 {
@@ -17656,7 +16208,7 @@ pub struct SteamUGCRequestUGCDetailsResult_t {
 pub const SteamUGCRequestUGCDetailsResult_t_k_iCallback:
     SteamUGCRequestUGCDetailsResult_t__bindgen_ty_1 =
     SteamUGCRequestUGCDetailsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamUGCRequestUGCDetailsResult_t__bindgen_ty_1 {
@@ -17713,7 +16265,7 @@ pub struct CreateItemResult_t {
 }
 pub const CreateItemResult_t_k_iCallback: CreateItemResult_t__bindgen_ty_1 =
     CreateItemResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum CreateItemResult_t__bindgen_ty_1 {
@@ -17776,7 +16328,7 @@ pub struct SubmitItemUpdateResult_t {
 }
 pub const SubmitItemUpdateResult_t_k_iCallback: SubmitItemUpdateResult_t__bindgen_ty_1 =
     SubmitItemUpdateResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SubmitItemUpdateResult_t__bindgen_ty_1 {
@@ -17841,7 +16393,7 @@ pub struct ItemInstalled_t {
 }
 pub const ItemInstalled_t_k_iCallback: ItemInstalled_t__bindgen_ty_1 =
     ItemInstalled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ItemInstalled_t__bindgen_ty_1 {
@@ -17891,7 +16443,7 @@ pub struct DownloadItemResult_t {
 }
 pub const DownloadItemResult_t_k_iCallback: DownloadItemResult_t__bindgen_ty_1 =
     DownloadItemResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum DownloadItemResult_t__bindgen_ty_1 {
@@ -17951,7 +16503,7 @@ pub struct UserFavoriteItemsListChanged_t {
 }
 pub const UserFavoriteItemsListChanged_t_k_iCallback: UserFavoriteItemsListChanged_t__bindgen_ty_1 =
     UserFavoriteItemsListChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserFavoriteItemsListChanged_t__bindgen_ty_1 {
@@ -18018,7 +16570,7 @@ pub struct SetUserItemVoteResult_t {
 }
 pub const SetUserItemVoteResult_t_k_iCallback: SetUserItemVoteResult_t__bindgen_ty_1 =
     SetUserItemVoteResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SetUserItemVoteResult_t__bindgen_ty_1 {
@@ -18085,7 +16637,7 @@ pub struct GetUserItemVoteResult_t {
 }
 pub const GetUserItemVoteResult_t_k_iCallback: GetUserItemVoteResult_t__bindgen_ty_1 =
     GetUserItemVoteResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GetUserItemVoteResult_t__bindgen_ty_1 {
@@ -18172,7 +16724,7 @@ pub struct StartPlaytimeTrackingResult_t {
 }
 pub const StartPlaytimeTrackingResult_t_k_iCallback: StartPlaytimeTrackingResult_t__bindgen_ty_1 =
     StartPlaytimeTrackingResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum StartPlaytimeTrackingResult_t__bindgen_ty_1 {
@@ -18210,7 +16762,7 @@ pub struct StopPlaytimeTrackingResult_t {
 }
 pub const StopPlaytimeTrackingResult_t_k_iCallback: StopPlaytimeTrackingResult_t__bindgen_ty_1 =
     StopPlaytimeTrackingResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum StopPlaytimeTrackingResult_t__bindgen_ty_1 {
@@ -18250,7 +16802,7 @@ pub struct AddUGCDependencyResult_t {
 }
 pub const AddUGCDependencyResult_t_k_iCallback: AddUGCDependencyResult_t__bindgen_ty_1 =
     AddUGCDependencyResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AddUGCDependencyResult_t__bindgen_ty_1 {
@@ -18316,7 +16868,7 @@ pub struct RemoveUGCDependencyResult_t {
 }
 pub const RemoveUGCDependencyResult_t_k_iCallback: RemoveUGCDependencyResult_t__bindgen_ty_1 =
     RemoveUGCDependencyResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoveUGCDependencyResult_t__bindgen_ty_1 {
@@ -18382,7 +16934,7 @@ pub struct AddAppDependencyResult_t {
 }
 pub const AddAppDependencyResult_t_k_iCallback: AddAppDependencyResult_t__bindgen_ty_1 =
     AddAppDependencyResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AddAppDependencyResult_t__bindgen_ty_1 {
@@ -18447,7 +16999,7 @@ pub struct RemoveAppDependencyResult_t {
 }
 pub const RemoveAppDependencyResult_t_k_iCallback: RemoveAppDependencyResult_t__bindgen_ty_1 =
     RemoveAppDependencyResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum RemoveAppDependencyResult_t__bindgen_ty_1 {
@@ -18514,7 +17066,7 @@ pub struct GetAppDependenciesResult_t {
 }
 pub const GetAppDependenciesResult_t_k_iCallback: GetAppDependenciesResult_t__bindgen_ty_1 =
     GetAppDependenciesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GetAppDependenciesResult_t__bindgen_ty_1 {
@@ -18604,7 +17156,7 @@ pub struct DeleteItemResult_t {
 }
 pub const DeleteItemResult_t_k_iCallback: DeleteItemResult_t__bindgen_ty_1 =
     DeleteItemResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum DeleteItemResult_t__bindgen_ty_1 {
@@ -18653,7 +17205,7 @@ pub struct UserSubscribedItemsListChanged_t {
 pub const UserSubscribedItemsListChanged_t_k_iCallback:
     UserSubscribedItemsListChanged_t__bindgen_ty_1 =
     UserSubscribedItemsListChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum UserSubscribedItemsListChanged_t__bindgen_ty_1 {
@@ -18700,7 +17252,7 @@ pub struct WorkshopEULAStatus_t {
 }
 pub const WorkshopEULAStatus_t_k_iCallback: WorkshopEULAStatus_t__bindgen_ty_1 =
     WorkshopEULAStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum WorkshopEULAStatus_t__bindgen_ty_1 {
@@ -18813,7 +17365,7 @@ pub struct SteamAppInstalled_t {
 }
 pub const SteamAppInstalled_t_k_iCallback: SteamAppInstalled_t__bindgen_ty_1 =
     SteamAppInstalled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamAppInstalled_t__bindgen_ty_1 {
@@ -18863,7 +17415,7 @@ pub struct SteamAppUninstalled_t {
 }
 pub const SteamAppUninstalled_t_k_iCallback: SteamAppUninstalled_t__bindgen_ty_1 =
     SteamAppUninstalled_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamAppUninstalled_t__bindgen_ty_1 {
@@ -18914,7 +17466,7 @@ pub struct ISteamHTMLSurface__bindgen_vtable(::std::os::raw::c_void);
 pub struct ISteamHTMLSurface {
     pub vtable_: *const ISteamHTMLSurface__bindgen_vtable,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ISteamHTMLSurface_EHTMLMouseButton {
@@ -18922,7 +17474,7 @@ pub enum ISteamHTMLSurface_EHTMLMouseButton {
     eHTMLMouseButton_Right = 1,
     eHTMLMouseButton_Middle = 2,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ISteamHTMLSurface_EMouseCursor {
@@ -18969,7 +17521,7 @@ pub enum ISteamHTMLSurface_EMouseCursor {
     dc_custom = 40,
     dc_last = 41,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ISteamHTMLSurface_EHTMLKeyModifiers {
@@ -18998,7 +17550,7 @@ pub struct HTML_BrowserReady_t {
 }
 pub const HTML_BrowserReady_t_k_iCallback: HTML_BrowserReady_t__bindgen_ty_1 =
     HTML_BrowserReady_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_BrowserReady_t__bindgen_ty_1 {
@@ -19047,7 +17599,7 @@ pub struct HTML_NeedsPaint_t {
 }
 pub const HTML_NeedsPaint_t_k_iCallback: HTML_NeedsPaint_t__bindgen_ty_1 =
     HTML_NeedsPaint_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_NeedsPaint_t__bindgen_ty_1 {
@@ -19199,7 +17751,7 @@ pub struct HTML_StartRequest_t {
 }
 pub const HTML_StartRequest_t_k_iCallback: HTML_StartRequest_t__bindgen_ty_1 =
     HTML_StartRequest_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_StartRequest_t__bindgen_ty_1 {
@@ -19277,7 +17829,7 @@ pub struct HTML_CloseBrowser_t {
 }
 pub const HTML_CloseBrowser_t_k_iCallback: HTML_CloseBrowser_t__bindgen_ty_1 =
     HTML_CloseBrowser_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_CloseBrowser_t__bindgen_ty_1 {
@@ -19320,7 +17872,7 @@ pub struct HTML_URLChanged_t {
 }
 pub const HTML_URLChanged_t_k_iCallback: HTML_URLChanged_t__bindgen_ty_1 =
     HTML_URLChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_URLChanged_t__bindgen_ty_1 {
@@ -19412,7 +17964,7 @@ pub struct HTML_FinishedRequest_t {
 }
 pub const HTML_FinishedRequest_t_k_iCallback: HTML_FinishedRequest_t__bindgen_ty_1 =
     HTML_FinishedRequest_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_FinishedRequest_t__bindgen_ty_1 {
@@ -19473,7 +18025,7 @@ pub struct HTML_OpenLinkInNewTab_t {
 }
 pub const HTML_OpenLinkInNewTab_t_k_iCallback: HTML_OpenLinkInNewTab_t__bindgen_ty_1 =
     HTML_OpenLinkInNewTab_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_OpenLinkInNewTab_t__bindgen_ty_1 {
@@ -19522,7 +18074,7 @@ pub struct HTML_ChangedTitle_t {
 }
 pub const HTML_ChangedTitle_t_k_iCallback: HTML_ChangedTitle_t__bindgen_ty_1 =
     HTML_ChangedTitle_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_ChangedTitle_t__bindgen_ty_1 {
@@ -19572,7 +18124,7 @@ pub struct HTML_SearchResults_t {
 }
 pub const HTML_SearchResults_t_k_iCallback: HTML_SearchResults_t__bindgen_ty_1 =
     HTML_SearchResults_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_SearchResults_t__bindgen_ty_1 {
@@ -19634,7 +18186,7 @@ pub struct HTML_CanGoBackAndForward_t {
 }
 pub const HTML_CanGoBackAndForward_t_k_iCallback: HTML_CanGoBackAndForward_t__bindgen_ty_1 =
     HTML_CanGoBackAndForward_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_CanGoBackAndForward_t__bindgen_ty_1 {
@@ -19703,7 +18255,7 @@ pub struct HTML_HorizontalScroll_t {
 }
 pub const HTML_HorizontalScroll_t_k_iCallback: HTML_HorizontalScroll_t__bindgen_ty_1 =
     HTML_HorizontalScroll_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_HorizontalScroll_t__bindgen_ty_1 {
@@ -19806,7 +18358,7 @@ pub struct HTML_VerticalScroll_t {
 }
 pub const HTML_VerticalScroll_t_k_iCallback: HTML_VerticalScroll_t__bindgen_ty_1 =
     HTML_VerticalScroll_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_VerticalScroll_t__bindgen_ty_1 {
@@ -19907,7 +18459,7 @@ pub struct HTML_LinkAtPosition_t {
 }
 pub const HTML_LinkAtPosition_t_k_iCallback: HTML_LinkAtPosition_t__bindgen_ty_1 =
     HTML_LinkAtPosition_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_LinkAtPosition_t__bindgen_ty_1 {
@@ -19996,7 +18548,7 @@ pub struct HTML_JSAlert_t {
 }
 pub const HTML_JSAlert_t_k_iCallback: HTML_JSAlert_t__bindgen_ty_1 =
     HTML_JSAlert_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_JSAlert_t__bindgen_ty_1 {
@@ -20043,7 +18595,7 @@ pub struct HTML_JSConfirm_t {
 }
 pub const HTML_JSConfirm_t_k_iCallback: HTML_JSConfirm_t__bindgen_ty_1 =
     HTML_JSConfirm_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_JSConfirm_t__bindgen_ty_1 {
@@ -20093,7 +18645,7 @@ pub struct HTML_FileOpenDialog_t {
 }
 pub const HTML_FileOpenDialog_t_k_iCallback: HTML_FileOpenDialog_t__bindgen_ty_1 =
     HTML_FileOpenDialog_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_FileOpenDialog_t__bindgen_ty_1 {
@@ -20159,7 +18711,7 @@ pub struct HTML_NewWindow_t {
 }
 pub const HTML_NewWindow_t_k_iCallback: HTML_NewWindow_t__bindgen_ty_1 =
     HTML_NewWindow_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_NewWindow_t__bindgen_ty_1 {
@@ -20261,7 +18813,7 @@ pub struct HTML_SetCursor_t {
 }
 pub const HTML_SetCursor_t_k_iCallback: HTML_SetCursor_t__bindgen_ty_1 =
     HTML_SetCursor_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_SetCursor_t__bindgen_ty_1 {
@@ -20310,7 +18862,7 @@ pub struct HTML_StatusText_t {
 }
 pub const HTML_StatusText_t_k_iCallback: HTML_StatusText_t__bindgen_ty_1 =
     HTML_StatusText_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_StatusText_t__bindgen_ty_1 {
@@ -20359,7 +18911,7 @@ pub struct HTML_ShowToolTip_t {
 }
 pub const HTML_ShowToolTip_t_k_iCallback: HTML_ShowToolTip_t__bindgen_ty_1 =
     HTML_ShowToolTip_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_ShowToolTip_t__bindgen_ty_1 {
@@ -20408,7 +18960,7 @@ pub struct HTML_UpdateToolTip_t {
 }
 pub const HTML_UpdateToolTip_t_k_iCallback: HTML_UpdateToolTip_t__bindgen_ty_1 =
     HTML_UpdateToolTip_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_UpdateToolTip_t__bindgen_ty_1 {
@@ -20456,7 +19008,7 @@ pub struct HTML_HideToolTip_t {
 }
 pub const HTML_HideToolTip_t_k_iCallback: HTML_HideToolTip_t__bindgen_ty_1 =
     HTML_HideToolTip_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_HideToolTip_t__bindgen_ty_1 {
@@ -20495,7 +19047,7 @@ pub struct HTML_BrowserRestarted_t {
 }
 pub const HTML_BrowserRestarted_t_k_iCallback: HTML_BrowserRestarted_t__bindgen_ty_1 =
     HTML_BrowserRestarted_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum HTML_BrowserRestarted_t__bindgen_ty_1 {
@@ -20541,11 +19093,10 @@ fn bindgen_test_layout_HTML_BrowserRestarted_t() {
 }
 pub type SteamItemInstanceID_t = uint64;
 extern "C" {
-    #[link_name = "\u{1}_ZL28k_SteamItemInstanceIDInvalid"]
     pub static k_SteamItemInstanceIDInvalid: SteamItemInstanceID_t;
 }
 pub type SteamItemDef_t = int32;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamItemFlags {
@@ -20648,7 +19199,7 @@ pub struct SteamInventoryResultReady_t {
 }
 pub const SteamInventoryResultReady_t_k_iCallback: SteamInventoryResultReady_t__bindgen_ty_1 =
     SteamInventoryResultReady_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryResultReady_t__bindgen_ty_1 {
@@ -20698,7 +19249,7 @@ pub struct SteamInventoryFullUpdate_t {
 }
 pub const SteamInventoryFullUpdate_t_k_iCallback: SteamInventoryFullUpdate_t__bindgen_ty_1 =
     SteamInventoryFullUpdate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryFullUpdate_t__bindgen_ty_1 {
@@ -20737,7 +19288,7 @@ pub struct SteamInventoryDefinitionUpdate_t {
 pub const SteamInventoryDefinitionUpdate_t_k_iCallback:
     SteamInventoryDefinitionUpdate_t__bindgen_ty_1 =
     SteamInventoryDefinitionUpdate_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryDefinitionUpdate_t__bindgen_ty_1 {
@@ -20770,7 +19321,7 @@ pub struct SteamInventoryEligiblePromoItemDefIDs_t {
 pub const SteamInventoryEligiblePromoItemDefIDs_t_k_iCallback:
     SteamInventoryEligiblePromoItemDefIDs_t__bindgen_ty_1 =
     SteamInventoryEligiblePromoItemDefIDs_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryEligiblePromoItemDefIDs_t__bindgen_ty_1 {
@@ -20857,7 +19408,7 @@ pub struct SteamInventoryStartPurchaseResult_t {
 pub const SteamInventoryStartPurchaseResult_t_k_iCallback:
     SteamInventoryStartPurchaseResult_t__bindgen_ty_1 =
     SteamInventoryStartPurchaseResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryStartPurchaseResult_t__bindgen_ty_1 {
@@ -20927,7 +19478,7 @@ pub struct SteamInventoryRequestPricesResult_t {
 pub const SteamInventoryRequestPricesResult_t_k_iCallback:
     SteamInventoryRequestPricesResult_t__bindgen_ty_1 =
     SteamInventoryRequestPricesResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamInventoryRequestPricesResult_t__bindgen_ty_1 {
@@ -21004,7 +19555,7 @@ pub struct GetVideoURLResult_t {
 }
 pub const GetVideoURLResult_t_k_iCallback: GetVideoURLResult_t__bindgen_ty_1 =
     GetVideoURLResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GetVideoURLResult_t__bindgen_ty_1 {
@@ -21063,7 +19614,7 @@ pub struct GetOPFSettingsResult_t {
 }
 pub const GetOPFSettingsResult_t_k_iCallback: GetOPFSettingsResult_t__bindgen_ty_1 =
     GetOPFSettingsResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GetOPFSettingsResult_t__bindgen_ty_1 {
@@ -21106,7 +19657,7 @@ fn bindgen_test_layout_GetOPFSettingsResult_t() {
         )
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EParentalFeature {
@@ -21153,7 +19704,7 @@ pub struct SteamParentalSettingsChanged_t {
 }
 pub const SteamParentalSettingsChanged_t_k_iCallback: SteamParentalSettingsChanged_t__bindgen_ty_1 =
     SteamParentalSettingsChanged_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamParentalSettingsChanged_t__bindgen_ty_1 {
@@ -21172,7 +19723,7 @@ fn bindgen_test_layout_SteamParentalSettingsChanged_t() {
         concat!("Alignment of ", stringify!(SteamParentalSettingsChanged_t))
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamDeviceFormFactor {
@@ -21211,7 +19762,7 @@ pub struct SteamRemotePlaySessionConnected_t {
 pub const SteamRemotePlaySessionConnected_t_k_iCallback:
     SteamRemotePlaySessionConnected_t__bindgen_ty_1 =
     SteamRemotePlaySessionConnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamRemotePlaySessionConnected_t__bindgen_ty_1 {
@@ -21254,7 +19805,7 @@ pub struct SteamRemotePlaySessionDisconnected_t {
 pub const SteamRemotePlaySessionDisconnected_t_k_iCallback:
     SteamRemotePlaySessionDisconnected_t__bindgen_ty_1 =
     SteamRemotePlaySessionDisconnected_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamRemotePlaySessionDisconnected_t__bindgen_ty_1 {
@@ -21293,20 +19844,20 @@ fn bindgen_test_layout_SteamRemotePlaySessionDisconnected_t() {
     );
 }
 pub type int_least8_t = ::std::os::raw::c_schar;
-pub type uint_least8_t = ::std::os::raw::c_uchar;
 pub type int_least16_t = ::std::os::raw::c_short;
-pub type uint_least16_t = ::std::os::raw::c_ushort;
 pub type int_least32_t = ::std::os::raw::c_int;
-pub type uint_least32_t = ::std::os::raw::c_uint;
 pub type int_least64_t = ::std::os::raw::c_longlong;
+pub type uint_least8_t = ::std::os::raw::c_uchar;
+pub type uint_least16_t = ::std::os::raw::c_ushort;
+pub type uint_least32_t = ::std::os::raw::c_uint;
 pub type uint_least64_t = ::std::os::raw::c_ulonglong;
 pub type int_fast8_t = ::std::os::raw::c_schar;
-pub type uint_fast8_t = ::std::os::raw::c_uchar;
-pub type int_fast16_t = ::std::os::raw::c_short;
-pub type uint_fast16_t = ::std::os::raw::c_ushort;
+pub type int_fast16_t = ::std::os::raw::c_int;
 pub type int_fast32_t = ::std::os::raw::c_int;
-pub type uint_fast32_t = ::std::os::raw::c_uint;
 pub type int_fast64_t = ::std::os::raw::c_longlong;
+pub type uint_fast8_t = ::std::os::raw::c_uchar;
+pub type uint_fast16_t = ::std::os::raw::c_uint;
+pub type uint_fast32_t = ::std::os::raw::c_uint;
 pub type uint_fast64_t = ::std::os::raw::c_ulonglong;
 pub type intmax_t = ::std::os::raw::c_longlong;
 pub type uintmax_t = ::std::os::raw::c_ulonglong;
@@ -21385,7 +19936,7 @@ pub enum ESteamNetworkingAvailability {
     k_ESteamNetworkingAvailability_Unknown = 0,
     k_ESteamNetworkingAvailability__Force32bit = 2147483647,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " Different methods of describing the identity of a network host"]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
@@ -21401,7 +19952,7 @@ pub enum ESteamNetworkingIdentityType {
     k_ESteamNetworkingIdentityType_UnknownType = 4,
     k_ESteamNetworkingIdentityType__Force32bit = 2147483647,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " \"Fake IPs\" are assigned to hosts, to make it easier to interface with"]
 #[doc = " older code that assumed all hosts will have an IPv4 address"]
@@ -21424,7 +19975,7 @@ pub struct SteamNetworkingIPAddr {
 }
 pub const SteamNetworkingIPAddr_k_cchMaxString: SteamNetworkingIPAddr__bindgen_ty_1 =
     SteamNetworkingIPAddr__bindgen_ty_1::k_cchMaxString;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetworkingIPAddr__bindgen_ty_1 {
@@ -21582,15 +20133,15 @@ fn bindgen_test_layout_SteamNetworkingIPAddr() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21SteamNetworkingIPAddr5ClearEv"]
+    #[link_name = "\u{1}?Clear@SteamNetworkingIPAddr@@QEAAXXZ"]
     pub fn SteamNetworkingIPAddr_Clear(this: *mut SteamNetworkingIPAddr);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK21SteamNetworkingIPAddr14IsIPv6AllZerosEv"]
+    #[link_name = "\u{1}?IsIPv6AllZeros@SteamNetworkingIPAddr@@QEBA_NXZ"]
     pub fn SteamNetworkingIPAddr_IsIPv6AllZeros(this: *const SteamNetworkingIPAddr) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21SteamNetworkingIPAddr7SetIPv6EPKht"]
+    #[link_name = "\u{1}?SetIPv6@SteamNetworkingIPAddr@@QEAAXPEBEG@Z"]
     pub fn SteamNetworkingIPAddr_SetIPv6(
         this: *mut SteamNetworkingIPAddr,
         ipv6: *const uint8,
@@ -21598,7 +20149,7 @@ extern "C" {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21SteamNetworkingIPAddr7SetIPv4Ejt"]
+    #[link_name = "\u{1}?SetIPv4@SteamNetworkingIPAddr@@QEAAXIG@Z"]
     pub fn SteamNetworkingIPAddr_SetIPv4(
         this: *mut SteamNetworkingIPAddr,
         nIP: uint32,
@@ -21606,25 +20157,25 @@ extern "C" {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK21SteamNetworkingIPAddr6IsIPv4Ev"]
+    #[link_name = "\u{1}?IsIPv4@SteamNetworkingIPAddr@@QEBA_NXZ"]
     pub fn SteamNetworkingIPAddr_IsIPv4(this: *const SteamNetworkingIPAddr) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK21SteamNetworkingIPAddr7GetIPv4Ev"]
+    #[link_name = "\u{1}?GetIPv4@SteamNetworkingIPAddr@@QEBAIXZ"]
     pub fn SteamNetworkingIPAddr_GetIPv4(this: *const SteamNetworkingIPAddr) -> uint32;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21SteamNetworkingIPAddr16SetIPv6LocalHostEt"]
+    #[link_name = "\u{1}?SetIPv6LocalHost@SteamNetworkingIPAddr@@QEAAXG@Z"]
     pub fn SteamNetworkingIPAddr_SetIPv6LocalHost(this: *mut SteamNetworkingIPAddr, nPort: uint16);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK21SteamNetworkingIPAddr11IsLocalHostEv"]
+    #[link_name = "\u{1}?IsLocalHost@SteamNetworkingIPAddr@@QEBA_NXZ"]
     pub fn SteamNetworkingIPAddr_IsLocalHost(this: *const SteamNetworkingIPAddr) -> bool;
 }
 extern "C" {
     #[doc = " Classify address as FakeIP.  This function never returns"]
     #[doc = " k_ESteamNetworkingFakeIPType_Invalid."]
-    #[link_name = "\u{1}_ZNK21SteamNetworkingIPAddr13GetFakeIPTypeEv"]
+    #[link_name = "\u{1}?GetFakeIPType@SteamNetworkingIPAddr@@QEBA?AW4ESteamNetworkingFakeIPType@@XZ"]
     pub fn SteamNetworkingIPAddr_GetFakeIPType(
         this: *const SteamNetworkingIPAddr,
     ) -> ESteamNetworkingFakeIPType;
@@ -21688,7 +20239,7 @@ pub const SteamNetworkingIdentity_k_cchMaxXboxPairwiseID: SteamNetworkingIdentit
     SteamNetworkingIdentity__bindgen_ty_1::k_cchMaxXboxPairwiseID;
 pub const SteamNetworkingIdentity_k_cbMaxGenericBytes: SteamNetworkingIdentity__bindgen_ty_1 =
     SteamNetworkingIdentity__bindgen_ty_1::k_cchMaxGenericString;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetworkingIdentity__bindgen_ty_1 {
@@ -21881,79 +20432,79 @@ fn bindgen_test_layout_SteamNetworkingIdentity() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity5ClearEv"]
+    #[link_name = "\u{1}?Clear@SteamNetworkingIdentity@@QEAAXXZ"]
     pub fn SteamNetworkingIdentity_Clear(this: *mut SteamNetworkingIdentity);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity9IsInvalidEv"]
+    #[link_name = "\u{1}?IsInvalid@SteamNetworkingIdentity@@QEBA_NXZ"]
     pub fn SteamNetworkingIdentity_IsInvalid(this: *const SteamNetworkingIdentity) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity10SetSteamIDE8CSteamID"]
+    #[link_name = "\u{1}?SetSteamID@SteamNetworkingIdentity@@QEAAXVCSteamID@@@Z"]
     pub fn SteamNetworkingIdentity_SetSteamID(
         this: *mut SteamNetworkingIdentity,
         steamID: CSteamID,
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity10GetSteamIDEv"]
+    #[link_name = "\u{1}?GetSteamID@SteamNetworkingIdentity@@QEBA?AVCSteamID@@XZ"]
     pub fn SteamNetworkingIdentity_GetSteamID(this: *const SteamNetworkingIdentity) -> CSteamID;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity12SetSteamID64Ey"]
+    #[link_name = "\u{1}?SetSteamID64@SteamNetworkingIdentity@@QEAAX_K@Z"]
     pub fn SteamNetworkingIdentity_SetSteamID64(
         this: *mut SteamNetworkingIdentity,
         steamID: uint64,
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity12GetSteamID64Ev"]
+    #[link_name = "\u{1}?GetSteamID64@SteamNetworkingIdentity@@QEBA_KXZ"]
     pub fn SteamNetworkingIdentity_GetSteamID64(this: *const SteamNetworkingIdentity) -> uint64;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity17SetXboxPairwiseIDEPKc"]
+    #[link_name = "\u{1}?SetXboxPairwiseID@SteamNetworkingIdentity@@QEAA_NPEBD@Z"]
     pub fn SteamNetworkingIdentity_SetXboxPairwiseID(
         this: *mut SteamNetworkingIdentity,
         pszString: *const ::std::os::raw::c_char,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity17GetXboxPairwiseIDEv"]
+    #[link_name = "\u{1}?GetXboxPairwiseID@SteamNetworkingIdentity@@QEBAPEBDXZ"]
     pub fn SteamNetworkingIdentity_GetXboxPairwiseID(
         this: *const SteamNetworkingIdentity,
     ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity8SetPSNIDEy"]
+    #[link_name = "\u{1}?SetPSNID@SteamNetworkingIdentity@@QEAAX_K@Z"]
     pub fn SteamNetworkingIdentity_SetPSNID(this: *mut SteamNetworkingIdentity, id: uint64);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity8GetPSNIDEv"]
+    #[link_name = "\u{1}?GetPSNID@SteamNetworkingIdentity@@QEBA_KXZ"]
     pub fn SteamNetworkingIdentity_GetPSNID(this: *const SteamNetworkingIdentity) -> uint64;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity11SetStadiaIDEy"]
+    #[link_name = "\u{1}?SetStadiaID@SteamNetworkingIdentity@@QEAAX_K@Z"]
     pub fn SteamNetworkingIdentity_SetStadiaID(this: *mut SteamNetworkingIdentity, id: uint64);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity11GetStadiaIDEv"]
+    #[link_name = "\u{1}?GetStadiaID@SteamNetworkingIdentity@@QEBA_KXZ"]
     pub fn SteamNetworkingIdentity_GetStadiaID(this: *const SteamNetworkingIdentity) -> uint64;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity9SetIPAddrERK21SteamNetworkingIPAddr"]
+    #[link_name = "\u{1}?SetIPAddr@SteamNetworkingIdentity@@QEAAXAEBUSteamNetworkingIPAddr@@@Z"]
     pub fn SteamNetworkingIdentity_SetIPAddr(
         this: *mut SteamNetworkingIdentity,
         addr: *const SteamNetworkingIPAddr,
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity9GetIPAddrEv"]
+    #[link_name = "\u{1}?GetIPAddr@SteamNetworkingIdentity@@QEBAPEBUSteamNetworkingIPAddr@@XZ"]
     pub fn SteamNetworkingIdentity_GetIPAddr(
         this: *const SteamNetworkingIdentity,
     ) -> *const SteamNetworkingIPAddr;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity11SetIPv4AddrEjt"]
+    #[link_name = "\u{1}?SetIPv4Addr@SteamNetworkingIdentity@@QEAAXIG@Z"]
     pub fn SteamNetworkingIdentity_SetIPv4Addr(
         this: *mut SteamNetworkingIdentity,
         nIPv4: uint32,
@@ -21961,38 +20512,38 @@ extern "C" {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity7GetIPv4Ev"]
+    #[link_name = "\u{1}?GetIPv4@SteamNetworkingIdentity@@QEBAIXZ"]
     pub fn SteamNetworkingIdentity_GetIPv4(this: *const SteamNetworkingIdentity) -> uint32;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity13GetFakeIPTypeEv"]
+    #[link_name = "\u{1}?GetFakeIPType@SteamNetworkingIdentity@@QEBA?AW4ESteamNetworkingFakeIPType@@XZ"]
     pub fn SteamNetworkingIdentity_GetFakeIPType(
         this: *const SteamNetworkingIdentity,
     ) -> ESteamNetworkingFakeIPType;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity12SetLocalHostEv"]
+    #[link_name = "\u{1}?SetLocalHost@SteamNetworkingIdentity@@QEAAXXZ"]
     pub fn SteamNetworkingIdentity_SetLocalHost(this: *mut SteamNetworkingIdentity);
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity11IsLocalHostEv"]
+    #[link_name = "\u{1}?IsLocalHost@SteamNetworkingIdentity@@QEBA_NXZ"]
     pub fn SteamNetworkingIdentity_IsLocalHost(this: *const SteamNetworkingIdentity) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity16SetGenericStringEPKc"]
+    #[link_name = "\u{1}?SetGenericString@SteamNetworkingIdentity@@QEAA_NPEBD@Z"]
     pub fn SteamNetworkingIdentity_SetGenericString(
         this: *mut SteamNetworkingIdentity,
         pszString: *const ::std::os::raw::c_char,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity16GetGenericStringEv"]
+    #[link_name = "\u{1}?GetGenericString@SteamNetworkingIdentity@@QEBAPEBDXZ"]
     pub fn SteamNetworkingIdentity_GetGenericString(
         this: *const SteamNetworkingIdentity,
     ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity15SetGenericBytesEPKvy"]
+    #[link_name = "\u{1}?SetGenericBytes@SteamNetworkingIdentity@@QEAA_NPEBX_K@Z"]
     pub fn SteamNetworkingIdentity_SetGenericBytes(
         this: *mut SteamNetworkingIdentity,
         data: *const ::std::os::raw::c_void,
@@ -22000,7 +20551,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity15GetGenericBytesERi"]
+    #[link_name = "\u{1}?GetGenericBytes@SteamNetworkingIdentity@@QEBAPEBEAEAH@Z"]
     pub fn SteamNetworkingIdentity_GetGenericBytes(
         this: *const SteamNetworkingIdentity,
         cbLen: *mut ::std::os::raw::c_int,
@@ -22013,7 +20564,7 @@ extern "C" {
     #[doc = " k_cchMaxString bytes big to avoid truncation."]
     #[doc = ""]
     #[doc = " See also SteamNetworkingIPAddrRender"]
-    #[link_name = "\u{1}_ZNK23SteamNetworkingIdentity8ToStringEPcy"]
+    #[link_name = "\u{1}?ToString@SteamNetworkingIdentity@@QEBAXPEAD_K@Z"]
     pub fn SteamNetworkingIdentity_ToString(
         this: *const SteamNetworkingIdentity,
         buf: *mut ::std::os::raw::c_char,
@@ -22026,7 +20577,7 @@ extern "C" {
     #[doc = " have any funky characters, etc), then we will return true, and the type is set to"]
     #[doc = " k_ESteamNetworkingIdentityType_UnknownType.  false will only be returned if the string"]
     #[doc = " looks invalid."]
-    #[link_name = "\u{1}_ZN23SteamNetworkingIdentity11ParseStringEPKc"]
+    #[link_name = "\u{1}?ParseString@SteamNetworkingIdentity@@QEAA_NPEBD@Z"]
     pub fn SteamNetworkingIdentity_ParseString(
         this: *mut SteamNetworkingIdentity,
         pszStr: *const ::std::os::raw::c_char,
@@ -22237,7 +20788,7 @@ impl ESteamNetConnectionEnd {
     pub const k_ESteamNetConnectionEnd_AppException_Generic: ESteamNetConnectionEnd =
         ESteamNetConnectionEnd::k_ESteamNetConnectionEnd_AppException_Min;
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " Enumerate various causes of connection termination.  These are designed to work similar"]
 #[doc = " to HTTP error codes: the numeric range gives you a rough classification as to the source"]
@@ -23198,7 +21749,7 @@ pub const k_cchMaxSteamNetworkingPingLocationString: ::std::os::raw::c_int = 102
 #[doc = " Special values that are returned by some functions that return a ping."]
 pub const k_nSteamNetworkingPing_Failed: ::std::os::raw::c_int = -1;
 pub const k_nSteamNetworkingPing_Unknown: ::std::os::raw::c_int = -2;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " Configuration values can be applied to different types of objects."]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
@@ -23223,7 +21774,7 @@ pub enum ESteamNetworkingConfigScope {
     #[doc = " Options for a specific connection."]
     k_ESteamNetworkingConfigScope__Force32Bit = 2147483647,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ESteamNetworkingConfigDataType {
@@ -23234,7 +21785,7 @@ pub enum ESteamNetworkingConfigDataType {
     k_ESteamNetworkingConfig_Ptr = 5,
     k_ESteamNetworkingConfigDataType__Force32Bit = 2147483647,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " Configuration options"]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
@@ -23822,7 +22373,7 @@ pub enum ESteamNetworkingGetConfigValueResult {
     k_ESteamNetworkingGetConfigValue_OKInherited = 2,
     k_ESteamNetworkingGetConfigValueResult__Force32Bit = 2147483647,
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[doc = " Detail level for diagnostic output callback."]
 #[doc = " See ISteamNetworkingUtils::SetDebugOutputFunction"]
@@ -23934,7 +22485,7 @@ pub struct SteamNetworkingMessagesSessionRequest_t {
 pub const SteamNetworkingMessagesSessionRequest_t_k_iCallback:
     SteamNetworkingMessagesSessionRequest_t__bindgen_ty_1 =
     SteamNetworkingMessagesSessionRequest_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetworkingMessagesSessionRequest_t__bindgen_ty_1 {
@@ -23994,7 +22545,7 @@ pub struct SteamNetworkingMessagesSessionFailed_t {
 pub const SteamNetworkingMessagesSessionFailed_t_k_iCallback:
     SteamNetworkingMessagesSessionFailed_t__bindgen_ty_1 =
     SteamNetworkingMessagesSessionFailed_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetworkingMessagesSessionFailed_t__bindgen_ty_1 {
@@ -24093,7 +22644,7 @@ fn bindgen_test_layout_ISteamNetworkingSockets() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN23ISteamNetworkingSocketsD1Ev"]
+    #[link_name = "\u{1}??_DISteamNetworkingSockets@@IEAAXXZ"]
     pub fn ISteamNetworkingSockets_ISteamNetworkingSockets_destructor(
         this: *mut ISteamNetworkingSockets,
     );
@@ -24152,7 +22703,7 @@ pub struct SteamNetConnectionStatusChangedCallback_t {
 pub const SteamNetConnectionStatusChangedCallback_t_k_iCallback:
     SteamNetConnectionStatusChangedCallback_t__bindgen_ty_1 =
     SteamNetConnectionStatusChangedCallback_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetConnectionStatusChangedCallback_t__bindgen_ty_1 {
@@ -24235,7 +22786,7 @@ pub struct SteamNetAuthenticationStatus_t {
 }
 pub const SteamNetAuthenticationStatus_t_k_iCallback: SteamNetAuthenticationStatus_t__bindgen_ty_1 =
     SteamNetAuthenticationStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamNetAuthenticationStatus_t__bindgen_ty_1 {
@@ -24302,7 +22853,7 @@ fn bindgen_test_layout_ISteamNetworkingUtils() {
     );
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils25SetGlobalConfigValueInt32E27ESteamNetworkingConfigValuei"]
+    #[link_name = "\u{1}?SetGlobalConfigValueInt32@ISteamNetworkingUtils@@QEAA_NW4ESteamNetworkingConfigValue@@H@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalConfigValueInt32(
         this: *mut ISteamNetworkingUtils,
         eValue: ESteamNetworkingConfigValue,
@@ -24310,7 +22861,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils25SetGlobalConfigValueFloatE27ESteamNetworkingConfigValuef"]
+    #[link_name = "\u{1}?SetGlobalConfigValueFloat@ISteamNetworkingUtils@@QEAA_NW4ESteamNetworkingConfigValue@@M@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalConfigValueFloat(
         this: *mut ISteamNetworkingUtils,
         eValue: ESteamNetworkingConfigValue,
@@ -24318,7 +22869,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils26SetGlobalConfigValueStringE27ESteamNetworkingConfigValuePKc"]
+    #[link_name = "\u{1}?SetGlobalConfigValueString@ISteamNetworkingUtils@@QEAA_NW4ESteamNetworkingConfigValue@@PEBD@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalConfigValueString(
         this: *mut ISteamNetworkingUtils,
         eValue: ESteamNetworkingConfigValue,
@@ -24326,7 +22877,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils23SetGlobalConfigValuePtrE27ESteamNetworkingConfigValuePv"]
+    #[link_name = "\u{1}?SetGlobalConfigValuePtr@ISteamNetworkingUtils@@QEAA_NW4ESteamNetworkingConfigValue@@PEAX@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalConfigValuePtr(
         this: *mut ISteamNetworkingUtils,
         eValue: ESteamNetworkingConfigValue,
@@ -24334,7 +22885,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils29SetConnectionConfigValueInt32Ej27ESteamNetworkingConfigValuei"]
+    #[link_name = "\u{1}?SetConnectionConfigValueInt32@ISteamNetworkingUtils@@QEAA_NIW4ESteamNetworkingConfigValue@@H@Z"]
     pub fn ISteamNetworkingUtils_SetConnectionConfigValueInt32(
         this: *mut ISteamNetworkingUtils,
         hConn: HSteamNetConnection,
@@ -24343,7 +22894,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils29SetConnectionConfigValueFloatEj27ESteamNetworkingConfigValuef"]
+    #[link_name = "\u{1}?SetConnectionConfigValueFloat@ISteamNetworkingUtils@@QEAA_NIW4ESteamNetworkingConfigValue@@M@Z"]
     pub fn ISteamNetworkingUtils_SetConnectionConfigValueFloat(
         this: *mut ISteamNetworkingUtils,
         hConn: HSteamNetConnection,
@@ -24352,7 +22903,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils30SetConnectionConfigValueStringEj27ESteamNetworkingConfigValuePKc"]
+    #[link_name = "\u{1}?SetConnectionConfigValueString@ISteamNetworkingUtils@@QEAA_NIW4ESteamNetworkingConfigValue@@PEBD@Z"]
     pub fn ISteamNetworkingUtils_SetConnectionConfigValueString(
         this: *mut ISteamNetworkingUtils,
         hConn: HSteamNetConnection,
@@ -24361,42 +22912,42 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils49SetGlobalCallback_SteamNetConnectionStatusChangedEPFvP41SteamNetConnectionStatusChangedCallback_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_SteamNetConnectionStatusChanged@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamNetConnectionStatusChangedCallback_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamNetConnectionStatusChanged,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils53SetGlobalCallback_SteamNetAuthenticationStatusChangedEPFvP30SteamNetAuthenticationStatus_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_SteamNetAuthenticationStatusChanged@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamNetAuthenticationStatus_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamNetAuthenticationStatusChanged,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils48SetGlobalCallback_SteamRelayNetworkStatusChangedEPFvP25SteamRelayNetworkStatus_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_SteamRelayNetworkStatusChanged@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamRelayNetworkStatus_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamRelayNetworkStatusChanged,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils30SetGlobalCallback_FakeIPResultEPFvP29SteamNetworkingFakeIPResult_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_FakeIPResult@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamNetworkingFakeIPResult_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamNetworkingFakeIPResult,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils40SetGlobalCallback_MessagesSessionRequestEPFvP39SteamNetworkingMessagesSessionRequest_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_MessagesSessionRequest@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamNetworkingMessagesSessionRequest_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamNetworkingMessagesSessionRequest,
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils39SetGlobalCallback_MessagesSessionFailedEPFvP38SteamNetworkingMessagesSessionFailed_tE"]
+    #[link_name = "\u{1}?SetGlobalCallback_MessagesSessionFailed@ISteamNetworkingUtils@@QEAA_NP6AXPEAUSteamNetworkingMessagesSessionFailed_t@@@Z@Z"]
     pub fn ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed(
         this: *mut ISteamNetworkingUtils,
         fnCallback: FnSteamNetworkingMessagesSessionFailed,
@@ -24407,7 +22958,7 @@ extern "C" {
     #[doc = " (This is just a convenience shortcut; see below for the implementation and"]
     #[doc = " a little insight into how SteamNetworkingConfigValue_t is used when"]
     #[doc = " setting config options during listen socket and connection creation.)"]
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtils20SetConfigValueStructERK28SteamNetworkingConfigValue_t27ESteamNetworkingConfigScopex"]
+    #[link_name = "\u{1}?SetConfigValueStruct@ISteamNetworkingUtils@@QEAA_NAEBUSteamNetworkingConfigValue_t@@W4ESteamNetworkingConfigScope@@_J@Z"]
     pub fn ISteamNetworkingUtils_SetConfigValueStruct(
         this: *mut ISteamNetworkingUtils,
         opt: *const SteamNetworkingConfigValue_t,
@@ -24416,7 +22967,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    #[link_name = "\u{1}_ZN21ISteamNetworkingUtilsD1Ev"]
+    #[link_name = "\u{1}??_DISteamNetworkingUtils@@IEAAXXZ"]
     pub fn ISteamNetworkingUtils_ISteamNetworkingUtils_destructor(this: *mut ISteamNetworkingUtils);
 }
 impl ISteamNetworkingUtils {
@@ -24568,7 +23119,7 @@ pub struct SteamRelayNetworkStatus_t {
 }
 pub const SteamRelayNetworkStatus_t_k_iCallback: SteamRelayNetworkStatus_t__bindgen_ty_1 =
     SteamRelayNetworkStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum SteamRelayNetworkStatus_t__bindgen_ty_1 {
@@ -24804,7 +23355,7 @@ pub struct GSClientApprove_t {
 }
 pub const GSClientApprove_t_k_iCallback: GSClientApprove_t__bindgen_ty_1 =
     GSClientApprove_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSClientApprove_t__bindgen_ty_1 {
@@ -24854,7 +23405,7 @@ pub struct GSClientDeny_t {
 }
 pub const GSClientDeny_t_k_iCallback: GSClientDeny_t__bindgen_ty_1 =
     GSClientDeny_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSClientDeny_t__bindgen_ty_1 {
@@ -24913,7 +23464,7 @@ pub struct GSClientKick_t {
 }
 pub const GSClientKick_t_k_iCallback: GSClientKick_t__bindgen_ty_1 =
     GSClientKick_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSClientKick_t__bindgen_ty_1 {
@@ -24961,7 +23512,7 @@ pub struct GSClientAchievementStatus_t {
 }
 pub const GSClientAchievementStatus_t_k_iCallback: GSClientAchievementStatus_t__bindgen_ty_1 =
     GSClientAchievementStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSClientAchievementStatus_t__bindgen_ty_1 {
@@ -25024,7 +23575,7 @@ pub struct GSPolicyResponse_t {
 }
 pub const GSPolicyResponse_t_k_iCallback: GSPolicyResponse_t__bindgen_ty_1 =
     GSPolicyResponse_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSPolicyResponse_t__bindgen_ty_1 {
@@ -25063,7 +23614,7 @@ pub struct GSGameplayStats_t {
 }
 pub const GSGameplayStats_t_k_iCallback: GSGameplayStats_t__bindgen_ty_1 =
     GSGameplayStats_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSGameplayStats_t__bindgen_ty_1 {
@@ -25137,7 +23688,7 @@ pub struct GSClientGroupStatus_t {
 }
 pub const GSClientGroupStatus_t_k_iCallback: GSClientGroupStatus_t__bindgen_ty_1 =
     GSClientGroupStatus_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSClientGroupStatus_t__bindgen_ty_1 {
@@ -25215,7 +23766,7 @@ pub struct GSReputation_t {
 }
 pub const GSReputation_t_k_iCallback: GSReputation_t__bindgen_ty_1 =
     GSReputation_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSReputation_t__bindgen_ty_1 {
@@ -25313,7 +23864,7 @@ pub struct AssociateWithClanResult_t {
 }
 pub const AssociateWithClanResult_t_k_iCallback: AssociateWithClanResult_t__bindgen_ty_1 =
     AssociateWithClanResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum AssociateWithClanResult_t__bindgen_ty_1 {
@@ -25356,7 +23907,7 @@ pub struct ComputeNewPlayerCompatibilityResult_t {
 pub const ComputeNewPlayerCompatibilityResult_t_k_iCallback:
     ComputeNewPlayerCompatibilityResult_t__bindgen_ty_1 =
     ComputeNewPlayerCompatibilityResult_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum ComputeNewPlayerCompatibilityResult_t__bindgen_ty_1 {
@@ -25474,7 +24025,7 @@ pub struct GSStatsReceived_t {
 }
 pub const GSStatsReceived_t_k_iCallback: GSStatsReceived_t__bindgen_ty_1 =
     GSStatsReceived_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSStatsReceived_t__bindgen_ty_1 {
@@ -25521,7 +24072,7 @@ pub struct GSStatsStored_t {
 }
 pub const GSStatsStored_t_k_iCallback: GSStatsStored_t__bindgen_ty_1 =
     GSStatsStored_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSStatsStored_t__bindgen_ty_1 {
@@ -25567,7 +24118,7 @@ pub struct GSStatsUnloaded_t {
 }
 pub const GSStatsUnloaded_t_k_iCallback: GSStatsUnloaded_t__bindgen_ty_1 =
     GSStatsUnloaded_t__bindgen_ty_1::k_iCallback;
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum GSStatsUnloaded_t__bindgen_ty_1 {
@@ -28270,6 +26821,9 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
+    pub fn SteamAPI_ISteamApps_SetDlcContext(self_: *mut ISteamApps, nAppID: AppId_t) -> bool;
+}
+extern "C" {
     pub fn SteamAPI_SteamNetworking_v006() -> *mut ISteamNetworking;
 }
 extern "C" {
@@ -29212,6 +27766,13 @@ extern "C" {
     pub fn SteamAPI_ISteamInput_GetSessionInputConfigurationSettings(
         self_: *mut ISteamInput,
     ) -> uint16;
+}
+extern "C" {
+    pub fn SteamAPI_ISteamInput_SetDualSenseTriggerEffect(
+        self_: *mut ISteamInput,
+        inputHandle: InputHandle_t,
+        pParam: *const ScePadTriggerEffectParam,
+    );
 }
 extern "C" {
     pub fn SteamAPI_SteamController_v008() -> *mut ISteamController;
@@ -32115,7 +30676,7 @@ extern "C" {
         popid: SteamNetworkingPOPID,
     );
 }
-#[repr(u32)]
+#[repr(i32)]
 #[non_exhaustive]
 #[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
 pub enum EServerMode {
@@ -32149,9 +30710,13 @@ extern "C" {
         pchVersionString: *const ::std::os::raw::c_char,
     ) -> bool;
 }
-pub type __builtin_va_list = *mut ::std::os::raw::c_char;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct lconv {
+pub struct __crt_locale_data {
+    pub _address: u8,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __crt_multibyte_data {
     pub _address: u8,
 }

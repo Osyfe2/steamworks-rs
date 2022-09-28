@@ -71,6 +71,30 @@ impl<Manager> Matchmaking<Manager> {
         }
     }
 
+    pub fn set_distancefilter_for_lobby_list_worldwide(&self) {
+        unsafe {
+            sys::SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter(self.mm,
+                sys::ELobbyDistanceFilter::k_ELobbyDistanceFilterWorldwide);
+        }
+    }
+
+    pub fn set_slotsavailablefilter_for_lobby_list(&self, n_slots_available: i32) {
+        unsafe {
+            sys::SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable(self.mm, n_slots_available);
+        }
+    }
+
+    pub fn set_stingfilterequals_for_lobby_list(&self, key: &str, value: &str) {
+        unsafe {
+            let pch_key_to_match = CString::new(key).unwrap();
+            let pch_value_to_match = CString::new(value).unwrap();
+            sys::SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter(self.mm,
+                pch_key_to_match.as_ptr()  as *const _,
+                pch_value_to_match.as_ptr()  as *const _,
+                            sys::ELobbyComparison::k_ELobbyComparisonEqual);
+        }
+    }
+
     /// Attempts to create a new matchmaking lobby
     ///
     /// The lobby with have the visibility of the of the passed
@@ -152,6 +176,41 @@ impl<Manager> Matchmaking<Manager> {
         match data.is_empty() {
             false => Some(data),
             true => None,
+        }
+    }
+
+    /// Sets the lobby metadata associated with the specified key from the
+    /// specified lobby. //Selfmade
+    pub fn set_lobby_data(&self, lobby: LobbyId, key: &str, value: &str) -> bool{
+        let key = CString::new(key).unwrap();
+        let value = CString::new(value).unwrap();
+        unsafe {
+            sys::SteamAPI_ISteamMatchmaking_SetLobbyData(self.mm, lobby.0, key.as_ptr(), value.as_ptr())
+        }
+    }
+
+    pub fn lobby_member_data(&self, lobby: LobbyId, member: SteamId, key: &str) -> Option<&str> {
+        let key = CString::new(key).unwrap();
+        let data = unsafe {
+            let data = sys::SteamAPI_ISteamMatchmaking_GetLobbyMemberData(self.mm, lobby.0, member.0, key.as_ptr());
+            let data = CStr::from_ptr(data);
+
+            data
+        };
+
+        let data = data.to_str().unwrap();
+
+        match data.is_empty() {
+            false => Some(data),
+            true => None,
+        }
+    }
+
+    pub fn set_lobby_member_data(&self, lobby: LobbyId, key: &str, value: &str){
+        let key = CString::new(key).unwrap();
+        let value = CString::new(value).unwrap();
+        unsafe {
+            sys::SteamAPI_ISteamMatchmaking_SetLobbyMemberData(self.mm, lobby.0, key.as_ptr(), value.as_ptr())
         }
     }
 

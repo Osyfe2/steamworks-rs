@@ -122,6 +122,13 @@ impl<Manager> Friends<Manager> {
         }
     }
 
+    pub fn activate_game_overlay_to_friends(&self) {
+        unsafe {
+            let pch_dialog = CString::new("friends").unwrap();
+            sys::SteamAPI_ISteamFriends_ActivateGameOverlay(self.friends, pch_dialog.as_ptr()  as *const _);
+        }
+    }
+
     /// Opens up an invite dialog for the given lobby
     pub fn activate_invite_dialog(&self, lobby: LobbyId) {
         unsafe {
